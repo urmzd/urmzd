@@ -8,5 +8,5 @@
 - 📫 Or email me @ [urmzd@dal.ca](urmzd@dal.ca)
 - 🚀 Fun facts:
   - 🥊Former Nak Muay (Thai Boxer) & Muay Thai Coach; [An old amateur fight of mine (black shorts)](https://www.youtube.com/watch?v=FvyWLarcZ_A)
-  - 🏋 AvidlLifter
-  - 🥋 Learning BJJ now
+  - 🏋 Avd lifter
+  - 🥋 Learning BJJ
