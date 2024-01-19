@@ -6,7 +6,7 @@
 
 #### About Me
 
-👨💻 As a **Software Engineer**, I am passionate about leveraging technology to shape our future. My coding philosophy is inspired by the principles of martial arts - adaptability, precision, and continuous improvement. I believe that good code, like a well-executed martial arts technique, should be intuitive, elegant, and effective.
+💻 As a **Software Engineer**, I am passionate about leveraging technology to shape our future. My coding philosophy is inspired by the principles of martial arts - adaptability, precision, and continuous improvement. I believe that good code, like a well-executed martial arts technique, should be intuitive, elegant, and effective.
 
 🥋 Beyond my technical pursuits, I'm an avid practitioner of **Brazilian Jiu-Jitsu (BJJ) and Muay Thai**. These disciplines have taught me the value of strategy, resilience, and adaptability - principles I apply in my software development. The cross-application of strategies from BJJ and Muay Thai to coding highlights my belief in the interconnectedness of all disciplines.
 
