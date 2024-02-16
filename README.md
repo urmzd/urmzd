@@ -30,4 +30,3 @@
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/urmzd)
 - 📧 Email: [urmzd@dal.ca](mailto:urmzd@dal.ca)
-- 📸 BJJ and Muay Thai Journey: [Smoothcomp Profile](https://smoothcomp.com/en/profile/760300)
