@@ -31,7 +31,3 @@
 - 💼 [LinkedIn](https://www.linkedin.com/in/urmzd)
 - 📧 Email: [urmzd@dal.ca](mailto:urmzd@dal.ca)
 - 📸 BJJ and Muay Thai Journey: [Smoothcomp Profile](https://smoothcomp.com/en/profile/760300)
-
----
-
-🚀 **"In the rhythm of code and the discipline of martial arts, find the harmony of continuous growth."** – Urmzd Mukhammadnaim
