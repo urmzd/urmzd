@@ -1,32 +1,11 @@
-### 👋 Hi there, I'm Urmzd Mukhammadnaim!
+### Welcome to Urmzd's Page! 👋
 
-🌐 Software Engineer | 🥋 BJJ & Muay Thai Practitioner | 🧘 Mindfulness Advocate
+Hey there! I'm Urmzd Mukhammadnaim (pronounced er-mis(d/t) moo-ha-mid-ni-eem), just a regular guy passionate about crafting awesome things for everyone to enjoy.
 
----
+#### Let's Stay in Touch!
 
-#### About Me
+- 💼 Connect with me on [LinkedIn](https://www.linkedin.com/in/urmzd).
+- 📧 Reach out via email: [urmzd@example.com](mailto:urmzd@dal.ca).
 
-💻 As a **Software Engineer**, I am passionate about leveraging technology to shape our future. My coding philosophy is inspired by the principles of martial arts - adaptability, precision, and continuous improvement. I believe that good code, like a well-executed martial arts technique, should be intuitive, elegant, and effective.
+Feel free to explore and reach out if you want to chat or collaborate! 🚀
 
-🥋 Beyond my technical pursuits, I'm an avid practitioner of **Brazilian Jiu-Jitsu (BJJ) and Muay Thai**. These disciplines have taught me the value of strategy, resilience, and adaptability - principles I apply in my software development. The cross-application of strategies from BJJ and Muay Thai to coding highlights my belief in the interconnectedness of all disciplines.
-
-🧘 Embracing **mindfulness** in both my personal and professional life, I find it enhances creativity, focus, and problem-solving abilities. This practice keeps me balanced and grounded, enabling me to approach challenges with a clear and open mind.
-
-📚 An enthusiast of **reading**, I immerse myself in a variety of subjects to stay curious and continuously evolve. I see each book as an opportunity to gain new insights, which in turn influence my approach to software development and life.
-
----
-
-#### My Interests
-
-- 🖥️ **Technology & Code as Poetry**: Creating intuitive and impactful code inspired by martial arts philosophy.
-- 🤖 **AI and Machine Learning**: Delving into AI's potential to solve complex challenges.
-- 🥋 **BJJ and Muay Thai**: Drawing parallels between martial arts strategies and software engineering.
-- 🧘 **Mindfulness**: Using mindfulness to enhance creativity and efficiency in coding.
-- 📚 **Reading & Continuous Learning**: Expanding my perspective through diverse reading.
-
----
-
-#### Let's Connect!
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/urmzd)
-- 📧 Email: [urmzd@dal.ca](mailto:urmzd@dal.ca)
