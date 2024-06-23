@@ -5,7 +5,7 @@ Hey there! I'm Urmzd Mukhammadnaim (pronounced er-mis(d/t) moo-ha-mid-ni-eem), j
 #### Let's Stay in Touch!
 
 - 💼 Connect with me on [LinkedIn](https://www.linkedin.com/in/urmzd).
-- 📧 Reach out via email: [urmzd@example.com](mailto:urmzd@dal.ca).
+- 📧 Reach out via email: [urmzd.consulting@gmail.com](mailto:urmzd.consulting@gmail.com).
 
 Feel free to explore and reach out if you want to chat or collaborate! 🚀
 
