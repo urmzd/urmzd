@@ -7,6 +7,6 @@ Feel free to explore and reach out if you want to chat or collaborate! 🚀
 #### Let's Stay in Touch!
 
 - 💼 Connect with me on [LinkedIn](https://www.linkedin.com/in/urmzd).
-- 📧 Reach out via email: [urmzd.consulting@gmail.com](mailto:urmzd.consulting@gmail.com).
+- 📧 Reach out via email: [hello@urmzd.com](mailto:hello@urmzd.com).
 
 
