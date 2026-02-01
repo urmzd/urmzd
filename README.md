@@ -13,7 +13,6 @@ Check out what I'm up to at **[urmzd.com](https://urmzd.com)** — I write about
 ### Let's Connect
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/urmzd)
-- 🐙 [Website](https://www.urmzd.com)
 - 🎨 [Behance](https://www.behance.net/urmzd)
 - 📄 [arXiv](https://arxiv.org/search/cs?searchtype=author&query=Mukhammadnaim,+U)
 - 📧 [hello@urmzd.com](mailto:hello@urmzd.com)
