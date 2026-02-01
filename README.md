@@ -1,12 +1,21 @@
-### Welcome to Urmzd's Page! 👋
+# Hey, I'm Urmzd! 👋
 
-Hey there! I'm Urmzd Mukhammadnaim (pronounced er-mis(d/t) moo-ha-mid-ni-eem), just a regular guy passionate about crafting awesome things for everyone to enjoy.
+**Urmzd Mukhammadnaim** · /ʊərˈmuːzd mʊˌhɑːmɑdˈnaɪm/
 
-Feel free to explore and reach out if you want to chat or collaborate! 🚀
+I'm a Software Engineer who loves building AI-powered systems and turning complex problems into elegant solutions. Currently focused on RAG architectures, LLM tooling, and making machines a little smarter.
 
-#### Let's Stay in Touch!
+When I'm not coding, you'll find me running, lifting, or diving into a good book.
 
-- 💼 Connect with me on [LinkedIn](https://www.linkedin.com/in/urmzd).
-- 📧 Reach out via email: [hello@urmzd.com](mailto:hello@urmzd.com).
+Check out what I'm up to at **[urmzd.com](https://urmzd.com)** — I write about projects, share thoughts, and occasionally ramble about tech.
 
+---
 
+### Let's Connect
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/urmzd)
+- 🐙 [GitHub](https://github.com/urmzd)
+- 🎨 [Behance](https://www.behance.net/urmzd)
+- 📄 [arXiv](https://arxiv.org/search/cs?searchtype=author&query=Mukhammadnaim,+U)
+- 📧 [hello@urmzd.com](mailto:hello@urmzd.com)
+
+Feel free to reach out — always happy to chat about AI, software, or whatever's on your mind. 🚀
