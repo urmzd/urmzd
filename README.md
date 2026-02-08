@@ -1,6 +1,10 @@
 # Urmzd Mukhammadnaim
 
-AI Engineer · Full-Stack Developer · Published Researcher
+/ʊrm.zd mʊ.xɑm.mɑd.naɪm/
+
+AI Engineer · Full-Stack Developer
+
+I build things across the stack and across domains — from AI systems to web apps to whatever scratches the itch. Most of my work is driven by curiosity and a desire to make something useful for others. When I'm not coding, I'm probably writing, training, or wandering somewhere new.
 
 ![](./metrics/index.svg)
 
