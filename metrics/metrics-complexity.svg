@@ -2,19 +2,19 @@
   <rect width="808" height="230" rx="12" fill="#0d1117"/>
   <text x="24" y="40" fill="#c9d1d9" font-size="13" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" letter-spacing="1.5" font-weight="600">MOST COMPLEX PROJECTS</text>
   <text x="24" y="56" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">Composite score: languages, disk usage, code size</text>
-    <text x="24" y="80" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">homai</text>
+    <text x="24" y="80" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">resume-generator</text>
     <rect x="174" y="68" width="500" height="18" rx="3" fill="#58a6ff" opacity="0.85"/>
-    <text x="682" y="80" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">261</text>
-    <text x="24" y="108" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">urmzd.com</text>
-    <rect x="174" y="96" width="494.2528735632184" height="18" rx="3" fill="#3fb950" opacity="0.85"/>
-    <text x="676.2528735632184" y="108" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">258</text>
-    <text x="24" y="136" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">lepus-classifier</text>
-    <rect x="174" y="124" width="484.6743295019157" height="18" rx="3" fill="#d29922" opacity="0.85"/>
-    <text x="666.6743295019157" y="136" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">253</text>
-    <text x="24" y="164" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">resume-generator</text>
-    <rect x="174" y="152" width="477.01149425287355" height="18" rx="3" fill="#f85149" opacity="0.85"/>
-    <text x="659.0114942528735" y="164" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">249</text>
+    <text x="682" y="80" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">298</text>
+    <text x="24" y="108" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">homai</text>
+    <rect x="174" y="96" width="437.91946308724835" height="18" rx="3" fill="#3fb950" opacity="0.85"/>
+    <text x="619.9194630872483" y="108" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">261</text>
+    <text x="24" y="136" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">urmzd.com</text>
+    <rect x="174" y="124" width="432.8859060402684" height="18" rx="3" fill="#d29922" opacity="0.85"/>
+    <text x="614.8859060402684" y="136" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">258</text>
+    <text x="24" y="164" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">lepus-classifier</text>
+    <rect x="174" y="152" width="424.496644295302" height="18" rx="3" fill="#f85149" opacity="0.85"/>
+    <text x="606.4966442953021" y="164" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">253</text>
     <text x="24" y="192" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">dotfiles</text>
-    <rect x="174" y="180" width="465.51724137931035" height="18" rx="3" fill="#bc8cff" opacity="0.85"/>
-    <text x="647.5172413793103" y="192" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">243</text>
+    <rect x="174" y="180" width="407.7181208053691" height="18" rx="3" fill="#bc8cff" opacity="0.85"/>
+    <text x="589.7181208053692" y="192" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">243</text>
 </svg>
