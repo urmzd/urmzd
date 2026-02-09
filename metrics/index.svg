@@ -1,38 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="808" height="1676" viewBox="0 0 808 1676">
-  <rect width="808" height="1676" rx="12" fill="#0d1117"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="808" height="1728" viewBox="0 0 808 1728">
+  <rect width="808" height="1728" rx="12" fill="#0d1117"/>
   <text x="24" y="40" fill="#c9d1d9" font-size="13" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" letter-spacing="1.5" font-weight="600">LANGUAGES</text>
   <text x="24" y="56" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">By bytes of code across all public repos</text>
     <text x="24" y="80" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">Rust</text>
     <rect x="174" y="68" width="500" height="18" rx="3" fill="#dea584" opacity="0.85"/>
-    <text x="682" y="80" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">22.3%</text>
+    <text x="682" y="80" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">21.7%</text>
     <text x="725" y="80" fill="#3fb950" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">↑ trending</text>
     <text x="24" y="108" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">Java</text>
     <rect x="174" y="96" width="432.411107301063" height="18" rx="3" fill="#b07219" opacity="0.85"/>
-    <text x="614.411107301063" y="108" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">19.3%</text>
+    <text x="614.411107301063" y="108" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">18.7%</text>
     <text x="24" y="136" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">TypeScript</text>
-    <rect x="174" y="124" width="306.2747993309867" height="18" rx="3" fill="#3178c6" opacity="0.85"/>
-    <text x="488.2747993309867" y="136" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">13.7%</text>
-    <text x="531.2747993309868" y="136" fill="#3fb950" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">↑ trending</text>
+    <rect x="174" y="124" width="369.6701120387412" height="18" rx="3" fill="#3178c6" opacity="0.85"/>
+    <text x="551.6701120387412" y="136" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">16.0%</text>
+    <text x="594.6701120387412" y="136" fill="#3fb950" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">↑ trending</text>
     <text x="24" y="164" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">Go</text>
-    <rect x="174" y="152" width="282.93106223363685" height="18" rx="3" fill="#00ADD8" opacity="0.85"/>
-    <text x="464.93106223363685" y="164" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">12.6%</text>
-    <text x="507.93106223363685" y="164" fill="#3fb950" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">↑ trending</text>
+    <rect x="174" y="152" width="278.23012379546105" height="18" rx="3" fill="#00ADD8" opacity="0.85"/>
+    <text x="460.23012379546105" y="164" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">12.1%</text>
+    <text x="503.23012379546105" y="164" fill="#3fb950" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">↑ trending</text>
     <text x="24" y="192" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">Python</text>
     <rect x="174" y="180" width="234.5448119974527" height="18" rx="3" fill="#3572A5" opacity="0.85"/>
-    <text x="416.5448119974527" y="192" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">10.5%</text>
+    <text x="416.5448119974527" y="192" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">10.2%</text>
     <text x="459.5448119974527" y="192" fill="#3fb950" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">↑ trending</text>
     <text x="24" y="220" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">Shell</text>
     <rect x="174" y="208" width="192.1593875308789" height="18" rx="3" fill="#89e051" opacity="0.85"/>
-    <text x="374.1593875308789" y="220" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">8.6%</text>
+    <text x="374.1593875308789" y="220" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">8.3%</text>
     <text x="24" y="248" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">Lua</text>
     <rect x="174" y="236" width="68.36042744074403" height="18" rx="3" fill="#000080" opacity="0.85"/>
     <text x="250.36042744074405" y="248" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">3.0%</text>
     <text x="24" y="276" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">TeX</text>
     <rect x="174" y="264" width="49.547926128610115" height="18" rx="3" fill="#3D6117" opacity="0.85"/>
-    <text x="231.54792612861013" y="276" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">2.2%</text>
+    <text x="231.54792612861013" y="276" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">2.1%</text>
     <text x="24" y="304" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">CSS</text>
-    <rect x="174" y="292" width="40.76012792430912" height="18" rx="3" fill="#663399" opacity="0.85"/>
-    <text x="222.76012792430913" y="304" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">1.8%</text>
+    <rect x="174" y="292" width="43.83576982022016" height="18" rx="3" fill="#663399" opacity="0.85"/>
+    <text x="225.83576982022015" y="304" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">1.9%</text>
     <text x="24" y="332" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">Nix</text>
     <rect x="174" y="320" width="26.89874525007523" height="18" rx="3" fill="#7e7eff" opacity="0.85"/>
     <text x="208.89874525007522" y="332" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">1.2%</text><text x="24" y="392" fill="#c9d1d9" font-size="13" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" letter-spacing="1.5" font-weight="600">WEB FRAMEWORKS</text>
@@ -40,6 +40,7 @@
     <text x="24" y="432" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">astro</text>
     <rect x="174" y="420" width="500" height="18" rx="3" fill="#58a6ff" opacity="0.85"/>
     <text x="682" y="432" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">1</text>
+    <text x="697" y="432" fill="#3fb950" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">↑ trending</text>
     <text x="24" y="460" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">react</text>
     <rect x="174" y="448" width="500" height="18" rx="3" fill="#3fb950" opacity="0.85"/>
     <text x="682" y="460" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">1</text>
@@ -77,21 +78,21 @@
     <rect x="174" y="916" width="500" height="18" rx="3" fill="#58a6ff" opacity="0.85"/>
     <text x="682" y="928" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">2</text><text x="24" y="988" fill="#c9d1d9" font-size="13" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" letter-spacing="1.5" font-weight="600">MOST COMPLEX PROJECTS</text>
   <text x="24" y="1004" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">Composite score: languages, disk usage, code size</text>
-    <text x="24" y="1028" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">homai</text>
+    <text x="24" y="1028" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">resume-generator</text>
     <rect x="174" y="1016" width="500" height="18" rx="3" fill="#58a6ff" opacity="0.85"/>
-    <text x="682" y="1028" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">261</text>
-    <text x="24" y="1056" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">urmzd.com</text>
-    <rect x="174" y="1044" width="494.2528735632184" height="18" rx="3" fill="#3fb950" opacity="0.85"/>
-    <text x="676.2528735632184" y="1056" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">258</text>
-    <text x="24" y="1084" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">lepus-classifier</text>
-    <rect x="174" y="1072" width="484.6743295019157" height="18" rx="3" fill="#d29922" opacity="0.85"/>
-    <text x="666.6743295019157" y="1084" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">253</text>
-    <text x="24" y="1112" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">resume-generator</text>
-    <rect x="174" y="1100" width="477.01149425287355" height="18" rx="3" fill="#f85149" opacity="0.85"/>
-    <text x="659.0114942528735" y="1112" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">249</text>
+    <text x="682" y="1028" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">298</text>
+    <text x="24" y="1056" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">homai</text>
+    <rect x="174" y="1044" width="437.91946308724835" height="18" rx="3" fill="#3fb950" opacity="0.85"/>
+    <text x="619.9194630872483" y="1056" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">261</text>
+    <text x="24" y="1084" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">urmzd.com</text>
+    <rect x="174" y="1072" width="432.8859060402684" height="18" rx="3" fill="#d29922" opacity="0.85"/>
+    <text x="614.8859060402684" y="1084" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">258</text>
+    <text x="24" y="1112" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">lepus-classifier</text>
+    <rect x="174" y="1100" width="424.496644295302" height="18" rx="3" fill="#f85149" opacity="0.85"/>
+    <text x="606.4966442953021" y="1112" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">253</text>
     <text x="24" y="1140" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">dotfiles</text>
-    <rect x="174" y="1128" width="465.51724137931035" height="18" rx="3" fill="#bc8cff" opacity="0.85"/>
-    <text x="647.5172413793103" y="1140" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">243</text><text x="24" y="1200" fill="#c9d1d9" font-size="13" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" letter-spacing="1.5" font-weight="600">MOST RE-USED TOOLS</text>
+    <rect x="174" y="1128" width="407.7181208053691" height="18" rx="3" fill="#bc8cff" opacity="0.85"/>
+    <text x="589.7181208053692" y="1140" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">243</text><text x="24" y="1200" fill="#c9d1d9" font-size="13" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" letter-spacing="1.5" font-weight="600">MOST RE-USED TOOLS</text>
   <text x="24" y="1216" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">Dependencies appearing in 2+ repositories</text>
     <text x="24" y="1240" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">jsonschema</text>
     <rect x="174" y="1228" width="500" height="18" rx="3" fill="#58a6ff" opacity="0.85"/>
@@ -99,35 +100,38 @@
     <text x="24" y="1268" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">cobra</text>
     <rect x="174" y="1256" width="500" height="18" rx="3" fill="#3fb950" opacity="0.85"/>
     <text x="682" y="1268" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">2</text>
-    <text x="24" y="1296" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">mousetrap</text>
+    <text x="697" y="1268" fill="#3fb950" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">↑ trending</text>
+    <text x="24" y="1296" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">v2</text>
     <rect x="174" y="1284" width="500" height="18" rx="3" fill="#d29922" opacity="0.85"/>
     <text x="682" y="1296" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">2</text>
-    <text x="24" y="1324" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">pflag</text>
+    <text x="24" y="1324" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">websocket</text>
     <rect x="174" y="1312" width="500" height="18" rx="3" fill="#f85149" opacity="0.85"/>
     <text x="682" y="1324" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">2</text>
-    <text x="24" y="1352" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">v2</text>
+    <text x="24" y="1352" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">mousetrap</text>
     <rect x="174" y="1340" width="500" height="18" rx="3" fill="#bc8cff" opacity="0.85"/>
     <text x="682" y="1352" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">2</text>
-    <text x="24" y="1380" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">numpy</text>
+    <text x="24" y="1380" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">go-colorable</text>
     <rect x="174" y="1368" width="500" height="18" rx="3" fill="#39d2c0" opacity="0.85"/>
     <text x="682" y="1380" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">2</text>
-    <text x="697" y="1380" fill="#3fb950" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">↑ trending</text>
-    <text x="24" y="1408" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">pandas</text>
+    <text x="24" y="1408" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">go-isatty</text>
     <rect x="174" y="1396" width="500" height="18" rx="3" fill="#db61a2" opacity="0.85"/>
     <text x="682" y="1408" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">2</text>
-    <text x="697" y="1408" fill="#3fb950" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">↑ trending</text>
-    <text x="24" y="1436" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">regex</text>
+    <text x="24" y="1436" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">pflag</text>
     <rect x="174" y="1424" width="500" height="18" rx="3" fill="#79c0ff" opacity="0.85"/>
     <text x="682" y="1436" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">2</text>
-    <text x="24" y="1464" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">scipy</text>
+    <text x="24" y="1464" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">net</text>
     <rect x="174" y="1452" width="500" height="18" rx="3" fill="#58a6ff" opacity="0.85"/>
     <text x="682" y="1464" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">2</text>
-    <text x="24" y="1492" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">tomli</text>
+    <text x="24" y="1492" fill="#8b949e" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">sys</text>
     <rect x="174" y="1480" width="500" height="18" rx="3" fill="#3fb950" opacity="0.85"/>
     <text x="682" y="1492" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">2</text><text x="24" y="1552" fill="#c9d1d9" font-size="13" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" letter-spacing="1.5" font-weight="600">OPEN SOURCE CONTRIBUTIONS</text>
   <text x="24" y="1568" fill="#6e7681" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">External repositories contributed to (all time)</text>
   <rect x="24" y="1578" width="760" height="44" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
   <rect x="24" y="1578" width="4" height="44" rx="2" fill="#58a6ff"/>
-  <text x="40" y="1596" fill="#58a6ff" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-weight="700">getzep/graphiti</text>
-  <text x="40" y="1612" fill="#8b949e" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">★ 22,622 · Python</text>
+  <text x="40" y="1596" fill="#58a6ff" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-weight="700">MathisWellmann/gym-rs</text>
+  <text x="40" y="1612" fill="#8b949e" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">★ 124 · Rust</text>
+  <rect x="24" y="1630" width="760" height="44" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <rect x="24" y="1630" width="4" height="44" rx="2" fill="#3fb950"/>
+  <text x="40" y="1648" fill="#58a6ff" font-size="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-weight="700">getzep/graphiti</text>
+  <text x="40" y="1664" fill="#8b949e" font-size="11" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">★ 22,622 · Python</text>
 </svg>
