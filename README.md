@@ -1,6 +1,5 @@
 # urmzd
 
-```markdown
 Hello! I'm Urmzd Mukhammadnaim, a passionate developer based in Austin, TX. I believe in the iterative pursuit of truth and excellence through learning and experimentation.
 
 My expertise spans diverse domains, including Machine Learning (TensorFlow, PyTorch), Web Development (React, TypeScript), Systems Programming (Rust, Go), and DevOps (Docker, Terraform). I actively work with a variety of programming languages, such as Rust, TypeScript, and Python, to create impactful solutions.
@@ -12,7 +11,7 @@ Feel free to connect with me:
 [![Website](https://img.shields.io/badge/Website-4285F4?style=flat&logo=google-chrome&logoColor=white)](https://urmzd.com)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=x&logoColor=white)](https://x.com/urmzd_)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/urmzd)
-```
+
 
 ![GitHub Metrics](metrics/index.svg)
 
