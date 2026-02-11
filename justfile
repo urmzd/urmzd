@@ -6,4 +6,4 @@ init:
 
 # Generate all metrics SVGs locally (requires github-metrics repo cloned as sibling)
 generate:
-    cd ../github-metrics && GITHUB_TOKEN=$(gh auth token) INPUT_USERNAME=urmzd INPUT_OUTPUT_DIR=$(pwd)/../urmzd/metrics INPUT_COMMIT_PUSH=false npx tsx src/index.ts
+    cd ../github-metrics && env GITHUB_TOKEN=$(gh auth token) INPUT_USERNAME=urmzd 'INPUT_OUTPUT-DIR'=$(pwd)/../urmzd/metrics 'INPUT_COMMIT-PUSH'=false 'INPUT_README-PATH'=$(pwd)/../urmzd/README.md npx tsx src/index.ts
