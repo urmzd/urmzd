@@ -1,15 +1,8 @@
 # urmzd
 
-```markdown
-Hello! I'm Urmzd Mukhammadnaim, a passionate developer based in Austin, TX. I believe in the iterative journey towards understanding, embracing challenges as opportunities for growth.
+Hello! I'm Urmzd Mukhammadnaim, a developer based in Austin, TX. I believe that "Man approaches the unattainable truth through a succession of errors," and I strive to embody this philosophy in my work. My expertise spans web development, machine learning, and systems programming, utilizing languages like Rust, TypeScript, and Python. Some of my notable projects include the "resume-generator," a CLI tool for creating polished resumes, and "flappy-bird," a JavaFX-based game showcasing data-oriented design. Feel free to connect with me:
 
-My expertise spans various domains, including web development with TypeScript and React, systems programming utilizing Rust and Go, and machine learning leveraging Python and TensorFlow. I enjoy creating impactful projects, such as the **resume-generator**, a CLI tool for crafting professional resumes, and **flappy-bird**, a JavaFX-based game showcasing design patterns.
-
-Feel free to connect with me:
-[![Website](https://img.shields.io/badge/Website-0A0A0A?style=flat&logo=About.me&logoColor=white)](https://urmzd.com)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=Twitter&logoColor=white)](https://x.com/urmzd_)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=LinkedIn&logoColor=white)](https://linkedin.com/in/urmzd)
-```
+[![Website](https://img.shields.io/badge/Website-0A0A0A?style=flat&logo=github&logoColor=white)](https://urmzd.com) [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=x&logoColor=white)](https://x.com/urmzd_) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/urmzd)
 
 ![GitHub Metrics](metrics/index.svg)
 
