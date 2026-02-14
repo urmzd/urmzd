@@ -1,14 +1,13 @@
 # urmzd
 
-Hello! I'm Urmzd Mukhammadnaim, a passionate developer based in Austin, TX. I believe in the iterative journey towards truth and understanding, embracing challenges as opportunities to grow and innovate.
+Hello! I'm Urmzd Mukhammadnaim, a developer based in Austin, TX. Driven by the philosophy that truth is approached through iterative learning, I am passionate about creating impactful software solutions.
 
-With expertise spanning web development, machine learning, and systems programming, I specialize in crafting efficient, scalable solutions using technologies like Rust, TypeScript, and Python. My notable projects include "resume-generator," a CLI tool for generating professional resumes, and "lepus-classifier," a research initiative exploring image classification architectures.
+My expertise spans multiple domains, including Machine Learning with frameworks like TensorFlow and PyTorch, Web Development using React and TypeScript, and Systems Programming with Rust and Go. My projects reflect my dedication to innovation and quality, such as the `resume-generator`, a tool for crafting professional resumes, and `flappy-bird`, a JavaFX-based game showcasing design patterns.
 
-Feel free to connect with me:
-[![Website](https://img.shields.io/badge/Website-0A0A0A?style=flat&logo=About.me&logoColor=white)](https://urmzd.com)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=Twitter&logoColor=white)](https://x.com/urmzd_)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=LinkedIn&logoColor=white)](https://linkedin.com/in/urmzd)
-
+Feel free to connect with me through the following platforms:
+[![Website](https://img.shields.io/badge/Website-0078D7?style=flat&logo=internet-explorer&logoColor=white)](https://urmzd.com)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=x&logoColor=white)](https://x.com/urmzd_)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/urmzd)
 
 ![GitHub Metrics](metrics/index.svg)
 
