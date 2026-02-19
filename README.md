@@ -1,15 +1,15 @@
-# urmzd
+# Urmzd Mukhammadnaim
 
-Man approaches the unattainable truth through a succession of errors. Based in Austin, TX, I explore the boundaries of technology through experimentation and iterative learning.
+I'm Urmzd Mukhammadnaim, based in Austin, TX. I believe that progress is made through a succession of errors—each iteration brings us closer to the truth.
 
-My work spans machine learning (TensorFlow, PyTorch, Keras), systems programming (Rust, Go, Shell, Nix), and modern web development (TypeScript, React, Astro). I also contribute to DevOps workflows, backend APIs, and scientific computing, with Rust and TypeScript as my most-used languages.
+My work centers on systems programming, CLI tools, and machine learning, with a strong focus on Rust, Go, TypeScript, and Python. I also enjoy building web applications and automating development workflows, drawing from experience in React, Astro, and DevOps tools like GitHub Actions and Docker.
 
-Notable projects include resume-generator (CLI tool for customizable PDF resumes), flappy-bird (JavaFX desktop game), chess-cli (Python chess engine), lepus-classifier (CNN research for small datasets), and dotfiles (one-command environment bootstrap).
+Some of my notable projects include resume-generator, a CLI tool for generating customizable resumes from structured data; flappy-bird, a JavaFX desktop game showcasing data-oriented design; chess-cli, a Python-based command-line chess game; and lepus-classifier, a research project exploring CNN architectures for small datasets. I maintain modern dotfiles for streamlined development environments using Chezmoi and Nix.
 
-[![Website](https://img.shields.io/badge/Website-urmzd.com-0a0a0a?style=flat&logo=vercel&logoColor=white)](https://urmzd.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-urmzd-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/urmzd)
-[![Twitter/X](https://img.shields.io/badge/Twitter-urmzd__-1a1a1a?style=flat&logo=x&logoColor=white)](https://x.com/urmzd_)
+I value clean architecture, reproducible setups, and practical solutions—always learning from the journey.
+
+[![urmzd.com](https://img.shields.io/badge/urmzd.com-4285F4?style=flat&logo=google-chrome&logoColor=white)](https://urmzd.com) [![@urmzd_](https://img.shields.io/badge/@urmzd__-000000?style=flat&logo=x&logoColor=white)](https://x.com/urmzd_) [![urmzd](https://img.shields.io/badge/urmzd-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/urmzd)
 
 ![GitHub Metrics](metrics/index.svg)
 
-<sub>Last generated on 2026-02-18 using [@urmzd/github-metrics](https://github.com/urmzd/github-metrics)</sub>
+<sub>Last generated on 2026-02-19 using [@urmzd/github-metrics](https://github.com/urmzd/github-metrics)</sub>
