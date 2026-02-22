@@ -1,6 +1,6 @@
 # Hi, I'm Urmzd 👋
 
-I build intelligent systems and web apps using Rust, TypeScript, and machine learning frameworks. My work blends deep learning, modern web tech, and robust CLI tools to solve real-world problems.
+I build robust systems and CLI tools with Rust and Go, and craft web experiences using TypeScript. My work is driven by curiosity and a passion for learning through experimentation.
 
 [![urmzd.com](https://img.shields.io/badge/urmzd.com-4285F4?style=flat&logo=google-chrome&logoColor=white)](https://urmzd.com) [![@urmzd_](https://img.shields.io/badge/@urmzd__-000000?style=flat&logo=x&logoColor=white)](https://x.com/urmzd_) [![urmzd](https://img.shields.io/badge/urmzd-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/urmzd)
 
@@ -21,4 +21,4 @@ I build intelligent systems and web apps using Rust, TypeScript, and machine lea
 
 ![Expertise](metrics/metrics-expertise.svg)
 
-<sub>Last generated on 2026-02-21 using [@urmzd/github-metrics](https://github.com/urmzd/github-metrics)</sub>
+<sub>Last generated on 2026-02-22 using [@urmzd/github-metrics](https://github.com/urmzd/github-metrics)</sub>
