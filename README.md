@@ -1,6 +1,6 @@
 # Hi, I'm Urmzd 👋
 
-I build robust systems and CLI tools with Rust and Go, and craft web experiences using TypeScript. My work is driven by curiosity and a passion for learning through experimentation.
+I build robust systems and web applications with Rust, TypeScript, and Go, always learning through experimentation and iteration.
 
 [![urmzd.com](https://img.shields.io/badge/urmzd.com-4285F4?style=flat&logo=google-chrome&logoColor=white)](https://urmzd.com) [![@urmzd_](https://img.shields.io/badge/@urmzd__-000000?style=flat&logo=x&logoColor=white)](https://x.com/urmzd_) [![urmzd](https://img.shields.io/badge/urmzd-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/urmzd)
 
