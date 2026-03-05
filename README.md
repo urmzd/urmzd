@@ -1,12 +1,12 @@
 # Hi, I'm Urmzd 👋
 
-I build robust systems and web apps with Rust, TypeScript, and Go, always learning through experimentation and iteration.
+I build web apps and systems with TypeScript, Rust, and Go, always learning through experimentation and iteration.
 
 [![urmzd.com](https://img.shields.io/badge/urmzd.com-4285F4?style=flat&logo=google-chrome&logoColor=white)](https://urmzd.com) [![@urmzd_](https://img.shields.io/badge/@urmzd__-000000?style=flat&logo=x&logoColor=white)](https://x.com/urmzd_) [![urmzd](https://img.shields.io/badge/urmzd-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/urmzd)
 
 ## Active Projects
 
-- **resume-generator** - A data-driven CLI tool that transforms YAML/JSON/TOML resume data into polished PDFs using LaTeX or HTML templates, enabling rapid generation of customized resumes for different job applications. (9 ★)
+- **resume-generator** - A data-driven CLI tool that transforms YAML/JSON/TOML resume data into polished PDFs using LaTeX or HTML templates, enabling rapid generation of customized resumes for different job applications. (10 ★)
 - **flappy-bird** - A Flappy Bird clone built with JavaFX and Java 21, demonstrating data-oriented design patterns and cross-platform desktop development with automated native builds for Linux, macOS, and Windows. (4 ★)
 - **chess-cli** - A fully playable chess game in Python with object-oriented design and command-line interface—ideal for learning game logic, exploring chess AI algorithms, or playing from the terminal. (3 ★)
 - **lepus-classifier** - A CNN research project exploring optimal image classification architectures for small datasets, demonstrating that data quantity remains the fundamental bottleneck for deep learning performance. (2 ★)
@@ -21,4 +21,4 @@ I build robust systems and web apps with Rust, TypeScript, and Go, always learni
 
 ![Expertise](metrics/metrics-expertise.svg)
 
-<sub>Last generated on 2026-03-04 using [@urmzd/github-metrics](https://github.com/urmzd/github-metrics)</sub>
+<sub>Last generated on 2026-03-05 using [@urmzd/github-metrics](https://github.com/urmzd/github-metrics)</sub>
