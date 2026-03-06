@@ -6,11 +6,11 @@ I build web apps and systems with TypeScript, Rust, and Go, always learning thro
 
 ## Active Projects
 
-- **resume-generator** - A data-driven CLI tool that transforms YAML/JSON/TOML resume data into polished PDFs using LaTeX or HTML templates, enabling rapid generation of customized resumes for different job applications. (10 ★)
-- **flappy-bird** - A Flappy Bird clone built with JavaFX and Java 21, demonstrating data-oriented design patterns and cross-platform desktop development with automated native builds for Linux, macOS, and Windows. (4 ★)
-- **chess-cli** - A fully playable chess game in Python with object-oriented design and command-line interface—ideal for learning game logic, exploring chess AI algorithms, or playing from the terminal. (3 ★)
-- **lepus-classifier** - A CNN research project exploring optimal image classification architectures for small datasets, demonstrating that data quantity remains the fundamental bottleneck for deep learning performance. (2 ★)
 - **dotfiles** - Modern dotfiles with Chezmoi and Nix, providing one-command environment bootstrap for macOS and Linux—includes Neovim, Tmux, Zsh, and specialized development shells. (2 ★)
+- **urmzd.com** - Personal website and blog built with Astro, TypeScript, and MDX—featuring fast static site generation with interactive components for content and portfolio.
+- **resume-generator** - A data-driven CLI tool that transforms YAML/JSON/TOML resume data into polished PDFs using LaTeX or HTML templates, enabling rapid generation of customized resumes for different job applications. (10 ★)
+- **linear-gp** - A production-grade Rust framework for Linear Genetic Programming research, featuring modular architecture, Q-Learning integration, automated hyperparameter optimization, and support for reinforcement learning and classification tasks. (1 ★)
+- **openapi-generator** - OpenAPI 3.x → TypeScript & React code generator. Zero-dependency clients, SWR hooks, and SSE streaming.
 
 ## GitHub Stats
 
@@ -21,4 +21,4 @@ I build web apps and systems with TypeScript, Rust, and Go, always learning thro
 
 ![Expertise](metrics/metrics-expertise.svg)
 
-<sub>Last generated on 2026-03-05 using [@urmzd/github-metrics](https://github.com/urmzd/github-metrics)</sub>
+<sub>Last generated on 2026-03-06 using [@urmzd/github-metrics](https://github.com/urmzd/github-metrics)</sub>
