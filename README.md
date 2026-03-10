@@ -1,6 +1,6 @@
 # Hi, I'm Urmzd 👋
 
-I build web apps and systems with TypeScript, Rust, and Go, always learning through iteration and curiosity.
+I build end-to-end solutions in Austin, TX, focusing on web and systems development with TypeScript, Rust, and Go. My projects blend performance, scalability, and modern tech to create cool things.
 
 [![urmzd.com](https://img.shields.io/badge/urmzd.com-4285F4?style=flat&logo=google-chrome&logoColor=white)](https://urmzd.com) [![@urmzd_](https://img.shields.io/badge/@urmzd__-000000?style=flat&logo=x&logoColor=white)](https://x.com/urmzd_) [![urmzd](https://img.shields.io/badge/urmzd-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/urmzd)
 
@@ -21,4 +21,4 @@ I build web apps and systems with TypeScript, Rust, and Go, always learning thro
 
 ![Expertise](metrics/metrics-expertise.svg)
 
-<sub>Last generated on 2026-03-09 using [@urmzd/github-metrics](https://github.com/urmzd/github-metrics)</sub>
+<sub>Last generated on 2026-03-10 using [@urmzd/github-metrics](https://github.com/urmzd/github-metrics)</sub>
