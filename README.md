@@ -1,6 +1,6 @@
 # Hi, I'm Urmzd 👋
 
-I build robust, multi-language systems in Go, Rust, and TypeScript—from AI-powered resume generators and distributed IoT platforms to advanced research tools for machine learning and genetic programming. My work spans automation, web, and AI, always focused on empowering people through technology.
+I build robust, multi-language systems in Go, Rust, and TypeScript—from AI-driven resume generators and privacy-first smart home platforms to research frameworks for genetic programming and deep learning. My work empowers people through automation, intelligent tools, and seamless developer experiences.
 
 [![urmzd.com](https://img.shields.io/badge/urmzd.com-4285F4?style=flat&logo=google-chrome&logoColor=white)](https://urmzd.com) [![@urmzd_](https://img.shields.io/badge/@urmzd__-000000?style=flat&logo=x&logoColor=white)](https://x.com/urmzd_) [![urmzd](https://img.shields.io/badge/urmzd-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/urmzd)
 
@@ -8,7 +8,7 @@ I build robust, multi-language systems in Go, Rust, and TypeScript—from AI-pow
 
 - **resume-generator** - A data-driven CLI tool that converts YAML/JSON/TOML resume data into polished PDFs, DOCX, HTML, LaTeX, and Markdown — with multi-agent AI assessment via Ollama. (10 ★)
 - **linear-gp** - A production-grade Rust framework for Linear Genetic Programming research, featuring modular architecture, Q-Learning integration, automated hyperparameter optimization, and support for reinforcement learning and classification tasks. (2 ★)
-- **homai** - An automated distributed light system that simulates sunrise to help users wake naturally, featuring Zigbee smart bulb integration, SMS control, and AWS-based infrastructure for circadian rhythm management.
+- **homai** - Local-first, privacy-focused smart home control system. Manage Zigbee devices through a REST API without cloud dependencies.
 - **urmzd.com** - Personal website and blog built with Astro, TypeScript, and MDX—featuring fast static site generation with interactive components for content and portfolio.
 - **resume-generator-app** - A native desktop app for building polished resumes with live PDF preview, template gallery, and inline editing — built with Wails, React, and Tailwind CSS.
 - **dotfiles** - Modern dotfiles with Chezmoi and Nix, providing one-command environment bootstrap for macOS and Linux—includes Neovim, Tmux, Zsh, and specialized development shells. (2 ★)
