@@ -1,6 +1,6 @@
 # Hi, I'm Urmzd 👋
 
-I build robust backend systems and APIs using Go, Rust, and TypeScript to empower people and drive impactful solutions.
+I build robust systems and APIs using Go, Rust, and TypeScript to empower people and solve real-world challenges. Passionate about backend, machine learning, and modern web technologies.
 
 [![urmzd.com](https://img.shields.io/badge/urmzd.com-4285F4?style=flat&logo=google-chrome&logoColor=white)](https://urmzd.com) [![@urmzd_](https://img.shields.io/badge/@urmzd__-000000?style=flat&logo=x&logoColor=white)](https://x.com/urmzd_) [![urmzd](https://img.shields.io/badge/urmzd-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/urmzd)
 
