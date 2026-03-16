@@ -1,6 +1,6 @@
 # Urmzd
 
-> Urmzd's GitHub profile README repository. Contains an auto-generated profile page showcasing active projects (resume-generator, flappy-bird, chess-cli, lepus-classifier, dotfiles), GitHub stats with contribution pulse and calendar visualizations, and an AI-generated expertise breakdown. The profile is generated daily by the @urmzd/github-metrics action.
+> Urmzd's GitHub profile README repository. Contains an auto-generated profile page showcasing active projects (resume-generator, flappy-bird, chess-cli, lepus-classifier, dotfiles), GitHub stats with contribution pulse and calendar visualizations, and an AI-generated expertise breakdown. The profile is generated daily by the @urmzd/github-insights action.
 
 ## Docs
 
@@ -8,4 +8,4 @@
 
 ## API / Key Files
 
-- [metrics/](https://github.com/urmzd/urmzd/blob/main/metrics/): Auto-generated SVG metrics (pulse, calendar, expertise)
+- [assets/insights/](https://github.com/urmzd/urmzd/blob/main/assets/insights/): Auto-generated SVG metrics (pulse, calendar, expertise)

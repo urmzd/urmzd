@@ -58,8 +58,8 @@ Go
 A Rust tool for AI-powered git commands, generating atomic conventional commits, code reviews, branch names, and PR descriptions using Claude or Gemini. It features two-tier caching for instant repeat runs.
 Rust, Shell, Just
 
-### [github-metrics](https://github.com/urmzd/github-metrics)
-A GitHub Action written in TypeScript that generates SVG visualizations of GitHub profile metrics. It automates the creation of graphical summaries for user activity.
+### [github-insights](https://github.com/urmzd/github-insights)
+A GitHub Action written in TypeScript that generates SVG visualizations of GitHub profile insights. It automates the creation of graphical summaries for user activity.
 TypeScript
 
 ### [kgdk](https://github.com/urmzd/kgdk)
@@ -101,11 +101,11 @@ Python
 
 ## GitHub Stats
 
-![At a Glance](metrics/metrics-pulse.svg)
-![Contributions](metrics/metrics-calendar.svg)
+![At a Glance](assets/insights/metrics-pulse.svg)
+![Contributions](assets/insights/metrics-calendar.svg)
 
 ## Other Areas of Interest
 
-![Expertise](metrics/metrics-expertise.svg)
+![Expertise](assets/insights/metrics-expertise.svg)
 
-<sub>Last generated on 2026-03-16 using [@urmzd/github-metrics](https://github.com/urmzd/github-metrics)</sub>
+<sub>Last generated on 2026-03-16 using [@urmzd/github-insights](https://github.com/urmzd/github-insights)</sub>

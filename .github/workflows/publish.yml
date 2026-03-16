@@ -13,7 +13,7 @@ jobs:
       models: read
     steps:
       - uses: actions/checkout@v4
-      - uses: urmzd/github-metrics@v1
+      - uses: urmzd/github-insights@main
         with:
           github-token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
-          template: modern
+          template: ecosystem
