@@ -1,6 +1,6 @@
 # Hi, I'm Urmzd 👋
 
-I build robust, multi-language systems in Go, Rust, and TypeScript—like AI-powered resume generators, privacy-first agents, and modular frameworks for machine learning and automation. My work blends deep domain expertise with practical tools to empower developers and end users alike.
+I build robust, multi-language systems in Go, Rust, and TypeScript—from AI-powered resume generators and privacy-first research agents to scalable web platforms and CLI tools—empowering people through open, accessible technology.
 
 [![urmzd.com](https://img.shields.io/badge/urmzd.com-4285F4?style=flat&logo=google-chrome&logoColor=white)](https://urmzd.com) [![@urmzd_](https://img.shields.io/badge/@urmzd__-000000?style=flat&logo=x&logoColor=white)](https://x.com/urmzd_) [![urmzd](https://img.shields.io/badge/urmzd-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/urmzd)
 
@@ -8,14 +8,14 @@ I build robust, multi-language systems in Go, Rust, and TypeScript—like AI-pow
 
 | Project | Description |
 |---------|-------------|
-| [oag](https://github.com/urmzd/oag) | A fast OpenAPI 3.x code generator written in Rust for TypeScript, React/SWR, and FastAPI, featuring zero runtime dependencies and first-class SSE streaming support. |
+| [oag](https://github.com/urmzd/oag) | A fast OpenAPI 3.x code generator written in Rust for TypeScript, React/SWR, and FastAPI, featuring zero runtime dependencies and first-class SSE streaming. |
 | [teasr](https://github.com/urmzd/teasr) | A Rust-based tool for capturing showcase screenshots and GIFs from web apps, desktop, and terminal, distributed as a single binary with no runtime dependencies. |
 | [sr](https://github.com/urmzd/sr) | A Rust CLI for trunk-based semantic release, supporting conventional commits, changelog generation, git tags, and GitHub releases. |
 | [github-insights](https://github.com/urmzd/github-insights) | A GitHub Action written in TypeScript that generates SVG visualizations of GitHub profile metrics. |
 | [resume-generator](https://github.com/urmzd/resume-generator) | A CLI tool written in Go that converts resume data from YAML/JSON/TOML into polished PDFs, DOCX, HTML, LaTeX, and Markdown formats, featuring multi-agent AI assessment via Ollama. |
 | [dotfiles](https://github.com/urmzd/dotfiles) | A collection of modern dotfiles managed with Chezmoi and Nix, enabling one-command environment bootstrap for macOS and Linux, including Neovim, Tmux, Zsh, and specialized development shells. |
-| [languide](https://github.com/urmzd/languide) | A Python CLI that generates scenario-based language learning PDFs with full Unicode/CJK support for travelers and language learners. |
-| [embed-src](https://github.com/urmzd/embed-src) | A GitHub Action written in Rust that syncs code snippets in markdown files with source code, automating documentation updates during CI/CD workflows. |
+| [languide](https://github.com/urmzd/languide) | A Python CLI that generates scenario-based language learning PDFs with full Unicode/CJK support, covering topics for travelers and language learners. |
+| [embed-src](https://github.com/urmzd/embed-src) | A GitHub Action written in Rust that automatically syncs code snippets in markdown files with source code, streamlining documentation updates during CI/CD. |
 | [urmzd](https://github.com/urmzd/urmzd) | A GitHub profile README repository. |
 
 ### SDKs
@@ -28,29 +28,29 @@ I build robust, multi-language systems in Go, Rust, and TypeScript—like AI-pow
 
 | Project | Description |
 |---------|-------------|
-| [urmzd.com](https://github.com/urmzd/urmzd.com) | A personal website and blog built with Astro, TypeScript, and MDX, offering fast static site generation and interactive portfolio components. |
-| [resume-generator-app](https://github.com/urmzd/resume-generator-app) | A native desktop application built with Wails, React, and Tailwind CSS for creating resumes with live PDF preview, template gallery, and inline editing. |
+| [urmzd.com](https://github.com/urmzd/urmzd.com) | A personal website and blog built with Astro, TypeScript, and MDX, offering fast static site generation and interactive content components. |
+| [resume-generator-app](https://github.com/urmzd/resume-generator-app) | A native desktop application built with Wails, React, and Tailwind CSS for creating polished resumes with live PDF preview, template gallery, and inline editing. |
 | [zoro](https://github.com/urmzd/zoro) | A privacy-first AI research agent with a persistent knowledge graph, running all inference locally and supporting private idea management, built with TypeScript, Go, and Python. |
-| [zigbee-rest](https://github.com/urmzd/zigbee-rest) | A Go-based smart home control system for managing Zigbee devices through a REST API, emphasizing local-first and privacy-focused operation without cloud dependencies. |
+| [zigbee-rest](https://github.com/urmzd/zigbee-rest) | A Go-based smart home control system for managing Zigbee devices through a REST API, emphasizing local-first and privacy-focused operation. |
 
 ### Research & Experiments
 
 | Project | Description |
 |---------|-------------|
-| [exp-agi-models](https://github.com/urmzd/exp-agi-models) | Experimental Python architectures for interpretable language modeling, including register machines, Q-table meta-learning, and policy networks without attention or embedding mechanisms. |
-| [linear-gp](https://github.com/urmzd/linear-gp) | A Rust framework for Linear Genetic Programming research, offering modular architecture, Q-Learning integration, and automated hyperparameter optimization for reinforcement learning and classification tasks. |
+| [exp-agi-models](https://github.com/urmzd/exp-agi-models) | A Python project exploring whether language models can learn algorithms instead of memorizing patterns, focusing on extreme parameter efficiency and readable intermediate states. |
+| [linear-gp](https://github.com/urmzd/linear-gp) | A Rust framework for Linear Genetic Programming research, offering modular architecture, Q-Learning integration, automated hyperparameter optimization, and support for reinforcement learning and classification tasks. |
 
 ### Archived
 
 | Project | Description |
 |---------|-------------|
-| [lepus-classifier](https://github.com/urmzd/lepus-classifier) | A CNN research project using Jupyter Notebook and Python to explore optimal image classification architectures for small datasets, emphasizing the importance of data quantity in deep learning. |
-| [md-classifier](https://github.com/urmzd/md-classifier) | A deep learning system combining transformers and CNNs in Python and Jupyter Notebook to classify diseases from patient-described symptoms, achieving high recall through semantic embeddings. |
-| [flappy-bird](https://github.com/urmzd/flappy-bird) | A Flappy Bird clone built with JavaFX and Java 21, showcasing data-oriented design patterns and cross-platform desktop development with automated native builds. |
-| [barter-trader](https://github.com/urmzd/barter-trader) | An Android trading app built with Java, Clean Architecture, and MVVM, enabling peer-to-peer item exchanges with enterprise-grade mobile development patterns. |
+| [lepus-classifier](https://github.com/urmzd/lepus-classifier) | A CNN research project using Jupyter Notebook and Python to explore optimal image classification architectures for small datasets, focusing on the impact of data quantity in deep learning. |
+| [md-classifier](https://github.com/urmzd/md-classifier) | A deep learning system combining transformers and CNNs to classify diseases from patient-described symptoms, implemented in Python and Jupyter Notebook. |
+| [flappy-bird](https://github.com/urmzd/flappy-bird) | A Flappy Bird clone built with JavaFX and Java 21, demonstrating data-oriented design patterns and cross-platform desktop development with automated native builds. |
+| [barter-trader](https://github.com/urmzd/barter-trader) | An Android trading app built with Java, Shell, and Nix, enabling peer-to-peer item exchanges using Clean Architecture and MVVM patterns. |
 | [chess-cli](https://github.com/urmzd/chess-cli) | A fully playable chess game in Python with object-oriented design and a command-line interface, suitable for learning game logic and exploring chess AI algorithms. |
 | [cypress-name-too-long-mre](https://github.com/urmzd/cypress-name-too-long-mre) | A minimal reproducible example using JavaScript, HTML, and CSS, likely related to Cypress testing. |
-| [gitit](https://github.com/urmzd/gitit) | A Rust CLI tool that generates AI-powered git commands, including atomic conventional commits, code reviews, branch names, and PR descriptions using Claude or Gemini. |
+| [gitit](https://github.com/urmzd/gitit) | A Rust CLI tool that generates AI-powered git commands, including conventional commits, code reviews, branch names, and PR descriptions using Claude or Gemini. |
 | [lightning-kfold](https://github.com/urmzd/lightning-kfold) | A Python library providing stratified K-fold cross-validation with ensemble voting for PyTorch Lightning. |
 
 ## GitHub Stats
@@ -62,4 +62,4 @@ I build robust, multi-language systems in Go, Rust, and TypeScript—like AI-pow
 
 ![Expertise](assets/insights/metrics-expertise.svg)
 
-<sub>Last generated on 2026-03-21 using [@urmzd/github-insights](https://github.com/urmzd/github-insights) · Template: `ecosystem`</sub>
+<sub>Last generated on 2026-03-22 using [@urmzd/github-insights](https://github.com/urmzd/github-insights) · Template: `ecosystem`</sub>
