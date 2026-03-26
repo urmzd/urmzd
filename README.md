@@ -6,7 +6,7 @@ languages: [Go, Rust, TypeScript, Python, Java, TeX, Shell, JavaScript, MDX, Jin
 profile: https://github.com/urmzd
 -->
 
-# Hi, I'm Urmzd 👋
+# Urmzd Mukhammadnaim
 
 I build robust, multi-language systems in Go, Rust, and TypeScript—from AI-powered CLIs and privacy-first research agents to template-driven resume generators and smart home platforms. My work empowers people with open, efficient tools for automation, knowledge, and creativity.
 
@@ -15,7 +15,47 @@ I build robust, multi-language systems in Go, Rust, and TypeScript—from AI-pow
 <!-- section: social -->
 [![urmzd.com](https://img.shields.io/badge/urmzd.com-4285F4?style=flat&logo=google-chrome&logoColor=white)](https://urmzd.com) [![@urmzd_](https://img.shields.io/badge/@urmzd__-000000?style=flat&logo=x&logoColor=white)](https://x.com/urmzd_) [![urmzd](https://img.shields.io/badge/urmzd-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/urmzd)
 
-<!-- section: projects -->
+<!-- section: spotlight -->
+## Spotlight
+
+### [incipit](https://github.com/urmzd/incipit)
+A template-driven CLI written in Go that transforms structured resume data into polished PDFs, DOCX, HTML, LaTeX, and Markdown, featuring pluggable templates and multi-agent AI assessment.
+Stars: 10 · Languages: Go, TeX, HTML · **Active**
+
+### [teasr](https://github.com/urmzd/teasr)
+A Rust-based tool for capturing showcase screenshots and GIFs from web apps, desktop, and terminal, distributed as a single binary with no runtime dependencies.
+Languages: Rust, Shell, HTML · **Active**
+
+### [oag](https://github.com/urmzd/oag)
+A fast OpenAPI 3.x code generator written in Rust for TypeScript, React/SWR, and FastAPI, featuring zero runtime dependencies and first-class SSE streaming.
+Languages: Rust, Jinja, Shell · **Active**
+
+<!-- section: velocity -->
+## Language Velocity
+
+![Streamgraph of Urmzd Mukhammadnaim's programming language usage over the past year](assets/insights/metrics-velocity.svg)
+
+<!-- section: rhythm -->
+## Contribution Rhythm
+
+![Radar chart of Urmzd Mukhammadnaim's contribution patterns by day of week](assets/insights/metrics-rhythm.svg)
+
+<!-- section: constellation -->
+## Project Map
+
+![Map of Urmzd Mukhammadnaim's projects positioned by language ecosystem and complexity](assets/insights/metrics-constellation.svg)
+
+<!-- section: impact -->
+## Open Source Impact
+
+![Bar chart of Urmzd Mukhammadnaim's open source contributions by repository star count](assets/insights/metrics-impact.svg)
+
+<!-- section: portfolio -->
+## Portfolio
+
+<details>
+<summary>All Projects</summary>
+
 ### Developer Tools
 
 | Project | Description | Stars | Languages |
@@ -61,19 +101,7 @@ I build robust, multi-language systems in Go, Rust, and TypeScript—from AI-pow
 | [chess-cli](https://github.com/urmzd/chess-cli) | Chess-cli is a Python command-line chess game with object-oriented design, suitable for learning game logic, exploring chess AI algorithms, or playing from the terminal. | 3 | Python, Just |
 | [cypress-name-too-long-mre](https://github.com/urmzd/cypress-name-too-long-mre) | Cypress-name-too-long-mre is a minimal reproducible example using JavaScript, HTML, and CSS, likely for testing or demonstration purposes. | - | JavaScript, HTML, CSS |
 
-<!-- section: visualizations -->
-## Project Map
-
-![Map of Urmzd Mukhammadnaim's projects positioned by language ecosystem and complexity](assets/insights/metrics-constellation.svg)
-
-## GitHub Stats
-
-![Streamgraph of Urmzd Mukhammadnaim's programming language usage over the past year](assets/insights/metrics-velocity.svg)
-![Radar chart of Urmzd Mukhammadnaim's contribution patterns by day of week](assets/insights/metrics-rhythm.svg)
-
-## Open Source Impact
-
-![Bar chart of Urmzd Mukhammadnaim's open source contributions by repository star count](assets/insights/metrics-impact.svg)
+</details>
 
 <!-- section: footer -->
 <sub>Last generated on 2026-03-26 using [@urmzd/github-insights](https://github.com/urmzd/github-insights) · Template: `ecosystem`</sub>
