@@ -8,7 +8,7 @@ profile: https://github.com/urmzd
 
 # Urmzd Mukhammadnaim
 
-I build robust, multi-language systems in Go, Rust, and TypeScript—from AI-powered CLIs and privacy-first research agents to template-driven resume generators and smart home platforms. My work empowers people with open, efficient tools for automation, knowledge, and creativity.
+I build robust systems and AI tools in Go, Rust, and TypeScript—from template-driven resume generators and privacy-first knowledge agents to scalable research frameworks and fast static sites. My work explores deep learning, automation, and empowering people through open tech.
 
 **Top Languages:** Go, Rust, TypeScript, Python, Java
 
@@ -19,16 +19,24 @@ I build robust, multi-language systems in Go, Rust, and TypeScript—from AI-pow
 ## Spotlight
 
 ### [incipit](https://github.com/urmzd/incipit)
-A template-driven CLI written in Go that transforms structured resume data into polished PDFs, DOCX, HTML, LaTeX, and Markdown, featuring pluggable templates and multi-agent AI assessment.
+Incipit is a template-driven CLI written in Go that transforms structured resume data into polished documents in various formats, featuring pluggable templates and multi-agent AI assessment.
 Stars: 10 · Languages: Go, TeX, HTML · **Active**
 
-### [teasr](https://github.com/urmzd/teasr)
-A Rust-based tool for capturing showcase screenshots and GIFs from web apps, desktop, and terminal, distributed as a single binary with no runtime dependencies.
-Languages: Rust, Shell, HTML · **Active**
+### [linear-gp](https://github.com/urmzd/linear-gp)
+Linear-gp is a Rust framework for Linear Genetic Programming research, offering modular architecture, Q-Learning integration, and automated hyperparameter optimization for reinforcement learning and classification tasks.
+Stars: 3 · Languages: Rust, Just, Shell · **Active**
 
-### [oag](https://github.com/urmzd/oag)
-A fast OpenAPI 3.x code generator written in Rust for TypeScript, React/SWR, and FastAPI, featuring zero runtime dependencies and first-class SSE streaming.
-Languages: Rust, Jinja, Shell · **Active**
+### [dotfiles](https://github.com/urmzd/dotfiles)
+Dotfiles provides modern environment bootstrap scripts for macOS and Linux using Chezmoi and Nix, including Neovim, Tmux, Zsh, and specialized development shells.
+Stars: 2 · Languages: Shell, Lua, Go Template · **Active**
+
+### [urmzd.com](https://github.com/urmzd/urmzd.com)
+Urmzd.com is a personal website and blog built with Astro, TypeScript, and MDX, featuring fast static site generation and interactive portfolio components.
+Stars: 1 · Languages: TypeScript, MDX, CSS · **Active**
+
+### [embed-src](https://github.com/urmzd/embed-src)
+Embed-src is a GitHub Action written in Rust that syncs code snippets in markdown files with source code, automating documentation updates during CI/CD.
+Stars: 1 · Languages: Rust, Shell, Just · **Active**
 
 <!-- section: velocity -->
 ## Language Velocity
@@ -45,11 +53,6 @@ Languages: Rust, Jinja, Shell · **Active**
 
 ![Map of Urmzd Mukhammadnaim's projects positioned by language ecosystem and complexity](assets/insights/metrics-constellation.svg)
 
-<!-- section: impact -->
-## Open Source Impact
-
-![Bar chart of Urmzd Mukhammadnaim's open source contributions by repository star count](assets/insights/metrics-impact.svg)
-
 <!-- section: portfolio -->
 ## Portfolio
 
@@ -61,47 +64,44 @@ Languages: Rust, Jinja, Shell · **Active**
 | Project | Description | Stars | Languages |
 |---------|-------------|-------|-----------|
 | [incipit](https://github.com/urmzd/incipit) | Incipit is a template-driven CLI written in Go that transforms structured resume data into polished documents in various formats, featuring pluggable templates and multi-agent AI assessment. | 10 | Go, TeX, HTML |
-| [teasr](https://github.com/urmzd/teasr) | Teasr is a Rust CLI tool for capturing showcase screenshots and GIFs from web apps, desktop, and terminal, distributed as a single binary with no runtime dependencies. | - | Rust, Shell, HTML |
+| [teasr](https://github.com/urmzd/teasr) | Teasr is a Rust CLI tool for capturing showcase screenshots and GIFs from web apps, desktop, and terminal, distributed as a single binary with no runtime dependencies. | - | Rust, HTML, Shell |
 | [oag](https://github.com/urmzd/oag) | Oag is a Rust-based OpenAPI 3.x code generator for TypeScript, React/SWR, and FastAPI, featuring zero runtime dependencies and SSE streaming support. | - | Rust, Jinja, Shell |
-| [sr](https://github.com/urmzd/sr) | Sr is a Rust CLI tool for AI-powered release engineering, providing language-agnostic, zero-config defaults and full configurability. | - | Rust, Shell, Just |
-| [github-insights](https://github.com/urmzd/github-insights) | Github-insights is a TypeScript GitHub Action that generates SVG visualizations of GitHub profile metrics. | - | TypeScript, Shell |
-| [dotfiles](https://github.com/urmzd/dotfiles) | Dotfiles is a collection of modern configuration files using Chezmoi and Nix for environment bootstrapping on macOS and Linux, including setups for Neovim, Tmux, Zsh, and development shells. | 2 | Shell, Lua, Go Template |
+| [sr](https://github.com/urmzd/sr) | Sr is a Rust CLI for AI-powered release engineering, providing language-agnostic, zero-config defaults and full configurability for managing releases. | - | Rust, Shell, Just |
+| [github-insights](https://github.com/urmzd/github-insights) | Github-insights is a GitHub Action written in TypeScript that generates SVG visualizations of GitHub profile metrics. | - | TypeScript, Shell |
+| [dotfiles](https://github.com/urmzd/dotfiles) | Dotfiles provides modern environment bootstrap scripts for macOS and Linux using Chezmoi and Nix, including Neovim, Tmux, Zsh, and specialized development shells. | 2 | Shell, Lua, Go Template |
 | [languide](https://github.com/urmzd/languide) | Languide is a Python CLI that generates scenario-based language learning PDFs with full Unicode/CJK support for travelers and language learners. | - | Python, TeX, Shell |
-| [embed-src](https://github.com/urmzd/embed-src) | Embed-src is a Rust-based GitHub Action that syncs code snippets in markdown files with source code, automating documentation updates during CI/CD. | 1 | Rust, Shell, Just |
-| [urmzd](https://github.com/urmzd/urmzd) | Urmzd is a GitHub profile README repository, serving as a personal profile page. | - | - |
-| [gitit](https://github.com/urmzd/gitit) | Gitit is a Rust CLI tool that generates AI-powered git commands, including atomic conventional commits, code reviews, branch names, and PR descriptions using Claude or Gemini. | - | Rust, Shell, Just |
+| [embed-src](https://github.com/urmzd/embed-src) | Embed-src is a GitHub Action written in Rust that syncs code snippets in markdown files with source code, automating documentation updates during CI/CD. | 1 | Rust, Shell, Just |
 
 ### SDKs
 
 | Project | Description | Stars | Languages |
 |---------|-------------|-------|-----------|
 | [saige](https://github.com/urmzd/saige) | Saige is a unified Go SDK and CLI for streaming AI agents, knowledge graphs, and RAG pipelines, supporting ecosystem integration. | - | Go, Go Template, Shell |
-| [llmem](https://github.com/urmzd/llmem) | Llmem is an open ecosystem written in Rust for tool-agnostic AI agent memory, aiming to provide a unified memory interface. | - | Rust, Shell |
-| [lightning-kfold](https://github.com/urmzd/lightning-kfold) | Lightning-kfold is a Python library providing stratified K-fold cross-validation with ensemble voting for PyTorch Lightning. | - | Python |
+| [llmem](https://github.com/urmzd/llmem) | Llmem is a Rust-based open ecosystem for tool-agnostic AI agent memory, designed for integration with various agent frameworks. | - | Rust, Shell, Just |
+| [linear-gp](https://github.com/urmzd/linear-gp) | Linear-gp is a Rust framework for Linear Genetic Programming research, offering modular architecture, Q-Learning integration, and automated hyperparameter optimization for reinforcement learning and classification tasks. | 3 | Rust, Just, Shell |
 
 ### Applications
 
 | Project | Description | Stars | Languages |
 |---------|-------------|-------|-----------|
-| [urmzd.com](https://github.com/urmzd/urmzd.com) | Urmzd.com is a personal website and blog built with Astro, TypeScript, and MDX, featuring fast static site generation and interactive content components. | 1 | TypeScript, MDX, CSS |
+| [urmzd.com](https://github.com/urmzd/urmzd.com) | Urmzd.com is a personal website and blog built with Astro, TypeScript, and MDX, featuring fast static site generation and interactive portfolio components. | 1 | TypeScript, MDX, CSS |
 | [zoro](https://github.com/urmzd/zoro) | Zoro is a privacy-first AI research agent with a persistent knowledge graph, running all inference locally and supporting private idea management. | - | TypeScript, Go, Python |
-| [zigbee-rest](https://github.com/urmzd/zigbee-rest) | Zigbee-rest is a Go-based smart home control system that manages Zigbee devices through a REST API, focusing on privacy and local-first operation. | - | Go, Just, Shell |
-| [barter-trader](https://github.com/urmzd/barter-trader) | Barter-trader is an Android trading app built with Java, Shell, and Nix, enabling peer-to-peer item exchanges using Clean Architecture and MVVM patterns. | - | Java, Shell, Nix |
+| [zigbee-rest](https://github.com/urmzd/zigbee-rest) | Zigbee-rest is a Go-based smart home control system that manages Zigbee devices through a REST API, emphasizing local-first and privacy-focused operation. | - | Go, Just, Shell |
+| [urmzd](https://github.com/urmzd/urmzd) | Urmzd is a GitHub profile README repository, serving as a personal profile page. | - | - |
 
 ### Research & Experiments
 
 | Project | Description | Stars | Languages |
 |---------|-------------|-------|-----------|
-| [exp-agi-models](https://github.com/urmzd/exp-agi-models) | Exp-agi-models is a Python-based research project exploring parameter efficiency in language models, investigating algorithm learning without traditional embeddings. | - | Python, Shell |
-| [rlgp-thesis](https://github.com/urmzd/rlgp-thesis) | Rlgp-thesis is an MSc thesis project focused on Reinforced Linear Genetic Programming, primarily using TeX for documentation. | - | TeX, Shell |
-| [linear-gp](https://github.com/urmzd/linear-gp) | Linear-gp is a Rust framework for Linear Genetic Programming research, offering modular architecture, Q-Learning integration, and automated hyperparameter optimization for reinforcement learning and classification tasks. | 3 | Rust, Just, Shell |
-| [lepus-classifier](https://github.com/urmzd/lepus-classifier) | Lepus-classifier is a CNN research project using Jupyter Notebook and Python to explore optimal image classification architectures for small datasets. | 2 | Jupyter Notebook, Python, Shell |
-| [md-classifier](https://github.com/urmzd/md-classifier) | Md-classifier is a deep learning system combining transformers and CNNs in Python and Jupyter Notebook to classify diseases from patient-described symptoms using semantic embeddings. | 2 | Jupyter Notebook, Python, Shell |
-| [flappy-bird](https://github.com/urmzd/flappy-bird) | Flappy Bird is a JavaFX-based clone demonstrating data-oriented design patterns and cross-platform desktop development with automated native builds for Linux, macOS, and Windows. | 4 | Java, Just |
-| [chess-cli](https://github.com/urmzd/chess-cli) | Chess-cli is a Python command-line chess game with object-oriented design, suitable for learning game logic, exploring chess AI algorithms, or playing from the terminal. | 3 | Python, Just |
-| [cypress-name-too-long-mre](https://github.com/urmzd/cypress-name-too-long-mre) | Cypress-name-too-long-mre is a minimal reproducible example using JavaScript, HTML, and CSS, likely for testing or demonstration purposes. | - | JavaScript, HTML, CSS |
+| [exp-agi-models](https://github.com/urmzd/exp-agi-models) | Exp-agi-models is a Python research project exploring parameter efficiency in language models, investigating algorithm learning without traditional embeddings. | - | Python, Shell |
+| [rlgp-thesis](https://github.com/urmzd/rlgp-thesis) | Rlgp-thesis is a BCS thesis project written in TeX, focusing on Reinforced Linear Genetic Programming. | - | TeX, Shell |
 
 </details>
 
+<!-- section: impact -->
+## Open Source Impact
+
+![Bar chart of Urmzd Mukhammadnaim's open source contributions by repository star count](assets/insights/metrics-impact.svg)
+
 <!-- section: footer -->
-<sub>Last generated on 2026-03-26 using [@urmzd/github-insights](https://github.com/urmzd/github-insights) · Template: `ecosystem`</sub>
+<sub>Last generated on 2026-03-26 using [@urmzd/github-insights](https://github.com/urmzd/github-insights)</sub>
