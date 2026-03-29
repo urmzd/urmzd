@@ -6,7 +6,7 @@ on:
   push:
     branches: [main]
 jobs:
-  metrics:
+  generate-insights:
     runs-on: ubuntu-latest
     permissions:
       contents: write
