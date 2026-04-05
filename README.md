@@ -14,29 +14,6 @@ profile: https://github.com/urmzd
 <!-- section: social -->
 [![urmzd.com](https://img.shields.io/badge/urmzd.com-4285F4?style=flat&logo=google-chrome&logoColor=white)](https://urmzd.com) [![@urmzd_](https://img.shields.io/badge/@urmzd__-000000?style=flat&logo=x&logoColor=white)](https://x.com/urmzd_) [![urmzd](https://img.shields.io/badge/urmzd-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/urmzd)
 
-<!-- section: spotlight -->
-## Spotlight
-
-### [incipit](https://github.com/urmzd/incipit)
-Here begins the new career. A template-driven CLI that transforms structured resume data into polished PDFs, DOCX, HTML, LaTeX, and Markdown — with pluggable templates and multi-agent AI assessment.
-Stars: 11 · Languages: Go, TeX, HTML · **Active**
-
-### [linear-gp](https://github.com/urmzd/linear-gp)
-A production-grade Rust framework for Linear Genetic Programming research, featuring modular architecture, Q-Learning integration, automated hyperparameter optimization, and support for reinforcement learning and classification tasks.
-Stars: 3 · Languages: Rust, Shell, Just · **Active**
-
-### [dotfiles](https://github.com/urmzd/dotfiles)
-Modern dotfiles with Chezmoi and Nix, providing one-command environment bootstrap for macOS and Linux—includes Neovim, Tmux, Zsh, and specialized development shells.
-Stars: 2 · Languages: Shell, Lua, Go Template · **Active**
-
-### [urmzd.com](https://github.com/urmzd/urmzd.com)
-Personal website and blog built with Astro, TypeScript, and MDX—featuring fast static site generation with interactive components for content and portfolio.
-Stars: 1 · Languages: TypeScript, MDX, Astro · **Active**
-
-### [embed-src](https://github.com/urmzd/embed-src)
-A GitHub Action that automatically syncs code snippets in markdown files with source code, keeping documentation fresh during CI/CD and reducing manual update overhead.
-Stars: 1 · Languages: Rust, Shell, Just · **Active**
-
 <!-- section: velocity -->
 ## Language Velocity
 
