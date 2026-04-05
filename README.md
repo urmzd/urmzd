@@ -40,9 +40,9 @@ profile: https://github.com/urmzd
 | Project | Description | Stars | Languages |
 |---------|-------------|-------|-----------|
 | [urmzd.com](https://github.com/urmzd/urmzd.com) | Personal website and blog built with Astro, TypeScript, and MDX—featuring fast static site generation with interactive components for content and portfolio. | 1 | TypeScript, MDX, Astro |
-| [saige](https://github.com/urmzd/saige) | saige — Super AI Graph Ecosystem. A unified Go SDK and CLI for streaming AI agents, knowledge graphs, and RAG pipelines. | - | Go, Go Template, Shell |
 | [exp-agi-models](https://github.com/urmzd/exp-agi-models) | Can a language model learn algorithms instead of memorizing patterns? Exploring extreme parameter efficiency in vocabulary space — 350K params, no embedding, no output projection, every intermediate state readable as words. | - | Python, Shell |
 | [generative-artifact-protocol](https://github.com/urmzd/generative-artifact-protocol) | Generative Artifact Protocol (GAP) — an open standard for token-efficient artifact updates and streaming. Rust apply engine + Python eval framework. | - | HTML, Python, Rust |
+| [saige](https://github.com/urmzd/saige) | saige — Super AI Graph Ecosystem. A unified Go SDK and CLI for streaming AI agents, knowledge graphs, and RAG pipelines. | - | Go, Go Template, Shell |
 | [teasr](https://github.com/urmzd/teasr) | Capture showcase screenshots and GIFs from web apps, desktop, and terminal. Single Rust binary, no runtime deps. | - | Rust, HTML, Shell |
 | [oag](https://github.com/urmzd/oag) | Fast OpenAPI 3.x code generator for TypeScript, React/SWR, and FastAPI — zero runtime deps, first-class SSE streaming | - | Rust, Jinja, Shell |
 | [github-insights](https://github.com/urmzd/github-insights) | GitHub Action that generates SVG visualizations of your GitHub profile metrics | - | JavaScript, TypeScript, Shell |
