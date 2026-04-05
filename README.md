@@ -63,9 +63,9 @@ Stars: 1 · Languages: Rust, Shell, Just · **Active**
 | Project | Description | Stars | Languages |
 |---------|-------------|-------|-----------|
 | [urmzd.com](https://github.com/urmzd/urmzd.com) | Personal website and blog built with Astro, TypeScript, and MDX—featuring fast static site generation with interactive components for content and portfolio. | 1 | TypeScript, MDX, Astro |
+| [saige](https://github.com/urmzd/saige) | saige — Super AI Graph Ecosystem. A unified Go SDK and CLI for streaming AI agents, knowledge graphs, and RAG pipelines. | - | Go, Go Template, Shell |
 | [exp-agi-models](https://github.com/urmzd/exp-agi-models) | Can a language model learn algorithms instead of memorizing patterns? Exploring extreme parameter efficiency in vocabulary space — 350K params, no embedding, no output projection, every intermediate state readable as words. | - | Python, Shell |
 | [generative-artifact-protocol](https://github.com/urmzd/generative-artifact-protocol) | Generative Artifact Protocol (GAP) — an open standard for token-efficient artifact updates and streaming. Rust apply engine + Python eval framework. | - | HTML, Python, Rust |
-| [saige](https://github.com/urmzd/saige) | saige — Super AI Graph Ecosystem. A unified Go SDK and CLI for streaming AI agents, knowledge graphs, and RAG pipelines. | - | Go, Go Template, Shell |
 | [teasr](https://github.com/urmzd/teasr) | Capture showcase screenshots and GIFs from web apps, desktop, and terminal. Single Rust binary, no runtime deps. | - | Rust, HTML, Shell |
 | [oag](https://github.com/urmzd/oag) | Fast OpenAPI 3.x code generator for TypeScript, React/SWR, and FastAPI — zero runtime deps, first-class SSE streaming | - | Rust, Jinja, Shell |
 | [github-insights](https://github.com/urmzd/github-insights) | GitHub Action that generates SVG visualizations of your GitHub profile metrics | - | JavaScript, TypeScript, Shell |
@@ -73,7 +73,7 @@ Stars: 1 · Languages: Rust, Shell, Just · **Active**
 | [sr](https://github.com/urmzd/sr) | AI-powered release engineering CLI — from commit to release. Single binary, language-agnostic, zero-config defaults with full configurability. | - | Rust, Shell, Just |
 | [fighter-iq](https://github.com/urmzd/fighter-iq) | AI-powered strategy analysis for combat sports video — identifies tactics and strategies from fight footage | - | Python, Just |
 | [lazyspeak.nvim](https://github.com/urmzd/lazyspeak.nvim) | Voice-driven coding for Neovim. Speak your intent, edits appear in your editor. | 1 | Lua, Rust, Just |
-| [llmem](https://github.com/urmzd/llmem) | An open ecosystem for tool-agnostic AI agent memory | - | Rust, Python, Shell |
+| [mnemonist](https://github.com/urmzd/mnemonist) | An open ecosystem for tool-agnostic AI agent memory | - | Rust, Python, Shell |
 | [languide](https://github.com/urmzd/languide) | A Python CLI that generates practical, scenario-based language learning PDFs with full Unicode/CJK support—covering restaurants, hotels, transportation, and more for travelers and language learners. | - | TeX, Shell |
 | [agentspec](https://github.com/urmzd/agentspec) | Universal agent skill and sub-agent manager with TUI | - | Rust, Shell, Just |
 | [gymnasia](https://github.com/urmzd/gymnasia) | OpenAI's Gymnasium Rewritten in Rust | - | Rust, Just, Shell |
@@ -93,4 +93,4 @@ Stars: 1 · Languages: Rust, Shell, Just · **Active**
 ![Bar chart of Urmzd Mukhammadnaim's open source contributions by repository star count](assets/insights/metrics-impact.svg)
 
 <!-- section: footer -->
-<sub>Last generated on 2026-04-04 using [@urmzd/github-insights](https://github.com/urmzd/github-insights)</sub>
+<sub>Last generated on 2026-04-05 using [@urmzd/github-insights](https://github.com/urmzd/github-insights)</sub>
