@@ -11,8 +11,6 @@ profile: https://github.com/urmzd
 
 I build modular AI systems from scratch—streaming agent SDKs, privacy-first research tools, and multi-format document generators—using Rust, Go, and Python. Recent work: incipit for seamless resume generation and linear-gp for next-gen genetic programming research.
 
-**Role:** AI Engineer | **Top Languages:** Rust, Go, TypeScript, Python, Java
-
 <!-- section: social -->
 [![urmzd.com](https://img.shields.io/badge/urmzd.com-4285F4?style=flat&logo=google-chrome&logoColor=white)](https://urmzd.com) [![@urmzd_](https://img.shields.io/badge/@urmzd__-000000?style=flat&logo=x&logoColor=white)](https://x.com/urmzd_) [![urmzd](https://img.shields.io/badge/urmzd-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/urmzd)
 
