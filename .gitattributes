@@ -2,21 +2,20 @@
 # ── Linguist overrides ──────────────────────────────────────────────────────
 # Prevent non-code files from skewing GitHub language statistics
 
-# Markup / documentation
+# Markup / styling
 *.html linguist-documentation
 *.css linguist-documentation
 *.scss linguist-documentation
 *.tex linguist-documentation
 *.ipynb linguist-documentation
+*.md linguist-documentation
 
-# Config / infrastructure
+# Build tooling
 Justfile linguist-vendored
 justfile linguist-vendored
 Makefile linguist-vendored
 Dockerfile linguist-vendored
 *.dockerfile linguist-vendored
-*.nix linguist-vendored
-*.sh linguist-vendored
 
 # Generated output
 *.svg linguist-generated
