@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="808" height="618" viewBox="0 0 808 618"><defs><style>
   .t { font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif; font-variant-numeric: tabular-lining; }
-  .t-h { font-size: 14px; fill: #c9d1d9; letter-spacing: 2px; font-weight: 600; }
-  .t-sub { font-size: 11px; fill: #6e7681; }
-  .t-label { font-size: 12px; fill: #8b949e; }
-  .t-value { font-size: 11px; fill: #6e7681; }
-  .t-subhdr { font-size: 11px; fill: #8b949e; letter-spacing: 1px; font-weight: 600; }
-  .t-stat-label { font-size: 10px; fill: #8b949e; font-weight: 600; }
+  .t-h { font-size: 14px; fill: #1f2328; letter-spacing: 2px; font-weight: 600; }
+  .t-sub { font-size: 11px; fill: #656d76; }
+  .t-label { font-size: 12px; fill: #656d76; }
+  .t-value { font-size: 11px; fill: #656d76; }
+  .t-subhdr { font-size: 11px; fill: #656d76; letter-spacing: 1px; font-weight: 600; }
+  .t-stat-label { font-size: 10px; fill: #656d76; font-weight: 600; }
   .t-stat-value { font-size: 22px; font-weight: 700; }
-  .t-card-title { font-size: 12px; fill: #58a6ff; font-weight: 700; }
-  .t-card-detail { font-size: 11px; fill: #8b949e; }
+  .t-card-title { font-size: 12px; fill: #0969da; font-weight: 700; }
+  .t-card-detail { font-size: 11px; fill: #656d76; }
   .t-pill { font-size: 11px; font-weight: 600; }
-  .t-bullet { font-size: 12px; fill: #c9d1d9; }
-  .bg-fill { fill: #0d1117; }
-  .card-fill { fill: #161b22; }
-  .border-stroke { stroke: #30363d; }
-  .muted-fill { fill: #6e7681; }
-  .secondary-fill { fill: #8b949e; }
+  .t-bullet { font-size: 12px; fill: #1f2328; }
+  .bg-fill { fill: #ffffff; }
+  .card-fill { fill: #f6f8fa; }
+  .border-stroke { stroke: #d0d7de; }
+  .muted-fill { fill: #656d76; }
+  .secondary-fill { fill: #656d76; }
 
   @keyframes fadeIn {
     from { opacity: 0; transform: translateY(8px); }
