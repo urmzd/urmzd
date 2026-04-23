@@ -9,7 +9,7 @@ profile: https://github.com/urmzd
 
 # Urmzd Mukhammadnaim
 
-I design full-stack systems that automate complex workflows—like incipit, a Go-powered CLI for multi-format resume generation, and saige, a streaming agent SDK for AI pipelines. Most of my work runs on Rust and Go, with TypeScript for frontends.
+I design modular AI systems and tools from scratch—think streaming agent SDKs (saige) and template-driven resume generators (incipit)—with Rust, Go, and Python powering everything from genetic programming frameworks to zero-dependency CLI utilities.
 
 <!-- section: social -->
 [![urmzd.com](https://img.shields.io/badge/urmzd.com-4285F4?style=flat&logo=google-chrome&logoColor=white)](https://urmzd.com) [![@urmzd_](https://img.shields.io/badge/@urmzd__-000000?style=flat&logo=x&logoColor=white)](https://x.com/urmzd_) [![urmzd](https://img.shields.io/badge/urmzd-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/urmzd)
@@ -18,24 +18,24 @@ I design full-stack systems that automate complex workflows—like incipit, a Go
 ## Spotlight
 
 ### [incipit](https://github.com/urmzd/incipit)
-Template-driven CLI that transforms structured resume data into polished PDFs, DOCX, HTML, LaTeX, and Markdown, featuring pluggable templates and multi-agent AI assessment. Built in Go with extensive format support and automation.
+Template-driven CLI that transforms structured resume data into polished PDFs, DOCX, HTML, LaTeX, and Markdown, featuring pluggable templates and multi-agent AI assessment. Built in Go with a focus on extensibility and professional output.
 Stars: 12 · Languages: Go, TeX, HTML · **Active**
 
 ### [linear-gp](https://github.com/urmzd/linear-gp)
-Production-grade Rust framework for Linear Genetic Programming research, offering modular architecture, Q-Learning integration, and automated hyperparameter optimization for reinforcement learning and classification tasks.
+Production-grade Rust framework for Linear Genetic Programming research, supporting modular design, Q-Learning, automated hyperparameter optimization, and reinforcement learning tasks.
 Stars: 3 · Languages: Rust · **Active**
 
-### [experimental-transformer-architectures](https://github.com/urmzd/experimental-transformer-architectures)
-Explores whether language models can learn algorithms instead of memorizing patterns, focusing on extreme parameter efficiency and interpretability in vocabulary space.
-Languages: Python · **Active**
+### [saige](https://github.com/urmzd/saige)
+Unified Go SDK and CLI for streaming AI agents, knowledge graphs, and retrieval-augmented generation (RAG) pipelines, designed for scalable AI workflows.
+Stars: 2 · Languages: Go, Go Template · **Active**
 
 ### [teasr](https://github.com/urmzd/teasr)
-Single Rust binary for capturing showcase screenshots and GIFs from web apps, desktop, and terminal, with no runtime dependencies.
+Single-binary Rust tool for capturing showcase screenshots and GIFs from web apps, desktop, and terminal, with zero runtime dependencies.
 Stars: 2 · Languages: Rust, HTML · **Active**
 
-### [saige](https://github.com/urmzd/saige)
-Unified Go SDK and CLI for streaming AI agents, knowledge graphs, and retrieval-augmented generation (RAG) pipelines, designed for building advanced AI workflows.
-Stars: 1 · Languages: Go, Go Template · **Active**
+### [experimental-transformer-architectures](https://github.com/urmzd/experimental-transformer-architectures)
+Seventeen experimental language model architectures where the hidden dimension equals vocabulary size—eliminating embeddings and output projections to explore novel transformer designs.
+Languages: Python · **Active**
 
 <!-- section: velocity -->
 ## Language Velocity
@@ -71,36 +71,31 @@ Stars: 1 · Languages: Go, Go Template · **Active**
 
 | Project | Description | Stars | Languages |
 |---------|-------------|-------|-----------|
-| [generative-artifact-protocol](https://github.com/urmzd/generative-artifact-protocol) | Open standard for token-efficient artifact updates and streaming, featuring a Rust apply engine and evaluation CLI for generative workflows. | - | Rust, Python, Go |
-| [github-insights](https://github.com/urmzd/github-insights) | AI-powered GitHub profile metrics tool providing SVG visualizations, project classification, and README generation as a CLI, npm package, and GitHub Action. | - | TypeScript, Shell |
+| [generative-artifact-protocol](https://github.com/urmzd/generative-artifact-protocol) | Open standard for token-efficient artifact updates and streaming, featuring a Rust apply engine and evaluation CLI. | - | Rust, Python, Go |
+| [github-insights](https://github.com/urmzd/github-insights) | AI-powered CLI, npm package, and GitHub Action for generating SVG visualizations, project classification, and README metrics from GitHub profiles. | 1 | TypeScript, Shell |
 | [oag](https://github.com/urmzd/oag) | Fast OpenAPI 3.x code generator for TypeScript, React/SWR, and FastAPI, offering zero runtime dependencies and first-class SSE streaming support. | - | Rust, Jinja |
-| [lazyspeak.nvim](https://github.com/urmzd/lazyspeak.nvim) | Voice-driven coding extension for Neovim, enabling spoken intent to be translated directly into code edits within the editor. | 1 | Lua, Rust, Vim Script |
-| [sr](https://github.com/urmzd/sr) | Release engineering CLI in Rust for automated semantic versioning from conventional commits, distributed as a single static binary with zero runtime dependencies. | - | Rust |
-| [agentspec](https://github.com/urmzd/agentspec) | Universal agent skill and sub-agent manager with a terminal user interface, implemented in Rust for flexible agent orchestration. | - | Rust |
-| [dotfiles](https://github.com/urmzd/dotfiles) | Modern dotfiles setup using Chezmoi and Nix for seamless environment bootstrapping on macOS and Linux, including Neovim, Tmux, Zsh, and custom development shells. | 2 | Shell, Lua, Go Template |
-| [fsrc](https://github.com/urmzd/fsrc) | CLI, crate, and GitHub Action for embedding source files into any text file using comment markers, supporting Rust and Python workflows. | 1 | Rust, Python |
+| [lazyspeak.nvim](https://github.com/urmzd/lazyspeak.nvim) | Voice-driven coding extension for Neovim, enabling spoken intent to drive code edits directly in the editor. | 1 | Lua, Rust, Vim Script |
+| [sr](https://github.com/urmzd/sr) | Release engineering CLI in Rust—single static binary with automated semantic versioning from conventional commits and full configurability. | - | Rust |
+| [agentspec](https://github.com/urmzd/agentspec) | Universal agent skill and sub-agent manager with a terminal user interface, written in Rust for extensible agent orchestration. | - | Rust |
+| [dotfiles](https://github.com/urmzd/dotfiles) | Cross-platform dotfiles managed by Chezmoi, supporting Homebrew/apt, per-language version managers, and one-command bootstrap for macOS and Linux. | 2 | Shell, Lua, Go Template |
+| [streamsafe](https://github.com/urmzd/streamsafe) | Type-safe async pipeline framework for data processing in Rust, supporting robust and composable workflows. | - | Rust, Shell, Just |
+| [fsrc](https://github.com/urmzd/fsrc) | CLI, Rust crate, and GitHub Action for embedding source files into any text file using comment markers. | 1 | Rust, Python |
+| [urmzd](https://github.com/urmzd/urmzd) | GitHub profile README repository for auto-generated profile content. | - | - |
 
 ### SDKs
 
 | Project | Description | Stars | Languages |
 |---------|-------------|-------|-----------|
-| [mnemonist](https://github.com/urmzd/mnemonist) | Open ecosystem for tool-agnostic AI agent memory, implemented in Rust and Python for flexible integration with agent frameworks. | 2 | Rust, Python |
-| [gymnasia](https://github.com/urmzd/gymnasia) | Pure Rust implementation of OpenAI Gymnasium environments, enabling reinforcement learning research and experimentation in the Rust ecosystem. | 1 | Rust |
+| [mnemonist](https://github.com/urmzd/mnemonist) | Open ecosystem for tool-agnostic AI agent memory, implemented in Rust and Python for flexible integration across agent frameworks. | 2 | Rust, Python |
+| [gymnasia](https://github.com/urmzd/gymnasia) | Pure Rust implementation of OpenAI Gymnasium environments for reinforcement learning research and experimentation. | 1 | Rust |
 | [zigbee-skill](https://github.com/urmzd/zigbee-skill) | AI-native smart home skill enabling direct control of Zigbee devices by AI agents, with no cloud or hub required. | - | Go, Shell, Just |
-| [streamsafe](https://github.com/urmzd/streamsafe) | Type-safe async pipeline framework for data processing in Rust, supporting modular and efficient data flows. | - | Rust, Shell, Just |
 
 ### Applications
 
 | Project | Description | Stars | Languages |
 |---------|-------------|-------|-----------|
-| [urmzd.com](https://github.com/urmzd/urmzd.com) | Personal website, blog, and research portfolio built with Astro, React, and Three.js, showcasing interactive content and modern web technologies. | 1 | TypeScript, Astro, JavaScript |
+| [urmzd.com](https://github.com/urmzd/urmzd.com) | Personal website, blog, and research portfolio built with Astro, React, and Three.js for interactive and visually rich presentations. | 1 | TypeScript, Astro, JavaScript |
 | [languide](https://github.com/urmzd/languide) | Scenario-based language guides built from markdown, generating PDFs with full Unicode and CJK support for communication-focused learning. | - | - |
-
-### Research & Experiments
-
-| Project | Description | Stars | Languages |
-|---------|-------------|-------|-----------|
-| [urmzd](https://github.com/urmzd/urmzd) | GitHub profile README providing an overview of projects and activities. | - | - |
 
 </details>
 
@@ -113,4 +108,4 @@ Stars: 1 · Languages: Go, Go Template · **Active**
 </picture>
 
 <!-- section: footer -->
-<sub>Last generated on 2026-04-22 using [@urmzd/github-insights](https://github.com/urmzd/github-insights)</sub>
+<sub>Last generated on 2026-04-23 using [@urmzd/github-insights](https://github.com/urmzd/github-insights)</sub>
