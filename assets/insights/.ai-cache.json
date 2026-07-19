@@ -2,126 +2,126 @@
   "version": 1,
   "entries": {
     "classifications": {
-      "hash": "5b2c55169df7d1476d8a35dcda6bc9b0f0055219a884e323a97f12317be281e1",
+      "hash": "34add77e5046ab2b1432d13ce2c7fb3f36c5ca15b729bcb69d84c7651c1f4ed2",
       "value": [
         {
           "category": "Developer Tools",
           "name": "incipit",
-          "spotlight_rank": 2,
+          "spotlight_rank": 1,
           "status": "maintained",
-          "summary": "Template-driven CLI for transforming structured resume data into polished documents (PDF, DOCX, HTML, LaTeX, Markdown), featuring pluggable templates and AI-powered prompts for resume review and optimization. Built with Go and TeX for flexible output formats."
+          "summary": "Template-driven CLI for transforming structured resume data into polished documents (PDF, DOCX, HTML, LaTeX, Markdown), with pluggable templates and AI-powered resume review and optimization."
         },
         {
           "category": "Developer Tools",
           "name": "mnemonist",
-          "spotlight_rank": 4,
+          "spotlight_rank": 2,
           "status": "active",
-          "summary": "Local-first Rust CLI for AI agent memory management, supporting cognitive verbs, markdown memories, semantic search with candle embeddings, and HNSW indexing. Benchmarked on LongMemEval for robust memory operations."
+          "summary": "Local-first Rust CLI for AI agent memory, offering cognitive verbs, plain-markdown memories, semantic search with candle embeddings, and HNSW indexing, benchmarked on LongMemEval."
         },
         {
           "category": "SDKs",
           "name": "saige",
-          "spotlight_rank": 1,
+          "spotlight_rank": 3,
           "status": "active",
-          "summary": "Unified Go SDK, CLI, and MCP server for streaming AI agents, knowledge graphs, and RAG pipelines, integrating providers like Ollama, OpenAI, Anthropic, and Google under a single interface. Enables seamless orchestration of advanced AI workflows."
+          "summary": "Unified Go SDK, CLI, and MCP server for streaming AI agents, knowledge graphs, and RAG pipelines, integrating multiple AI providers behind a single interface."
         },
         {
           "category": "Research & Experiments",
           "name": "flappy-bird",
           "spotlight_rank": null,
           "status": "maintained",
-          "summary": "JavaFX-based Flappy Bird clone showcasing data-oriented design and cross-platform desktop development, with automated native builds for Linux, macOS, and Windows."
+          "summary": "JavaFX Flappy Bird clone demonstrating data-oriented design and cross-platform desktop development with automated native builds."
         },
         {
           "category": "Research & Experiments",
           "name": "chess-cli",
           "spotlight_rank": null,
           "status": "maintained",
-          "summary": "Fully playable chess game with object-oriented design and command-line interface, ideal for learning game logic and exploring chess AI algorithms in Python."
+          "summary": "Fully playable chess game with object-oriented Python design and command-line interface, ideal for learning game logic and exploring chess AI algorithms."
         },
         {
           "category": "Developer Tools",
           "name": "agentspec",
           "spotlight_rank": null,
           "status": "active",
-          "summary": "Universal agent skill and sub-agent manager with a terminal UI, written in Rust and Shell for flexible agent orchestration."
+          "summary": "Universal agent skill and sub-agent manager with a terminal user interface, built in Rust and Shell."
         },
         {
           "category": "Developer Tools",
           "name": "teasr",
-          "spotlight_rank": 5,
+          "spotlight_rank": 4,
           "status": "active",
-          "summary": "Rust-based single binary tool for capturing showcase screenshots and GIFs from web apps, desktop, and terminal, requiring no runtime dependencies."
+          "summary": "Single Rust binary for capturing showcase screenshots and GIFs from web apps, desktop, and terminal, with no runtime dependencies."
         },
         {
           "category": "Research & Experiments",
           "name": "linear-gp",
-          "spotlight_rank": 3,
+          "spotlight_rank": 5,
           "status": "maintained",
-          "summary": "Production-grade Rust framework for Linear Genetic Programming research, offering modular architecture, Q-Learning integration, automated hyperparameter optimization, and support for reinforcement learning and classification tasks."
+          "summary": "Production-grade Rust framework for Linear Genetic Programming research, featuring modular architecture, Q-Learning integration, and automated hyperparameter optimization."
         },
         {
           "category": "Research & Experiments",
           "name": "lepus-classifier",
           "spotlight_rank": null,
           "status": "maintained",
-          "summary": "CNN research project focused on optimal image classification architectures for small datasets, highlighting the impact of data quantity on deep learning performance."
+          "summary": "CNN research project exploring image classification architectures for small datasets, highlighting data quantity as the key bottleneck for deep learning."
         },
         {
           "category": "Developer Tools",
           "name": "dotfiles",
           "spotlight_rank": null,
           "status": "maintained",
-          "summary": "Cross-platform dotfiles managed by Chezmoi, featuring one-command bootstrap for macOS and Linux with Neovim, Tmux, Zsh, and AI agent skills."
+          "summary": "Cross-platform dotfiles managed by Chezmoi, with one-command bootstrap for macOS and Linux, integrating Neovim, Tmux, Zsh, and AI agent skills."
         },
         {
           "category": "Research & Experiments",
           "name": "md-classifier",
           "spotlight_rank": null,
           "status": "maintained",
-          "summary": "Deep learning system combining transformers and CNNs to classify diseases from patient-described symptoms, achieving high recall through semantic embeddings and feature extraction."
+          "summary": "Deep learning system combining transformers and CNNs to classify diseases from patient-described symptoms, achieving high recall with semantic embeddings."
         },
         {
           "category": "Developer Tools",
           "name": "duraturo",
           "spotlight_rank": null,
-          "status": "active",
-          "summary": "Go utility for durable execution of existing code, enabling ledgers, workers, and queues over user-owned storage with minimal setup."
+          "status": "inactive",
+          "summary": "Go utility for durable execution: wrap functions and run workers with ledgers and queues over existing storage."
         },
         {
           "category": "Developer Tools",
           "name": "lazyspeak.nvim",
           "spotlight_rank": null,
           "status": "active",
-          "summary": "Voice-driven coding plugin for Neovim, allowing users to speak their intent and see edits appear directly in the editor, built with Lua and Rust."
+          "summary": "Voice-driven coding plugin for Neovim, enabling spoken intent to trigger edits directly in the editor."
         },
         {
           "category": "Developer Tools",
           "name": "generative-artifact-protocol",
           "spotlight_rank": null,
           "status": "active",
-          "summary": "Open standard for token-efficient artifact updates and streaming, featuring a Go apply engine and evaluation CLI for generative workflows."
+          "summary": "Open standard for token-efficient artifact updates and streaming, featuring a Go apply engine and evaluation CLI."
         },
         {
           "category": "Developer Tools",
           "name": "github-insights",
           "spotlight_rank": null,
           "status": "active",
-          "summary": "AI-powered GitHub profile metrics tool offering SVG visualizations, project classification, and README generation via CLI, npm package, and GitHub Action."
+          "summary": "AI-powered GitHub profile metrics with SVG visualizations, project classification, and README generation; available as CLI, npm package, and GitHub Action."
         },
         {
           "category": "Research & Experiments",
           "name": "gymnasia",
           "spotlight_rank": null,
           "status": "active",
-          "summary": "Pure Rust implementation of OpenAI Gymnasium environments for reinforcement learning experimentation."
+          "summary": "Pure Rust implementation of OpenAI Gymnasium environments for reinforcement learning research."
         },
         {
           "category": "Applications",
           "name": "urmzd.com",
           "spotlight_rank": null,
           "status": "active",
-          "summary": "Personal website, blog, and research portfolio built with Astro, React, and Three.js, showcasing interactive content and technical projects."
+          "summary": "Personal website, blog, and research portfolio built with Astro, React, and Three.js."
         },
         {
           "category": "Developer Tools",
@@ -135,84 +135,84 @@
           "name": "broadcast",
           "spotlight_rank": null,
           "status": "active",
-          "summary": "CLI for converting blog posts into platform-native content for X Articles and LinkedIn, streamlining multi-platform publishing."
+          "summary": "CLI tool for converting blog posts into platform-native content for X Articles and LinkedIn posts."
         },
         {
           "category": "Developer Tools",
           "name": "dispatch",
           "spotlight_rank": null,
-          "status": "active",
-          "summary": "Beta control plane for agent execution nodes, deploying scalable sandboxed agents with NGAC policy enforcement and workspace metrics."
+          "status": "inactive",
+          "summary": "Beta control plane for agent execution nodes, scaling sandboxed agents with NGAC policy enforcement and workspace metrics."
         },
         {
           "category": "Research & Experiments",
           "name": "rlgp-thesis",
           "spotlight_rank": null,
           "status": "inactive",
-          "summary": "BCS thesis project on Reinforced Linear Genetic Programming, written in TeX and Shell."
+          "summary": "BCS thesis project focused on Reinforced Linear Genetic Programming, written in TeX and Shell."
         },
         {
           "category": "Research & Experiments",
           "name": "glassbox-lm",
           "spotlight_rank": null,
           "status": "active",
-          "summary": "Observable language models with readable hidden states, featuring a workspace of architectures and a glassbox CLI for tracing, causal probing, and faithfulness coverage."
+          "summary": "Observable language models with readable hidden states, glassbox CLI for tracing and causal probing, and architectures focused on faithfulness and observability."
         },
         {
-          "category": "Research & Experiments",
+          "category": "Developer Tools",
           "name": "lightning-kfold",
           "spotlight_rank": null,
           "status": "inactive",
-          "summary": "Stratified K-fold cross-validation with ensemble voting for PyTorch Lightning, designed for robust model evaluation."
+          "summary": "Stratified K-fold cross-validation with ensemble voting for PyTorch Lightning, designed for easy integration."
         },
         {
           "category": "Applications",
           "name": "zoro",
           "spotlight_rank": null,
-          "status": "active",
-          "summary": "Privacy-first AI research agent with a persistent knowledge graph, running all inference locally for secure idea management."
+          "status": "inactive",
+          "summary": "Privacy-first AI research agent with a persistent knowledge graph, running all inference locally."
         },
         {
           "category": "Developer Tools",
           "name": "oag",
           "spotlight_rank": null,
           "status": "active",
-          "summary": "OpenAPI 3.x code generator for TypeScript, React/SWR, and FastAPI, using Jinja2 template packs for customizable output and SSE streaming."
+          "summary": "OpenAPI 3.x code generator for TypeScript, React/SWR, and FastAPI, using customizable Jinja2 template packs and supporting SSE streaming."
         },
         {
           "category": "Developer Tools",
           "name": "sr",
           "spotlight_rank": null,
           "status": "active",
-          "summary": "Release engineering CLI in Rust, offering automated semantic versioning from conventional commits in a single static binary."
+          "summary": "Release engineering CLI in Rust, offering automated semantic versioning from conventional commits as a single static binary."
         },
         {
           "category": "Applications",
           "name": "languide",
           "spotlight_rank": null,
           "status": "maintained",
-          "summary": "Scenario-based language guides built from markdown, generating PDFs with full Unicode and CJK support for communication-focused learning."
+          "summary": "Scenario-based language guides built from markdown, generating PDFs with full Unicode and CJK support."
         },
         {
           "category": "Applications",
           "name": "urmzd",
           "spotlight_rank": null,
           "status": "maintained",
-          "summary": "GitHub profile README with auto-generated metrics, project spotlights, and portfolio tables, regenerated on a schedule by github-insights."
+          "summary": "GitHub profile README with auto-generated metrics, project spotlights, and portfolio tables, regenerated by github-insights."
         },
         {
-          "category": "Developer Tools",
+          "category": "SDKs",
           "name": "streamsafe",
           "spotlight_rank": null,
           "status": "maintained",
-          "summary": "Type-safe async pipeline framework for data processing in Rust, supporting robust and modular workflows."
+          "summary": "Type-safe async pipeline framework for data processing in Rust, with Shell and Just integration."
         },
         {
-          "category": "Developer Tools",
+          "category": "SDKs",
           "name": "zigbee-skill",
           "spotlight_rank": null,
           "status": "maintained",
-          "summary": "AI-native smart home skill enabling direct control of Zigbee devices without cloud or hub, written in Go and Shell."
+          "summary": "AI-native smart home skill enabling direct control of Zigbee devices by AI agents without cloud or hub dependencies."
         },
         {
           "category": "Research & Experiments",
@@ -226,13 +226,13 @@
           "name": "barter-trader",
           "spotlight_rank": null,
           "status": "maintained",
-          "summary": "Android trading app built with Clean Architecture and MVVM, facilitating peer-to-peer item exchanges with enterprise-grade mobile development patterns."
+          "summary": "Android trading app built with Clean Architecture and MVVM, enabling peer-to-peer item exchanges with enterprise-grade mobile patterns."
         }
       ]
     },
     "preamble": {
-      "hash": "e30b8b41e59d4a93925e59fe2f1f59f1b65d5c0fd722c03a13605dafe48b3837",
-      "value": "I engineer streaming AI agent systems and memory tools from scratch, blending Rust and Go for modularity and speed. Projects like saige and mnemonist show my focus: unified orchestration, local-first cognition, and seamless integration across the stack."
+      "hash": "97e6ebac8b76d69c2fb7e03554acb7e2ff3af9f96d3bd67ed18b9f7eb1266636",
+      "value": "I engineer local-first AI systems with Rust and Go, from streaming agent SDKs (saige) to cognitive memory CLIs (mnemonist). Every project is built from scratch, full stack, optimized for speed and clarity."
     }
   }
 }
