@@ -33,9 +33,9 @@ Stars: 12 · Languages: Go, HTML, TeX · **Building**
 saige - Super Artificial Intelligence Graph Environment. A unified Go SDK, CLI, and MCP server for streaming AI agents, knowledge graphs, and RAG pipelines, with Ollama, OpenAI, Anthropic, and Google providers behind one interface.
 Stars: 4 · Languages: Go, Go Template · **Building**
 
-### [mnemonist](https://github.com/urmzd/mnemonist)
-Tool-agnostic AI agent memory as a local-first Rust CLI: cognitive verbs (remember, recall, learn, consolidate, forget), plain-markdown memories, local candle embeddings, and HNSW semantic search across memory and code, benchmarked on LongMemEval.
-Stars: 4 · Languages: Rust, Python · **Building**
+### [urmzd](https://github.com/urmzd/urmzd)
+GitHub profile README with auto-generated metrics, project spotlights, and portfolio tables, regenerated on a schedule by github-insights.
+**Active**
 
 <!-- section: velocity -->
 ## Language Velocity
@@ -73,6 +73,7 @@ Stars: 4 · Languages: Rust, Python · **Building**
 |---------|-------------|-------|-----------|
 | [glassbox-lm](https://github.com/urmzd/glassbox-lm) | Observable language models: every hidden state is a readable distribution over words (hidden dim = vocab size). A uv workspace of architectures plus a glassbox CLI for tracing, causal probing, and faithfulness coverage, chasing observability at no performance cost. | - | Python |
 | [teasr](https://github.com/urmzd/teasr) | Capture showcase screenshots and GIFs from web apps, desktop, and terminal. Single Rust binary, no runtime deps. | 2 | Rust, HTML |
+| [mnemonist](https://github.com/urmzd/mnemonist) | Tool-agnostic AI agent memory as a local-first Rust CLI: cognitive verbs (remember, recall, learn, consolidate, forget), plain-markdown memories, local candle embeddings, and HNSW semantic search across memory and code, benchmarked on LongMemEval. | 4 | Rust, Python |
 | [broadcast](https://github.com/urmzd/broadcast) | Turn a blog post into platform-native content (X Articles, LinkedIn posts) from one CLI | - | TypeScript, JavaScript, Shell |
 | [zigbee-skill](https://github.com/urmzd/zigbee-skill) | AI-native smart home skill — lets AI agents control Zigbee devices directly, no cloud, no hub. | - | Go, Shell, Just |
 | [generative-artifact-protocol](https://github.com/urmzd/generative-artifact-protocol) | Generative Artifact Protocol (GAP) — an open standard for token-efficient artifact updates and streaming. Go apply engine + eval CLI. | 1 | Go, TypeScript, Java |
@@ -110,7 +111,6 @@ Stars: 4 · Languages: Rust, Python · **Building**
 |---------|-------------|-------|-----------|
 | [duraturo](https://github.com/urmzd/duraturo) | Durable execution for existing Go code: wrap your functions, run a worker, done. Ledgers, workers, queues over storage you already own. | 1 | Go, Makefile, Shell |
 | [streamsafe](https://github.com/urmzd/streamsafe) | Type-safe async pipeline framework for data processing in Rust | - | Rust, Shell, Just |
-| [urmzd](https://github.com/urmzd/urmzd) | GitHub profile README with auto-generated metrics, project spotlights, and portfolio tables, regenerated on a schedule by github-insights. | - | - |
 
 </details>
 
