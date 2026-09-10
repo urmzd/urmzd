@@ -77,7 +77,7 @@ GitHub profile README with auto-generated metrics, project spotlights, and portf
 | [broadcast](https://github.com/urmzd/broadcast) | Turn a blog post into platform-native content (X Articles, LinkedIn posts) from one CLI | - | TypeScript, JavaScript, Shell |
 | [zigbee-skill](https://github.com/urmzd/zigbee-skill) | AI-native smart home skill — lets AI agents control Zigbee devices directly, no cloud, no hub. | - | Go, Shell, Just |
 | [generative-artifact-protocol](https://github.com/urmzd/generative-artifact-protocol) | Generative Artifact Protocol (GAP) — an open standard for token-efficient artifact updates and streaming. Go apply engine + eval CLI. | 1 | Go, TypeScript, Java |
-| [github-insights](https://github.com/urmzd/github-insights) | AI-powered GitHub profile metrics — SVG visualizations, project classification, and README generation. CLI, npm package, and GitHub Action. | 1 | TypeScript, Shell |
+| [github-insights](https://github.com/urmzd/github-insights) | AI-powered GitHub profile metrics — SVG visualizations, project classification, and README generation. CLI, npm package, and GitHub Action. | 2 | TypeScript, Shell |
 | [oag](https://github.com/urmzd/oag) | OpenAPI 3.x code generator for TypeScript, React/SWR, and FastAPI. Generators are Jinja2 template packs installed locally — customize or write your own without touching Rust — with first-class SSE streaming and literal-faithful enum output. | 1 | Rust, Jinja |
 | [fsrc](https://github.com/urmzd/fsrc) | Embed source files into any text file using comment markers — CLI, crate, and GitHub Action. | 1 | Rust, Python |
 | [sr](https://github.com/urmzd/sr) | Release engineering CLI — single static binary, zero runtime dependencies, fully configurable. Automated semantic versioning from conventional commits. | - | Rust |
@@ -123,4 +123,4 @@ GitHub profile README with auto-generated metrics, project spotlights, and portf
 </picture>
 
 <!-- section: footer -->
-<sub>Last generated on 2026-09-09 using [@urmzd/github-insights](https://github.com/urmzd/github-insights)</sub>
+<sub>Last generated on 2026-09-10 using [@urmzd/github-insights](https://github.com/urmzd/github-insights)</sub>
