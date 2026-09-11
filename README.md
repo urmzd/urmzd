@@ -72,11 +72,11 @@ GitHub profile README with auto-generated metrics, project spotlights, and portf
 | Project | Description | Stars | Languages |
 |---------|-------------|-------|-----------|
 | [glassbox-lm](https://github.com/urmzd/glassbox-lm) | Observable language models: every hidden state is a readable distribution over words (hidden dim = vocab size). A uv workspace of architectures plus a glassbox CLI for tracing, causal probing, and faithfulness coverage, chasing observability at no performance cost. | - | Python |
-| [teasr](https://github.com/urmzd/teasr) | Capture showcase screenshots and GIFs from web apps, desktop, and terminal. Single Rust binary, no runtime deps. | 2 | Rust, HTML |
 | [mnemonist](https://github.com/urmzd/mnemonist) | Tool-agnostic AI agent memory as a local-first Rust CLI: cognitive verbs (remember, recall, learn, consolidate, forget), plain-markdown memories, local candle embeddings, and HNSW semantic search across memory and code, benchmarked on LongMemEval. | 4 | Rust, Python |
 | [broadcast](https://github.com/urmzd/broadcast) | Turn a blog post into platform-native content (X Articles, LinkedIn posts) from one CLI | - | TypeScript, JavaScript, Shell |
 | [zigbee-skill](https://github.com/urmzd/zigbee-skill) | AI-native smart home skill — lets AI agents control Zigbee devices directly, no cloud, no hub. | - | Go, Shell, Just |
 | [generative-artifact-protocol](https://github.com/urmzd/generative-artifact-protocol) | Generative Artifact Protocol (GAP) — an open standard for token-efficient artifact updates and streaming. Go apply engine + eval CLI. | 1 | Go, TypeScript, Java |
+| [teasr](https://github.com/urmzd/teasr) | Capture showcase screenshots and GIFs from web apps, desktop, and terminal. Single Rust binary, no runtime deps. | 2 | Rust, HTML |
 | [github-insights](https://github.com/urmzd/github-insights) | AI-powered GitHub profile metrics — SVG visualizations, project classification, and README generation. CLI, npm package, and GitHub Action. | 2 | TypeScript, Shell |
 | [oag](https://github.com/urmzd/oag) | OpenAPI 3.x code generator for TypeScript, React/SWR, and FastAPI. Generators are Jinja2 template packs installed locally — customize or write your own without touching Rust — with first-class SSE streaming and literal-faithful enum output. | 1 | Rust, Jinja |
 | [fsrc](https://github.com/urmzd/fsrc) | Embed source files into any text file using comment markers — CLI, crate, and GitHub Action. | 1 | Rust, Python |
@@ -123,4 +123,4 @@ GitHub profile README with auto-generated metrics, project spotlights, and portf
 </picture>
 
 <!-- section: footer -->
-<sub>Last generated on 2026-09-10 using [@urmzd/github-insights](https://github.com/urmzd/github-insights)</sub>
+<sub>Last generated on 2026-09-11 using [@urmzd/github-insights](https://github.com/urmzd/github-insights)</sub>
