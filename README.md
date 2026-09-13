@@ -3,7 +3,7 @@ type: github-profile
 name: Urmzd Mukhammadnaim
 username: urmzd
 title: AI Engineer
-languages: [Go, Rust, TypeScript, Python, Java, Lua, Astro, Go Template, Ruby, JavaScript]
+languages: [Go, Rust, TypeScript, Python, Lua, Java, Astro, Go Template, Ruby, JavaScript]
 profile: https://github.com/urmzd
 -->
 
@@ -17,25 +17,25 @@ Building open tools at the intersection of AI systems, genetic programming, and 
 <!-- section: spotlight -->
 ## Spotlight
 
-### [dotfiles](https://github.com/urmzd/dotfiles)
-Cross-platform dotfiles managed by Chezmoi with Homebrew/apt and per-language version managers. One-command bootstrap for macOS and Linux with Neovim, Tmux, Zsh, and AI agent skills.
-Stars: 3 · Languages: Shell, Lua, Go Template · **Active**
-
 ### [agentspec](https://github.com/urmzd/agentspec)
 Universal agent skill and sub-agent manager with TUI
 Stars: 3 · Languages: Rust, Shell · **Active**
+
+### [dotfiles](https://github.com/urmzd/dotfiles)
+Cross-platform dotfiles managed by Chezmoi with Homebrew/apt and per-language version managers. One-command bootstrap for macOS and Linux with Neovim, Tmux, Zsh, and AI agent skills.
+Stars: 3 · Languages: Shell, Lua, Go Template · **Active**
 
 ### [incipit](https://github.com/urmzd/incipit)
 Here begins the new career. A template-driven CLI that transforms structured resume data into polished PDF, DOCX, HTML, LaTeX, and Markdown, with pluggable templates and ready-to-pipe AI prompts for resume review, optimization, and creation.
 Stars: 12 · Languages: Go, HTML, TeX · **Building**
 
+### [urmzd.com](https://github.com/urmzd/urmzd.com)
+Personal website, blog, and research portfolio built with Astro, React, and Three.js.
+Stars: 1 · Languages: TypeScript, Astro, JavaScript · **Active**
+
 ### [saige](https://github.com/urmzd/saige)
 saige - Super Artificial Intelligence Graph Environment. A unified Go SDK, CLI, and MCP server for streaming AI agents, knowledge graphs, and RAG pipelines, with Ollama, OpenAI, Anthropic, and Google providers behind one interface.
 Stars: 4 · Languages: Go, Go Template · **Building**
-
-### [urmzd](https://github.com/urmzd/urmzd)
-GitHub profile README with auto-generated metrics, project spotlights, and portfolio tables, regenerated on a schedule by github-insights.
-**Active**
 
 <!-- section: velocity -->
 ## Language Velocity
@@ -94,7 +94,6 @@ GitHub profile README with auto-generated metrics, project spotlights, and portf
 | Project | Description | Stars | Languages |
 |---------|-------------|-------|-----------|
 | [whiteboardy](https://github.com/urmzd/whiteboardy) | BETA - Timeboxed system design and coding practice with a live AI coach. Native desktop app (Wails + Go + React), runs fully local against Ollama. | - | Go, TypeScript, NSIS |
-| [urmzd.com](https://github.com/urmzd/urmzd.com) | Personal website, blog, and research portfolio built with Astro, React, and Three.js. | 1 | TypeScript, Astro, JavaScript |
 | [dispatch](https://github.com/urmzd/dispatch) | Beta control plane for agent execution nodes: deploy one service, scale sandboxed agents with metrics on a shared workspace. Access is defined as an NGAC policy machine and enforced by the sandbox, default deny. | - | Go, Shell, Makefile |
 | [opentag](https://github.com/urmzd/opentag) | Agent platform and low-latency pub/sub bus: tag an agent from anywhere, stream its events to anyone, deliver them anywhere. | - | Go, Shell, Makefile |
 
@@ -111,6 +110,7 @@ GitHub profile README with auto-generated metrics, project spotlights, and portf
 |---------|-------------|-------|-----------|
 | [duraturo](https://github.com/urmzd/duraturo) | Durable execution for existing Go code: wrap your functions, run a worker, done. Ledgers, workers, queues over storage you already own. | 1 | Go, Makefile, Shell |
 | [streamsafe](https://github.com/urmzd/streamsafe) | Type-safe async pipeline framework for data processing in Rust | - | Rust, Shell, Just |
+| [urmzd](https://github.com/urmzd/urmzd) | GitHub profile README with auto-generated metrics, project spotlights, and portfolio tables, regenerated on a schedule by github-insights. | - | - |
 
 </details>
 
@@ -123,4 +123,4 @@ GitHub profile README with auto-generated metrics, project spotlights, and portf
 </picture>
 
 <!-- section: footer -->
-<sub>Last generated on 2026-09-12 using [@urmzd/github-insights](https://github.com/urmzd/github-insights)</sub>
+<sub>Last generated on 2026-09-13 using [@urmzd/github-insights](https://github.com/urmzd/github-insights)</sub>
