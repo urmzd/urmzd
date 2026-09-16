@@ -71,10 +71,10 @@ Stars: 4 · Languages: Go, Go Template · **Building**
 
 | Project | Description | Stars | Languages |
 |---------|-------------|-------|-----------|
-| [glassbox-lm](https://github.com/urmzd/glassbox-lm) | Observable language models: every hidden state is a readable distribution over words (hidden dim = vocab size). A uv workspace of architectures plus a glassbox CLI for tracing, causal probing, and faithfulness coverage, chasing observability at no performance cost. | - | Python |
 | [mnemonist](https://github.com/urmzd/mnemonist) | Tool-agnostic AI agent memory as a local-first Rust CLI: cognitive verbs (remember, recall, learn, consolidate, forget), plain-markdown memories, local candle embeddings, and HNSW semantic search across memory and code, benchmarked on LongMemEval. | 4 | Rust, Python |
 | [broadcast](https://github.com/urmzd/broadcast) | Turn a blog post into platform-native content (X Articles, LinkedIn posts) from one CLI | - | TypeScript, JavaScript, Shell |
 | [zigbee-skill](https://github.com/urmzd/zigbee-skill) | AI-native smart home skill — lets AI agents control Zigbee devices directly, no cloud, no hub. | - | Go, Shell, Just |
+| [glassbox-lm](https://github.com/urmzd/glassbox-lm) | Observable language models: every hidden state is a readable distribution over words (hidden dim = vocab size). A uv workspace of architectures plus a glassbox CLI for tracing, causal probing, and faithfulness coverage, chasing observability at no performance cost. | - | Python |
 | [generative-artifact-protocol](https://github.com/urmzd/generative-artifact-protocol) | Generative Artifact Protocol (GAP) — an open standard for token-efficient artifact updates and streaming. Go apply engine + eval CLI. | 1 | Go, TypeScript, Java |
 | [teasr](https://github.com/urmzd/teasr) | Capture showcase screenshots and GIFs from web apps, desktop, and terminal. Single Rust binary, no runtime deps. | 2 | Rust, HTML |
 | [github-insights](https://github.com/urmzd/github-insights) | AI-powered GitHub profile metrics — SVG visualizations, project classification, and README generation. CLI, npm package, and GitHub Action. | 2 | TypeScript, Shell |
@@ -123,4 +123,4 @@ Stars: 4 · Languages: Go, Go Template · **Building**
 </picture>
 
 <!-- section: footer -->
-<sub>Last generated on 2026-09-15 using [@urmzd/github-insights](https://github.com/urmzd/github-insights)</sub>
+<sub>Last generated on 2026-09-16 using [@urmzd/github-insights](https://github.com/urmzd/github-insights)</sub>
