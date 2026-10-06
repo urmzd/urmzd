@@ -19,7 +19,7 @@ Building open tools at the intersection of AI systems, genetic programming, and 
 
 ### [dotfiles](https://github.com/urmzd/dotfiles)
 Cross-platform dotfiles managed by Chezmoi with Homebrew/apt and per-language version managers. One-command bootstrap for macOS and Linux with Neovim, Tmux, Zsh, and AI agent skills.
-Stars: 3 · Languages: Shell, Lua, Go Template · **Active**
+Stars: 3 · Languages: Shell, Rust, Lua · **Active**
 
 ### [saige](https://github.com/urmzd/saige)
 saige - Super Artificial Intelligence Graph Environment. A unified Go SDK, CLI, and MCP server for streaming AI agents, knowledge graphs, and RAG pipelines, with Ollama, OpenAI, Anthropic, and Google providers behind one interface.
@@ -123,4 +123,4 @@ Stars: 12 · Languages: Go, HTML, TeX · **Building**
 </picture>
 
 <!-- section: footer -->
-<sub>Last generated on 2026-10-05 using [@urmzd/github-insights](https://github.com/urmzd/github-insights)</sub>
+<sub>Last generated on 2026-10-06 using [@urmzd/github-insights](https://github.com/urmzd/github-insights)</sub>
