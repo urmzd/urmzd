@@ -3,7 +3,7 @@ type: github-profile
 name: Urmzd Mukhammadnaim
 username: urmzd
 title: AI Engineer
-languages: [Go, Rust, TypeScript, Python, Lua, Java, Astro, Go Template, Ruby, JavaScript]
+languages: [Go, Rust, TypeScript, Python, C, Lua, Java, C++, JavaScript, Astro]
 profile: https://github.com/urmzd
 -->
 
@@ -19,23 +19,23 @@ Building open tools at the intersection of AI systems, genetic programming, and 
 
 ### [dotfiles](https://github.com/urmzd/dotfiles)
 Cross-platform dotfiles managed by Chezmoi with Homebrew/apt and per-language version managers. One-command bootstrap for macOS and Linux with Neovim, Tmux, Zsh, and AI agent skills.
-Stars: 3 · Languages: Rust, Shell, Lua · **Active**
+Stars: 4 · Languages: Rust, Shell, Lua · **Active**
 
 ### [saige](https://github.com/urmzd/saige)
 saige - Super Artificial Intelligence Graph Environment. A unified Go SDK, CLI, and MCP server for streaming AI agents, knowledge graphs, and RAG pipelines, with Ollama, OpenAI, Anthropic, and Google providers behind one interface.
 Stars: 4 · Languages: Go, Go Template · **Active**
 
-### [agentspec](https://github.com/urmzd/agentspec)
-Universal agent skill and sub-agent manager with TUI
-Stars: 3 · Languages: Rust, Shell · **Active**
-
 ### [urmzd.com](https://github.com/urmzd/urmzd.com)
 Personal website, blog, and research portfolio built with Astro, React, and Three.js.
 Stars: 1 · Languages: TypeScript, Astro, JavaScript · **Active**
 
-### [incipit](https://github.com/urmzd/incipit)
-Here begins the new career. A template-driven CLI that transforms structured resume data into polished PDF, DOCX, HTML, LaTeX, and Markdown, with pluggable templates and ready-to-pipe AI prompts for resume review, optimization, and creation.
-Stars: 12 · Languages: Go, HTML, TeX · **Building**
+### [supersource](https://github.com/urmzd/supersource)
+Free, self-paced computer science curriculum from undergraduate foundations to PhD-level and Staff/Principal depth. Every primary resource is open-access, with polyglot practice in 9 languages, 19 company interview guides, and a CI-built single-PDF book.
+Stars: 1 · Languages: Python, C, C++ · **Active**
+
+### [agentspec](https://github.com/urmzd/agentspec)
+Universal agent skill and sub-agent manager with TUI
+Stars: 3 · Languages: Rust, Shell · **Active**
 
 <!-- section: velocity -->
 ## Language Velocity
@@ -72,6 +72,7 @@ Stars: 12 · Languages: Go, HTML, TeX · **Building**
 | Project | Description | Stars | Languages |
 |---------|-------------|-------|-----------|
 | [broadcast](https://github.com/urmzd/broadcast) | Turn a blog post into platform-native content (X Articles, LinkedIn posts) from one CLI | - | TypeScript, JavaScript, Shell |
+| [incipit](https://github.com/urmzd/incipit) | Here begins the new career. A template-driven CLI that transforms structured resume data into polished PDF, DOCX, HTML, LaTeX, and Markdown, with pluggable templates and ready-to-pipe AI prompts for resume review, optimization, and creation. | 12 | Go, HTML, TeX |
 | [zigbee-skill](https://github.com/urmzd/zigbee-skill) | AI-native smart home skill — lets AI agents control Zigbee devices directly, no cloud, no hub. | - | Go, Shell, Just |
 | [glassbox-lm](https://github.com/urmzd/glassbox-lm) | Observable language models: every hidden state is a readable distribution over words (hidden dim = vocab size). A uv workspace of architectures plus a glassbox CLI for tracing, causal probing, and faithfulness coverage, chasing observability at no performance cost. | - | Python |
 | [generative-artifact-protocol](https://github.com/urmzd/generative-artifact-protocol) | Generative Artifact Protocol (GAP) — an open standard for token-efficient artifact updates and streaming. Go apply engine + eval CLI. | 1 | Go, TypeScript, Java |
@@ -123,4 +124,4 @@ Stars: 12 · Languages: Go, HTML, TeX · **Building**
 </picture>
 
 <!-- section: footer -->
-<sub>Last generated on 2026-10-08 using [@urmzd/github-insights](https://github.com/urmzd/github-insights)</sub>
+<sub>Last generated on 2026-10-09 using [@urmzd/github-insights](https://github.com/urmzd/github-insights)</sub>
