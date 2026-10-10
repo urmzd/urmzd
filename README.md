@@ -26,14 +26,13 @@
 ## Everything else
 
 <details>
-<summary>19 more projects</summary>
+<summary>18 more projects</summary>
 
 | Project | What it is | Language | Stars |
 |---|---|---|---|
 | [whiteboardy](https://github.com/urmzd/whiteboardy) | BETA - Timeboxed system design and coding practice with a live AI coach | Go |  |
 | [mnemonist](https://github.com/urmzd/mnemonist) | Tool-agnostic AI agent memory as a local-first Rust CLI: cognitive verbs (remember, recall, learn, consolidate, forget), plain-markdown... | Rust | 4 |
 | [generative-artifact-protocol](https://github.com/urmzd/generative-artifact-protocol) | Generative Artifact Protocol (GAP) — an open standard for token-efficient artifact updates and streaming | Go | 1 |
-| [github-insights](https://github.com/urmzd/github-insights) | AI-powered GitHub profile metrics — SVG visualizations, project classification, and README generation | TypeScript | 2 |
 | [teasr](https://github.com/urmzd/teasr) | Capture showcase screenshots and GIFs from web apps, desktop, and terminal | Rust | 2 |
 | [incipit](https://github.com/urmzd/incipit) | Here begins the new career | Go | 12 |
 | [oag](https://github.com/urmzd/oag) | OpenAPI 3.x code generator for TypeScript, React/SWR, and FastAPI | Rust | 1 |
