@@ -7,6 +7,7 @@ on:
     branches: [main]
 jobs:
   generate-insights:
+    environment: release
     runs-on: ubuntu-latest
     permissions:
       contents: write
