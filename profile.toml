@@ -5,9 +5,11 @@ name = "Urmzd Mukhammadnaim"
 title = "AI Engineer"
 bio = "Building open tools at the intersection of AI systems, genetic programming, and developer infrastructure."
 
-# How many projects the two top sections show.
-active_count = 6
-release_count = 5
+# How many projects lead the page.
+active_count = 5
+
+# Repositories that never lead the page, however busy they are.
+background = ["dotfiles", "urmzd.com"]
 
 # Repositories to leave off the page.
 exclude = ["urmzd"]

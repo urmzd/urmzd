@@ -1,6 +1,6 @@
 # Urmzd
 
-> Urmzd's GitHub profile README repository. The page lists the projects with the most recent work, the latest releases, and every other public project. A script regenerates it nightly from public GitHub data, ranked by commit activity. No model is involved.
+> Urmzd's GitHub profile README repository. The page leads with the projects that have the most recent work and collapses the rest. A script regenerates it nightly from public GitHub data, ranked by commit activity.
 
 ## Docs
 
@@ -9,5 +9,5 @@
 ## API / Key Files
 
 - [scripts/generate_readme.py](https://github.com/urmzd/urmzd/blob/main/scripts/generate_readme.py): The generator, Python standard library only
-- [profile.toml](https://github.com/urmzd/urmzd/blob/main/profile.toml): Name, bio, links and exclusions
+- [profile.toml](https://github.com/urmzd/urmzd/blob/main/profile.toml): Name, bio, links, and which projects stay in the background
 - [.github/workflows/publish.yml](https://github.com/urmzd/urmzd/blob/main/.github/workflows/publish.yml): The nightly run

@@ -8,29 +8,19 @@
 
 | Project | What it is | Commits, 30 days |
 |---|---|---|
-| **[dotfiles](https://github.com/urmzd/dotfiles)** | Cross-platform dotfiles managed by Chezmoi with Homebrew/apt and per-language version managers | 76 |
 | **[supersource](https://github.com/urmzd/supersource)** | Free, self-paced CS curriculum from undergraduate foundations to PhD and Staff/Principal depth, plus a hands-on course where you build your... | 73 |
 | **[saige](https://github.com/urmzd/saige)** | saige - Super Artificial Intelligence Graph Environment | 61 |
-| **[urmzd.com](https://github.com/urmzd/urmzd.com)** | Personal website, blog, and research portfolio built with Astro, React, and Three.js | 20 |
 | **[mandatum](https://github.com/urmzd/mandatum)** | Agent platform and low-latency pub/sub bus: tag an agent from anywhere, stream its events to anyone, deliver them anywhere | 8 |
 | **[agentspec](https://github.com/urmzd/agentspec)** | Universal agent skill and sub-agent manager with TUI | 5 |
-
-## Recently shipped
-
-- 2026-10-10: [mandatum](https://github.com/urmzd/mandatum) [v0.4.0](https://github.com/urmzd/mandatum/releases/tag/v0.4.0)
-- 2026-10-10: [legatus](https://github.com/urmzd/legatus) [v0.2.0](https://github.com/urmzd/legatus/releases/tag/v0.2.0)
-- 2026-10-10: [dotfiles](https://github.com/urmzd/dotfiles) [v0.19.0](https://github.com/urmzd/dotfiles/releases/tag/v0.19.0)
-- 2026-10-10: [saige](https://github.com/urmzd/saige) [v0.34.0](https://github.com/urmzd/saige/releases/tag/v0.34.0)
-- 2026-10-10: [urmzd.com](https://github.com/urmzd/urmzd.com) [v0.19.1](https://github.com/urmzd/urmzd.com/releases/tag/v0.19.1)
-
-## Everything else
+| **[whiteboardy](https://github.com/urmzd/whiteboardy)** | BETA - Timeboxed system design and coding practice with a live AI coach | 5 |
 
 <details>
-<summary>18 more projects</summary>
+<summary>19 more projects</summary>
 
 | Project | What it is | Language | Stars |
 |---|---|---|---|
-| [whiteboardy](https://github.com/urmzd/whiteboardy) | BETA - Timeboxed system design and coding practice with a live AI coach | Go |  |
+| [dotfiles](https://github.com/urmzd/dotfiles) | Cross-platform dotfiles managed by Chezmoi with Homebrew/apt and per-language version managers | Rust | 4 |
+| [urmzd.com](https://github.com/urmzd/urmzd.com) | Personal website, blog, and research portfolio built with Astro, React, and Three.js | TypeScript | 1 |
 | [mnemonist](https://github.com/urmzd/mnemonist) | Tool-agnostic AI agent memory as a local-first Rust CLI: cognitive verbs (remember, recall, learn, consolidate, forget), plain-markdown... | Rust | 4 |
 | [generative-artifact-protocol](https://github.com/urmzd/generative-artifact-protocol) | Generative Artifact Protocol (GAP) — an open standard for token-efficient artifact updates and streaming | Go | 1 |
 | [teasr](https://github.com/urmzd/teasr) | Capture showcase screenshots and GIFs from web apps, desktop, and terminal | Rust | 2 |
@@ -50,5 +40,3 @@
 | [broadcast](https://github.com/urmzd/broadcast) | Turn a blog post into platform-native content (X Articles, LinkedIn posts) from one CLI | TypeScript |  |
 
 </details>
-
-<sub>Regenerated nightly by [`scripts/generate_readme.py`](scripts/generate_readme.py): ranked by my commits in the last 30 and 90 days, no model involved.</sub>
