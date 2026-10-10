@@ -5,13 +5,15 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
+    paths:
+      - profile.toml
+      - scripts/generate_readme.py
+      - .github/workflows/publish.yml
 jobs:
-  generate-insights:
-    environment: release
+  generate-readme:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      models: read
     steps:
       - name: Generate app token
         id: app-token
@@ -25,8 +27,18 @@ jobs:
         with:
           token: ${{ steps.app-token.outputs.token }}
 
-      - uses: urmzd/github-insights@main
-        with:
-          commit-name: "sr-releaser[bot]"
-          commit-email: "sr-releaser[bot]@users.noreply.github.com"
-          template: ecosystem
+      - name: Generate README
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/generate_readme.py
+
+      - name: Commit and push
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "README is up to date."
+            exit 0
+          fi
+          git config user.name "sr-releaser[bot]"
+          git config user.email "sr-releaser[bot]@users.noreply.github.com"
+          git commit -m "chore: update profile README" -- README.md
+          git push

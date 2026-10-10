@@ -1,0 +1,31 @@
+# Input for scripts/generate_readme.py. Everything else on the profile page
+# comes from public GitHub data.
+login = "urmzd"
+name = "Urmzd Mukhammadnaim"
+title = "AI Engineer"
+bio = "Building open tools at the intersection of AI systems, genetic programming, and developer infrastructure."
+
+# How many projects the two top sections show.
+active_count = 6
+release_count = 5
+
+# Repositories to leave off the page.
+exclude = ["urmzd"]
+
+[[links]]
+label = "urmzd.com"
+badge = "urmzd.com-4285F4"
+logo = "google-chrome"
+url = "https://urmzd.com"
+
+[[links]]
+label = "@urmzd_"
+badge = "@urmzd__-000000"
+logo = "x"
+url = "https://x.com/urmzd_"
+
+[[links]]
+label = "urmzd"
+badge = "urmzd-0A66C2"
+logo = "linkedin"
+url = "https://linkedin.com/in/urmzd"
