@@ -23,7 +23,7 @@ Stars: 12 · Languages: Go, HTML, TeX · **Active**
 
 ### [saige](https://github.com/urmzd/saige)
 saige - Super Artificial Intelligence Graph Environment. A unified Go SDK, CLI, and MCP server for streaming AI agents, knowledge graphs, and RAG pipelines, with Ollama, OpenAI, Anthropic, and Google providers behind one interface.
-Stars: 5 · Languages: Go, Go Template · **Active**
+Stars: 5 · Languages: Go, Go Template, PLpgSQL · **Active**
 
 ### [mnemonist](https://github.com/urmzd/mnemonist)
 Tool-agnostic AI agent memory as a local-first Rust CLI: cognitive verbs (remember, recall, learn, consolidate, forget), plain-markdown memories, local candle embeddings, and HNSW semantic search across memory and code, benchmarked on LongMemEval.
@@ -73,7 +73,7 @@ Stars: 3 · Languages: Rust, Shell · **Active**
 |---------|-------------|-------|-----------|
 | [broadcast](https://github.com/urmzd/broadcast) | Turn a blog post into platform-native content (X Articles, LinkedIn posts) from one CLI | - | TypeScript, JavaScript, Shell |
 | [zigbee-skill](https://github.com/urmzd/zigbee-skill) | AI-native smart home skill — lets AI agents control Zigbee devices directly, no cloud, no hub. | - | Go, Shell, Just |
-| [glassbox-lm](https://github.com/urmzd/glassbox-lm) | Observable language models: every hidden state is a readable distribution over words (hidden dim = vocab size). A uv workspace of architectures plus a glassbox CLI for tracing, causal probing, and faithfulness coverage, chasing observability at no performance cost. | - | Python |
+| [vitrum](https://github.com/urmzd/vitrum) | Observable language models: every hidden state is a readable distribution over words (hidden dim = vocab size). A uv workspace of architectures plus a vitrum CLI for tracing, causal probing, and faithfulness coverage. Formerly glassbox-lm. | - | Python |
 | [generative-artifact-protocol](https://github.com/urmzd/generative-artifact-protocol) | Generative Artifact Protocol (GAP) — an open standard for token-efficient artifact updates and streaming. Go apply engine + eval CLI. | 1 | Go, TypeScript, Java |
 | [teasr](https://github.com/urmzd/teasr) | Capture showcase screenshots and GIFs from web apps, desktop, and terminal. Single Rust binary, no runtime deps. | 2 | Rust, HTML |
 | [github-insights](https://github.com/urmzd/github-insights) | AI-powered GitHub profile metrics — SVG visualizations, project classification, and README generation. CLI, npm package, and GitHub Action. | 2 | TypeScript, Shell |
@@ -93,9 +93,9 @@ Stars: 3 · Languages: Rust, Shell · **Active**
 | Project | Description | Stars | Languages |
 |---------|-------------|-------|-----------|
 | [whiteboardy](https://github.com/urmzd/whiteboardy) | BETA - Timeboxed system design and coding practice with a live AI coach. Native desktop app (Wails + Go + React), runs fully local against Ollama. | - | Go, TypeScript, NSIS |
+| [dispatch](https://github.com/urmzd/dispatch) | Beta control plane for agent execution nodes: deploy one service, scale sandboxed agents with metrics on a shared workspace. Access is defined as an NGAC policy machine and enforced by the sandbox, default deny. | - | Go, Shell, Makefile |
 | [opentag](https://github.com/urmzd/opentag) | Agent platform and low-latency pub/sub bus: tag an agent from anywhere, stream its events to anyone, deliver them anywhere. | - | Go, Shell, Makefile |
 | [urmzd.com](https://github.com/urmzd/urmzd.com) | Personal website, blog, and research portfolio built with Astro, React, and Three.js. | 1 | TypeScript, Astro, JavaScript |
-| [dispatch](https://github.com/urmzd/dispatch) | Beta control plane for agent execution nodes: deploy one service, scale sandboxed agents with metrics on a shared workspace. Access is defined as an NGAC policy machine and enforced by the sandbox, default deny. | - | Go, Shell, Makefile |
 
 ### Research & Experiments
 
