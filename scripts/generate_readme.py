@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Generate the profile README from public GitHub data.
 
-No model is involved. Projects are ranked by how much the owner committed to
-them recently, so the page follows the work without being edited by hand.
+Projects are ranked by how much the owner committed to them recently, so the
+page follows the work without being edited by hand.
 
 Usage: GH_TOKEN=... python3 scripts/generate_readme.py [--check]
 """
@@ -32,7 +32,6 @@ query($login: String!, $author: ID!, $recent: GitTimestamp!, $quarter: GitTimest
       nodes {
         name url description stargazerCount isArchived
         primaryLanguage { name }
-        latestRelease { tagName publishedAt url }
         defaultBranchRef {
           target {
             ... on Commit {
@@ -117,15 +116,13 @@ def link(repo: dict) -> str:
     return f"[{repo['name']}]({repo['url']})"
 
 
-def day(timestamp: str) -> str:
-    return timestamp[:10]
-
-
 def render(config: dict, repos: list[dict]) -> str:
     excluded = set(config.get("exclude", []))
     repos = [r for r in repos if not r["isArchived"] and r["name"] not in excluded]
     ranked = sorted(repos, key=lambda r: (-score(r), r["name"]))
-    active = [r for r in ranked if commits(r, "recent") > 0][: config.get("active_count", 6)]
+    background = set(config.get("background", []))
+    active = [r for r in ranked if commits(r, "recent") > 0 and r["name"] not in background]
+    active = active[: config.get("active_count", 5)]
     active_names = {r["name"] for r in active}
 
     out = [f"# {config['name']}", "", f"**{config['title']}.** {config['bio']}", ""]
@@ -143,23 +140,9 @@ def render(config: dict, repos: list[dict]) -> str:
             out.append(f"| **{link(repo)}** | {summary(repo['description'])} | {commits(repo, 'recent')} |")
         out.append("")
 
-    released = sorted(
-        (r for r in repos if r.get("latestRelease")),
-        key=lambda r: r["latestRelease"]["publishedAt"],
-        reverse=True,
-    )[: config.get("release_count", 5)]
-    if released:
-        out += ["## Recently shipped", ""]
-        for repo in released:
-            release = repo["latestRelease"]
-            out.append(
-                f"- {day(release['publishedAt'])}: {link(repo)} [{release['tagName']}]({release['url']})"
-            )
-        out.append("")
-
     rest = [r for r in ranked if r["name"] not in active_names]
     if rest:
-        out += ["## Everything else", "", "<details>", f"<summary>{len(rest)} more projects</summary>", ""]
+        out += ["<details>", f"<summary>{len(rest)} more projects</summary>", ""]
         out += ["| Project | What it is | Language | Stars |", "|---|---|---|---|"]
         for repo in rest:
             language = (repo.get("primaryLanguage") or {}).get("name", "")
@@ -167,11 +150,6 @@ def render(config: dict, repos: list[dict]) -> str:
             out.append(f"| {link(repo)} | {summary(repo['description'])} | {language} | {stars} |")
         out += ["", "</details>", ""]
 
-    out += [
-        "<sub>Regenerated nightly by [`scripts/generate_readme.py`](scripts/generate_readme.py): "
-        "ranked by my commits in the last 30 and 90 days, no model involved.</sub>",
-        "",
-    ]
     return "\n".join(out)
 
 
