@@ -17,7 +17,7 @@ Solid arrows are Go module dependencies. Dashed boxes are external systems.
 
 | Project | What it is | Commits, 30 days |
 |---|---|---|
-| **[supersource](https://github.com/urmzd/supersource)** | Free, self-paced CS curriculum from undergraduate foundations to PhD and Staff/Principal depth, plus a hands-on course where you build your... | 73 |
+| **[openlearn](https://github.com/urmzd/openlearn)** | Free, self-paced CS curriculum from undergraduate foundations to PhD and Staff/Principal depth, plus a hands-on course where you build your... | 81 |
 | **[saige](https://github.com/urmzd/saige)** | saige - Super Artificial Intelligence Graph Environment | 61 |
 | **[vultus](https://github.com/urmzd/vultus)** | One agent UI model, rendered to the web and Slack Block Kit from the same React components | 15 |
 | **[mandatum](https://github.com/urmzd/mandatum)** | Agent platform and low-latency pub/sub bus: tag an agent from anywhere, stream its events to anyone, deliver them anywhere | 9 |
