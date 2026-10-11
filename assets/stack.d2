@@ -1,0 +1,93 @@
+# The agent stack. Solid edges are dependencies declared in go.mod.
+# Dashed boxes are systems outside these repos.
+
+direction: down
+
+surfaces: "Slack  ·  GitHub  ·  Jira  ·  cron  ·  webhooks" {class: external}
+models: "Ollama  ·  OpenAI  ·  Anthropic  ·  Google" {class: external}
+storage: "Postgres" {class: external}
+
+mandatum: "" {
+  class: card
+  style.stroke: ${blue}
+  style.fill: ${blue-tint}
+  gutter: "." {class: pad}
+  body: "" {
+    class: body
+    name: "mandatum" {class: name}
+    role: "PLATFORM AND BUS  ·  Go" {class: role; style.font-color: ${blue}}
+    l1: "agent platform and" {class: desc}
+    l2: "low-latency pub/sub bus" {class: desc}
+    foot: "." {class: pad}
+  }
+}
+
+whiteboardy: "" {
+  class: card
+  style.stroke: ${blue}
+  style.fill: ${blue-tint}
+  gutter: "." {class: pad}
+  body: "" {
+    class: body
+    name: "whiteboardy" {class: name}
+    role: "DESKTOP APP  ·  Go" {class: role; style.font-color: ${blue}}
+    l1: "timed system design practice" {class: desc}
+    l2: "with a local AI coach" {class: desc}
+    foot: "." {class: pad}
+  }
+}
+
+legatus: "" {
+  class: card
+  style.stroke: ${blue}
+  style.fill: ${blue-tint}
+  gutter: "." {class: pad}
+  body: "" {
+    class: body
+    name: "legatus" {class: name}
+    role: "EXECUTION  ·  Go" {class: role; style.font-color: ${blue}}
+    l1: "control plane for sandboxed" {class: desc}
+    l2: "agent execution nodes" {class: desc}
+    foot: "." {class: pad}
+  }
+}
+
+saige: "" {
+  class: card
+  style.stroke: ${blue}
+  style.fill: ${blue-tint}
+  gutter: "." {class: pad}
+  body: "" {
+    class: body
+    name: "saige" {class: name}
+    role: "AGENT SDK  ·  Go" {class: role; style.font-color: ${blue}}
+    l1: "agents, knowledge graphs, RAG" {class: desc}
+    l2: "as SDK, CLI, and MCP server" {class: desc}
+    foot: "." {class: pad}
+  }
+}
+
+duraturo: "" {
+  class: card
+  style.stroke: ${blue}
+  style.fill: ${blue-tint}
+  gutter: "." {class: pad}
+  body: "" {
+    class: body
+    name: "duraturo" {class: name}
+    role: "DURABILITY  ·  Go" {class: role; style.font-color: ${blue}}
+    l1: "durable execution for" {class: desc}
+    l2: "existing Go code" {class: desc}
+    foot: "." {class: pad}
+  }
+}
+
+mandatum -> legatus: sandboxed runs {class: depends}
+mandatum -> saige: agent loop {class: depends}
+mandatum -> duraturo: journal, replay {class: depends}
+whiteboardy -> saige: model providers {class: depends}
+saige -> duraturo: crash recovery {class: depends}
+
+surfaces <-> mandatum: triggers, deliveries {class: talks-to}
+saige -> models: completions {class: talks-to}
+duraturo -> storage: ledger, queue {class: talks-to}

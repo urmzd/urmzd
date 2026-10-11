@@ -1,0 +1,93 @@
+# Shared classes for stack.d2 and map.d2. Colours come from light.d2 or dark.d2.
+# d2 grids have no inner padding, so each card carries an invisible gutter and foot.
+
+classes: {
+  group: {
+    style: {
+      fill: ${panel}
+      stroke: ${line}
+      border-radius: 14
+      font-size: 18
+      bold: true
+    }
+  }
+  card: {
+    grid-rows: 1
+    grid-gap: 0
+    style: {
+      border-radius: 10
+      stroke-width: 2
+    }
+  }
+  body: {
+    grid-columns: 1
+    grid-gap: 2
+    style: {
+      fill: transparent
+      stroke-width: 0
+    }
+  }
+  pad: {
+    shape: text
+    width: 14
+    height: 12
+    style: {
+      font-size: 8
+      opacity: 0
+    }
+  }
+  name: {
+    shape: text
+    width: 316
+    height: 48
+    style: {
+      font-color: ${fg}
+      font-size: 24
+      bold: true
+    }
+  }
+  role: {
+    shape: text
+    width: 316
+    height: 30
+    style: {
+      font-size: 15
+      bold: true
+    }
+  }
+  desc: {
+    shape: text
+    width: 316
+    style: {
+      font-color: ${muted}
+      font-size: 18
+    }
+  }
+  depends: {
+    style: {
+      stroke: ${blue}
+      font-color: ${fg}
+      font-size: 17
+      stroke-width: 2
+    }
+  }
+  external: {
+    style: {
+      fill: transparent
+      stroke: ${muted}
+      stroke-dash: 4
+      font-color: ${muted}
+      font-size: 17
+      bold: false
+      border-radius: 10
+    }
+  }
+  talks-to: {
+    style: {
+      stroke: ${muted}
+      font-color: ${muted}
+      font-size: 16
+      stroke-dash: 4
+    }
+  }
+}
