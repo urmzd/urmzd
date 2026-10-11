@@ -1,0 +1,288 @@
+# Projects outside the agent stack, grouped by area.
+# The one edge is a dependency declared in Cargo.toml.
+
+grid-columns: 1
+grid-gap: 24
+
+agents: "AGENT TOOLING" {
+  class: group
+  style.font-color: ${magenta}
+  grid-columns: 3
+  grid-gap: 24
+
+  agentspec: "" {
+    class: card
+    style.stroke: ${magenta}
+    style.fill: ${magenta-tint}
+    gutter: "." {class: pad}
+    body: "" {
+      class: body
+      name: "agentspec" {class: name}
+      role: "SKILLS  ·  Rust" {class: role; style.font-color: ${magenta}}
+      l1: "skill and sub-agent manager" {class: desc}
+      l2: "for AI coding tools" {class: desc}
+      foot: "." {class: pad}
+    }
+  }
+
+  mnemonist: "" {
+    class: card
+    style.stroke: ${magenta}
+    style.fill: ${magenta-tint}
+    gutter: "." {class: pad}
+    body: "" {
+      class: body
+      name: "mnemonist" {class: name}
+      role: "MEMORY  ·  Rust" {class: role; style.font-color: ${magenta}}
+      l1: "local-first agent memory" {class: desc}
+      l2: "in plain markdown" {class: desc}
+      foot: "." {class: pad}
+    }
+  }
+
+  vultus: "" {
+    class: card
+    style.stroke: ${magenta}
+    style.fill: ${magenta-tint}
+    gutter: "." {class: pad}
+    body: "" {
+      class: body
+      name: "vultus" {class: name}
+      role: "AGENT UI  ·  TypeScript" {class: role; style.font-color: ${magenta}}
+      l1: "one UI model rendered to" {class: desc}
+      l2: "web and Slack Block Kit" {class: desc}
+      foot: "." {class: pad}
+    }
+  }
+
+  lazyspeak: "" {
+    class: card
+    style.stroke: ${magenta}
+    style.fill: ${magenta-tint}
+    gutter: "." {class: pad}
+    body: "" {
+      class: body
+      name: "lazyspeak.nvim" {class: name}
+      role: "VOICE  ·  Lua" {class: role; style.font-color: ${magenta}}
+      l1: "voice-driven coding" {class: desc}
+      l2: "for Neovim" {class: desc}
+      foot: "." {class: pad}
+    }
+  }
+
+  dotfiles: "" {
+    class: card
+    style.stroke: ${magenta}
+    style.fill: ${magenta-tint}
+    gutter: "." {class: pad}
+    body: "" {
+      class: body
+      name: "dotfiles" {class: name}
+      role: "MACHINE SETUP  ·  chezmoi" {class: role; style.font-color: ${magenta}}
+      l1: "machine bootstrap that" {class: desc}
+      l2: "installs agent skills" {class: desc}
+      foot: "." {class: pad}
+    }
+  }
+
+  # Invisible filler: d2 stretches the last card when a column is short.
+  spare: "." {class: pad; width: 344}
+
+}
+
+tools: "DEVELOPER TOOLS" {
+  class: group
+  style.font-color: ${cyan}
+  grid-columns: 3
+  grid-gap: 24
+
+  sr: "" {
+    class: card
+    style.stroke: ${cyan}
+    style.fill: ${cyan-tint}
+    gutter: "." {class: pad}
+    body: "" {
+      class: body
+      name: "sr" {class: name}
+      role: "RELEASES  ·  Rust" {class: role; style.font-color: ${cyan}}
+      l1: "semantic versioning from" {class: desc}
+      l2: "conventional commits" {class: desc}
+      foot: "." {class: pad}
+    }
+  }
+
+  teasr: "" {
+    class: card
+    style.stroke: ${cyan}
+    style.fill: ${cyan-tint}
+    gutter: "." {class: pad}
+    body: "" {
+      class: body
+      name: "teasr" {class: name}
+      role: "DEMOS  ·  Rust" {class: role; style.font-color: ${cyan}}
+      l1: "screenshots and GIFs of web," {class: desc}
+      l2: "desktop, and terminal apps" {class: desc}
+      foot: "." {class: pad}
+    }
+  }
+
+  fsrc: "" {
+    class: card
+    style.stroke: ${cyan}
+    style.fill: ${cyan-tint}
+    gutter: "." {class: pad}
+    body: "" {
+      class: body
+      name: "fsrc" {class: name}
+      role: "DOCS  ·  Rust" {class: role; style.font-color: ${cyan}}
+      l1: "embed source files in docs" {class: desc}
+      l2: "with comment markers" {class: desc}
+      foot: "." {class: pad}
+    }
+  }
+
+  oag: "" {
+    class: card
+    style.stroke: ${cyan}
+    style.fill: ${cyan-tint}
+    gutter: "." {class: pad}
+    body: "" {
+      class: body
+      name: "oag" {class: name}
+      role: "CODEGEN  ·  Rust" {class: role; style.font-color: ${cyan}}
+      l1: "OpenAPI 3 to TypeScript," {class: desc}
+      l2: "React/SWR, and FastAPI" {class: desc}
+      foot: "." {class: pad}
+    }
+  }
+
+  streamsafe: "" {
+    class: card
+    style.stroke: ${cyan}
+    style.fill: ${cyan-tint}
+    gutter: "." {class: pad}
+    body: "" {
+      class: body
+      name: "streamsafe" {class: name}
+      role: "PIPELINES  ·  Rust" {class: role; style.font-color: ${cyan}}
+      l1: "type-safe async" {class: desc}
+      l2: "data pipelines" {class: desc}
+      foot: "." {class: pad}
+    }
+  }
+
+  incipit: "" {
+    class: card
+    style.stroke: ${cyan}
+    style.fill: ${cyan-tint}
+    gutter: "." {class: pad}
+    body: "" {
+      class: body
+      name: "incipit" {class: name}
+      role: "RESUMES  ·  Go" {class: role; style.font-color: ${cyan}}
+      l1: "resume data to PDF, DOCX," {class: desc}
+      l2: "HTML, and LaTeX" {class: desc}
+      foot: "." {class: pad}
+    }
+  }
+
+}
+
+research: "RESEARCH  ·  LEARNING  ·  WRITING" {
+  class: group
+  style.font-color: ${green}
+  grid-columns: 3
+  grid-gap: 24
+
+  lgp: "" {
+    class: card
+    style.stroke: ${green}
+    style.fill: ${green-tint}
+    gutter: "." {class: pad}
+    body: "" {
+      class: body
+      name: "linear-gp" {class: name}
+      role: "GENETIC PROGRAMMING  ·  Rust" {class: role; style.font-color: ${green}}
+      l1: "linear genetic programming" {class: desc}
+      l2: "with Q-learning" {class: desc}
+      foot: "." {class: pad}
+    }
+  }
+
+  gymnasia: "" {
+    class: card
+    style.stroke: ${green}
+    style.fill: ${green-tint}
+    gutter: "." {class: pad}
+    body: "" {
+      class: body
+      name: "gymnasia" {class: name}
+      role: "ENVIRONMENTS  ·  Rust" {class: role; style.font-color: ${green}}
+      l1: "Gymnasium environments" {class: desc}
+      l2: "in pure Rust" {class: desc}
+      foot: "." {class: pad}
+    }
+  }
+
+  vitrum: "" {
+    class: card
+    style.stroke: ${green}
+    style.fill: ${green-tint}
+    gutter: "." {class: pad}
+    body: "" {
+      class: body
+      name: "vitrum" {class: name}
+      role: "INTERPRETABILITY  ·  Python" {class: role; style.font-color: ${green}}
+      l1: "language models with" {class: desc}
+      l2: "readable hidden states" {class: desc}
+      foot: "." {class: pad}
+    }
+  }
+
+  supersource: "" {
+    class: card
+    style.stroke: ${green}
+    style.fill: ${green-tint}
+    gutter: "." {class: pad}
+    body: "" {
+      class: body
+      name: "supersource" {class: name}
+      role: "CURRICULUM  ·  Python, Rust, Go" {class: role; style.font-color: ${green}}
+      l1: "computer science from" {class: desc}
+      l2: "undergraduate to Staff depth" {class: desc}
+      foot: "." {class: pad}
+    }
+  }
+
+  languide: "" {
+    class: card
+    style.stroke: ${green}
+    style.fill: ${green-tint}
+    gutter: "." {class: pad}
+    body: "" {
+      class: body
+      name: "languide" {class: name}
+      role: "LANGUAGE GUIDES  ·  Markdown" {class: role; style.font-color: ${green}}
+      l1: "scenario-based guides" {class: desc}
+      l2: "rendered to PDF" {class: desc}
+      foot: "." {class: pad}
+    }
+  }
+
+  broadcast: "" {
+    class: card
+    style.stroke: ${green}
+    style.fill: ${green-tint}
+    gutter: "." {class: pad}
+    body: "" {
+      class: body
+      name: "broadcast" {class: name}
+      role: "PUBLISHING  ·  TypeScript" {class: role; style.font-color: ${green}}
+      l1: "blog posts to X Articles" {class: desc}
+      l2: "and LinkedIn posts" {class: desc}
+      foot: "." {class: pad}
+    }
+  }
+
+  lgp -> gymnasia {class: depends; style.stroke: ${green}}
+}

@@ -2,8 +2,7 @@
 # comes from public GitHub data.
 login = "urmzd"
 name = "Urmzd Mukhammadnaim"
-title = "AI Engineer"
-bio = "Building open tools at the intersection of AI systems, genetic programming, and developer infrastructure."
+bio = "Hey folks, I'm Urmzd. Honestly, I just like building things. Here's what I'm working on."
 
 # How many projects lead the page.
 active_count = 5
@@ -13,6 +12,18 @@ background = ["dotfiles", "urmzd.com"]
 
 # Repositories to leave off the page.
 exclude = ["urmzd"]
+
+# Diagrams, drawn in d2. Sources are assets/stack.d2 and assets/map.d2;
+# rerender with scripts/render_diagrams.sh after editing them.
+[diagrams.stack]
+title = "Agent stack"
+caption = "Solid arrows are Go module dependencies. Dashed boxes are external systems."
+alt = "Dependency diagram. mandatum depends on legatus, saige, and duraturo. whiteboardy depends on saige. saige depends on duraturo. mandatum connects to Slack, GitHub, Jira, cron, and webhooks; saige to Ollama, OpenAI, Anthropic, and Google; duraturo to Postgres."
+
+[diagrams.map]
+title = "Other projects"
+caption = "Projects outside the agent stack, grouped by area."
+alt = "Project cards in three groups. Agent tooling: agentspec, mnemonist, vultus, lazyspeak.nvim, dotfiles. Developer tools: sr, teasr, fsrc, oag, streamsafe, incipit. Research, learning, writing: linear-gp, gymnasia, vitrum, supersource, languide, broadcast."
 
 [[links]]
 label = "urmzd.com"

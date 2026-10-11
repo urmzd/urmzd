@@ -13,6 +13,7 @@ import datetime as dt
 import json
 import math
 import os
+import re
 import sys
 import tomllib
 import urllib.request
@@ -116,6 +117,39 @@ def link(repo: dict) -> str:
     return f"[{repo['name']}]({repo['url']})"
 
 
+def diagram(config: dict, key: str) -> list[str]:
+    """A d2 diagram from assets/, one render per GitHub colour scheme."""
+    spec = config.get("diagrams", {}).get(key)
+    if not spec:
+        return []
+    light, dark = (f"assets/{key}-{scheme}.svg" for scheme in ("light", "dark"))
+    if not ((ROOT / light).exists() and (ROOT / dark).exists()):
+        print(f"warning: diagram '{key}' is not rendered, run scripts/render_diagrams.sh", file=sys.stderr)
+        return []
+    return [
+        f"## {spec['title']}",
+        "",
+        spec["caption"],
+        "",
+        "<picture>",
+        f'  <source media="(prefers-color-scheme: dark)" srcset="{dark}">',
+        f'  <img src="{light}" alt="{spec["alt"]}" width="100%">',
+        "</picture>",
+        "",
+    ]
+
+
+def stale_cards(config: dict, repos: list[dict]) -> list[str]:
+    """Projects drawn in a diagram that are no longer public, unarchived repositories."""
+    live = {r["name"] for r in repos if not r["isArchived"]}
+    drawn: set[str] = set()
+    for key in config.get("diagrams", {}):
+        source = ROOT / "assets" / f"{key}.d2"
+        if source.exists():
+            drawn.update(re.findall(r'name: "([^"]+)" \{class: name\}', source.read_text()))
+    return sorted(drawn - live)
+
+
 def render(config: dict, repos: list[dict]) -> str:
     excluded = set(config.get("exclude", []))
     repos = [r for r in repos if not r["isArchived"] and r["name"] not in excluded]
@@ -125,13 +159,15 @@ def render(config: dict, repos: list[dict]) -> str:
     active = active[: config.get("active_count", 5)]
     active_names = {r["name"] for r in active}
 
-    out = [f"# {config['name']}", "", f"**{config['title']}.** {config['bio']}", ""]
+    lead = f"**{config['title']}** " if config.get("title") else ""
+    out = [f"# {config['name']}", "", f"{lead}{config['bio']}", ""]
     badges = [
         f"[![{b['label']}](https://img.shields.io/badge/{b['badge']}?style=flat&logo={b['logo']}&logoColor=white)]({b['url']})"
         for b in config.get("links", [])
     ]
     if badges:
         out += [" ".join(badges), ""]
+    out += diagram(config, "stack")
 
     if active:
         out += ["## Working on now", ""]
@@ -139,6 +175,8 @@ def render(config: dict, repos: list[dict]) -> str:
         for repo in active:
             out.append(f"| **{link(repo)}** | {summary(repo['description'])} | {commits(repo, 'recent')} |")
         out.append("")
+
+    out += diagram(config, "map")
 
     rest = [r for r in ranked if r["name"] not in active_names]
     if rest:
@@ -159,7 +197,10 @@ def main() -> None:
         raise SystemExit("Set GH_TOKEN or GITHUB_TOKEN.")
     config = tomllib.loads(CONFIG.read_text())
     today = dt.datetime.now(dt.timezone.utc).date()
-    readme = render(config, fetch_repos(token, config["login"], today))
+    repos = fetch_repos(token, config["login"], today)
+    for name in stale_cards(config, repos):
+        print(f"warning: '{name}' is drawn in a diagram but is not a public, unarchived repository", file=sys.stderr)
+    readme = render(config, repos)
     if "--check" in sys.argv:
         sys.stdout.write(readme)
         return
