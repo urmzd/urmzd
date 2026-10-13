@@ -21,7 +21,7 @@ Solid arrows are Go module dependencies. Dashed boxes are external systems.
 | **[saige](https://github.com/urmzd/saige)** | saige - Super Artificial Intelligence Graph Environment | 62 |
 | **[vultus](https://github.com/urmzd/vultus)** | One agent UI model, rendered to the web and Slack Block Kit from the same React components | 15 |
 | **[mandatum](https://github.com/urmzd/mandatum)** | Agent platform and low-latency pub/sub bus: tag an agent from anywhere, stream its events to anyone, deliver them anywhere | 9 |
-| **[agentspec](https://github.com/urmzd/agentspec)** | Universal agent skill and sub-agent manager with TUI | 5 |
+| **[agentspec](https://github.com/urmzd/agentspec)** | Universal agent skill and sub-agent manager with TUI | 3 |
 
 ## Other projects
 
