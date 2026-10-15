@@ -1,0 +1,10 @@
+# Generated from profile.toml. Do not edit by hand.
+direction: down
+evolve: "Evolve programs" {class: goal}
+linear_gp: "linear-gp\nGenetic programming" {class: project}
+gymnasia: "gymnasia\nTraining environments" {class: project}
+inspect: "Inspect language models" {class: goal}
+vitrum: "vitrum\nReadable model states" {class: project}
+evolve -> linear_gp: "explore" {class: guide}
+linear_gp -> gymnasia: "optional: gym feature" {class: dependency}
+inspect -> vitrum: "explore" {class: guide}

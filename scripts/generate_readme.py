@@ -12,13 +12,15 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import json
+import html
 import math
 import os
-import re
 import sys
 import tomllib
 import urllib.request
 from pathlib import Path
+
+from profile_maps import alt, caption, project_names, validate, validate_dependencies
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG = ROOT / "profile.toml"
@@ -80,6 +82,20 @@ def fetch_repos(token: str, login: str, today: dt.date) -> list[dict]:
         variables["cursor"] = page["pageInfo"]["endCursor"]
 
 
+def fetch_manifest(token: str, login: str, evidence: str) -> str:
+    repo, path = evidence.split("/", 1)
+    query = """query($login: String!, $repo: String!, $expression: String!) {
+      repository(owner: $login, name: $repo) {
+        object(expression: $expression) { ... on Blob { text } }
+      }
+    }"""
+    result = graphql(token, query, {"login": login, "repo": repo, "expression": "HEAD:" + path})
+    obj = (result.get("repository") or {}).get("object") or {}
+    if not obj.get("text"):
+        raise ValueError(f"Missing dependency manifest: {evidence}")
+    return obj["text"]
+
+
 def iso(day: dt.date) -> str:
     return f"{day.isoformat()}T00:00:00Z"
 
@@ -119,35 +135,34 @@ def link(repo: dict) -> str:
 
 
 def diagram(config: dict, key: str) -> list[str]:
-    """A d2 diagram from assets/, one render per GitHub colour scheme."""
+    """Render the same map metadata used to generate the SVG."""
     spec = config.get("diagrams", {}).get(key)
     if not spec:
         return []
     light, dark = (f"assets/{key}-{scheme}.svg" for scheme in ("light", "dark"))
     if not ((ROOT / light).exists() and (ROOT / dark).exists()):
-        print(f"warning: diagram '{key}' is not rendered, run scripts/render_diagrams.sh", file=sys.stderr)
-        return []
-    return [
-        f"## {spec['title']}",
-        "",
-        spec["caption"],
-        "",
-        "<picture>",
+        raise ValueError(f"Missing diagram '{key}'; run scripts/render_diagrams.sh")
+    links = " · ".join(f"[{name}](https://github.com/{config['login']}/{name})" for name in project_names(spec))
+    evidence = sorted({edge["evidence"] for edge in spec["edges"] if edge.get("evidence")})
+    sources = []
+    for path in evidence:
+        repo, file = path.split("/", 1)
+        sources.append(f"[{path}](https://github.com/{config['login']}/{repo}/blob/HEAD/{file})")
+    out = [
+        f"## {spec['title']}", "", caption(spec), "", "<picture>",
         f'  <source media="(prefers-color-scheme: dark)" srcset="{dark}">',
-        f'  <img src="{light}" alt="{spec["alt"]}" width="100%">',
-        "</picture>",
-        "",
+        f'  <img src="{light}" alt="{html.escape(alt(spec), quote=True)}" width="100%">',
+        "</picture>", "", links, "",
     ]
+    if sources:
+        out += ["Dependency sources: " + ", ".join(sources) + ".", ""]
+    return out
 
 
 def stale_cards(config: dict, repos: list[dict]) -> list[str]:
-    """Projects drawn in a diagram that are no longer public, unarchived repositories."""
-    live = {r["name"] for r in repos if not r["isArchived"]}
-    drawn: set[str] = set()
-    for key in config.get("diagrams", {}):
-        source = ROOT / "assets" / f"{key}.d2"
-        if source.exists():
-            drawn.update(re.findall(r'name: "([^"]+)" \{class: name\}', source.read_text()))
+    """Reject map references that cannot be found in the public repository data."""
+    live = {repo["name"] for repo in repos if not repo["isArchived"]}
+    drawn = {name for spec in config.get("diagrams", {}).values() for name in project_names(spec)}
     return sorted(drawn - live)
 
 
@@ -168,9 +183,10 @@ def render(config: dict, repos: list[dict]) -> str:
     ]
     if badges:
         out += [" ".join(badges), ""]
+    out += diagram(config, "finder")
     by_name = {repo["name"]: repo for repo in repos}
     featured = [item for item in config.get("featured", []) if item["name"] in by_name]
-    if featured:
+    if featured and "finder" not in config.get("diagrams", {}):
         out += ["## Start here", "", "| Project | What you can do |", "|---|---|"]
         for item in featured:
             out.append(f"| **{link(by_name[item['name']])}** | {cell(item['pitch'])} |")
@@ -189,7 +205,7 @@ def render(config: dict, repos: list[dict]) -> str:
         out.append("")
 
     out += diagram(config, "stack")
-    out += diagram(config, "map")
+    out += diagram(config, "research")
 
     rest = [r for r in ranked if r["name"] not in active_names]
     if rest:
@@ -214,10 +230,13 @@ def main() -> None:
     if not token:
         raise SystemExit("Set GH_TOKEN or GITHUB_TOKEN.")
     config = tomllib.loads(CONFIG.read_text())
+    validate(config)
     today = dt.datetime.now(dt.timezone.utc).date()
     repos = fetch_repos(token, config["login"], today)
-    for name in stale_cards(config, repos):
-        print(f"warning: '{name}' is drawn in a diagram but is not a public, unarchived repository", file=sys.stderr)
+    stale = stale_cards(config, repos)
+    if stale:
+        raise SystemExit("Maps reference unavailable repositories: " + ", ".join(stale))
+    validate_dependencies(config, lambda evidence: fetch_manifest(token, config["login"], evidence))
     readme = render(config, repos)
     if args.preview:
         sys.stdout.write(readme)

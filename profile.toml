@@ -14,18 +14,6 @@ background = ["dotfiles", "urmzd.com"]
 # Repositories to leave off the page.
 exclude = ["urmzd"]
 
-# Diagrams, drawn in d2. Sources are assets/stack.d2 and assets/map.d2;
-# rerender with scripts/render_diagrams.sh after editing them.
-[diagrams.stack]
-title = "Agent stack"
-caption = "Solid arrows are Go module dependencies. Dashed boxes are external systems."
-alt = "Dependency diagram. mandatum depends on legatus, saige, and duraturo. whiteboardy depends on saige. saige depends on duraturo. mandatum connects to Slack, GitHub, Jira, cron, and webhooks; saige to Ollama, OpenAI, Anthropic, and Google; duraturo to Postgres."
-
-[diagrams.map]
-title = "Other projects"
-caption = "Projects outside the agent stack, grouped by area."
-alt = "Project cards in three groups. Agent tooling: agentspec, mnemonist, vultus, lazyspeak.nvim, dotfiles. Developer tools: sr, teasr, fsrc, oag, streamsafe, incipit. Research, learning, writing: linear-gp, gymnasia, vitrum, supersource, languide, broadcast."
-
 [[links]]
 label = "urmzd.com"
 badge = "urmzd.com-4285F4"
@@ -44,19 +32,6 @@ badge = "urmzd-0A66C2"
 logo = "linkedin"
 url = "https://linkedin.com/in/urmzd"
 
-# Stable entry points stay visible while the activity section updates daily.
-[[featured]]
-name = "saige"
-pitch = "Build agents with knowledge graphs and retrieval using a Go SDK, CLI, or MCP server."
-
-[[featured]]
-name = "duraturo"
-pitch = "Add durable execution and crash recovery to existing Go functions."
-
-[[featured]]
-name = "openlearn"
-pitch = "Study computer science at your own pace, from foundations to advanced topics."
-
 [descriptions]
 saige = "Build agents with knowledge graphs and retrieval using a Go SDK, CLI, or MCP server"
 mandatum = "Trigger agents from your tools and route their events through a shared pub/sub bus"
@@ -65,3 +40,80 @@ vultus = "Build agent interfaces for the web and Slack from the same React compo
 openlearn = "Free, self-paced computer science curriculum, from foundations to advanced topics"
 mnemonist = "Give AI agents local memory through a Rust CLI and plain Markdown files"
 linear-gp = "Explore Linear Genetic Programming in Rust, with modular components and Q-Learning integration"
+
+# Map metadata generates D2 sources, light/dark SVGs, captions, and README links.
+# "guide" edges recommend a starting point; "dependency" edges cite a manifest.
+[projects.saige]
+role = "Agent SDK"
+[projects.collegium]
+role = "Self-hosted platform"
+[projects.openlearn]
+role = "CS curriculum"
+[projects.sr]
+role = "Release automation"
+[projects.mandatum]
+role = "Agent platform and bus"
+[projects.legatus]
+role = "Sandbox execution"
+[projects.duraturo]
+role = "Durable execution"
+[projects.linear-gp]
+role = "Genetic programming"
+[projects.gymnasia]
+role = "Training environments"
+[projects.vitrum]
+role = "Readable model states"
+
+[diagrams.finder]
+title = "Find your starting point"
+intro = "Choose the task you want to tackle."
+direction = "right"
+nodes = [
+  { id = "build", label = "Build with agents" },
+  { id = "saige", project = "saige" },
+  { id = "collegium", project = "collegium" },
+  { id = "learn", label = "Learn computer science" },
+  { id = "openlearn", project = "openlearn" },
+  { id = "ship", label = "Automate releases" },
+  { id = "sr", project = "sr" },
+]
+edges = [
+  { from = "build", to = "saige", kind = "guide", label = "build your own" },
+  { from = "build", to = "collegium", kind = "guide", label = "run a platform" },
+  { from = "learn", to = "openlearn", kind = "guide", label = "study" },
+  { from = "ship", to = "sr", kind = "guide", label = "release" },
+]
+
+[diagrams.stack]
+title = "Inside the agent stack"
+intro = "Four components and their direct Go module dependencies."
+direction = "down"
+nodes = [
+  { id = "mandatum", project = "mandatum" },
+  { id = "legatus", project = "legatus" },
+  { id = "saige", project = "saige" },
+  { id = "duraturo", project = "duraturo" },
+]
+edges = [
+  { from = "mandatum", to = "legatus", kind = "dependency", label = "execution", evidence = "mandatum/go.mod" },
+  { from = "mandatum", to = "saige", kind = "dependency", label = "agent SDK", evidence = "mandatum/go.mod" },
+  { from = "mandatum", to = "duraturo", kind = "dependency", label = "durability", evidence = "mandatum/go.mod" },
+  { from = "saige", to = "duraturo", kind = "dependency", label = "durability", evidence = "saige/go.mod" },
+]
+
+[diagrams.research]
+title = "Explore the research"
+intro = "Two research directions, with one optional environment dependency."
+direction = "down"
+nodes = [
+  { id = "evolve", label = "Evolve programs" },
+  { id = "linear_gp", project = "linear-gp" },
+  { id = "gymnasia", project = "gymnasia" },
+  { id = "inspect", label = "Inspect language models" },
+  { id = "vitrum", project = "vitrum" },
+]
+edges = [
+  { from = "evolve", to = "linear_gp", kind = "guide", label = "explore" },
+  { from = "linear_gp", to = "gymnasia", kind = "dependency", label = "optional: gym feature", feature = "gym", evidence = "linear-gp/crates/lgp/Cargo.toml" },
+  { from = "inspect", to = "vitrum", kind = "guide", label = "explore" },
+]

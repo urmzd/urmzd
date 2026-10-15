@@ -4,15 +4,16 @@
 
 [![urmzd.com](https://img.shields.io/badge/urmzd.com-4285F4?style=flat&logo=google-chrome&logoColor=white)](https://urmzd.com) [![@urmzd_](https://img.shields.io/badge/@urmzd__-000000?style=flat&logo=x&logoColor=white)](https://x.com/urmzd_) [![urmzd](https://img.shields.io/badge/urmzd-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/urmzd)
 
-## Start here
+## Find your starting point
 
-| Project | What you can do |
-|---|---|
-| **[saige](https://github.com/urmzd/saige)** | Build agents with knowledge graphs and retrieval using a Go SDK, CLI, or MCP server. |
-| **[duraturo](https://github.com/urmzd/duraturo)** | Add durable execution and crash recovery to existing Go functions. |
-| **[openlearn](https://github.com/urmzd/openlearn)** | Study computer science at your own pace, from foundations to advanced topics. |
+Choose the task you want to tackle. Dashed arrows suggest where to start.
 
-Explore a repository for setup instructions, examples, and ways to contribute.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/finder-dark.svg">
+  <img src="assets/finder-light.svg" alt="Build with agents to saige: build your own. Build with agents to collegium: run a platform. Learn computer science to openlearn: study. Automate releases to sr: release." width="100%">
+</picture>
+
+[saige](https://github.com/urmzd/saige) · [collegium](https://github.com/urmzd/collegium) · [openlearn](https://github.com/urmzd/openlearn) · [sr](https://github.com/urmzd/sr)
 
 ## Working on now
 
@@ -24,23 +25,31 @@ Explore a repository for setup instructions, examples, and ways to contribute.
 | **[collegium](https://github.com/urmzd/collegium)** | Self-host sandboxed agents with shared messaging, governance, and human approvals | 25 |
 | **[vultus](https://github.com/urmzd/vultus)** | Build agent interfaces for the web and Slack from the same React components | 22 |
 
-## Agent stack
+## Inside the agent stack
 
-Solid arrows are Go module dependencies. Dashed boxes are external systems.
+Four components and their direct Go module dependencies. Solid arrows point from a project to a dependency.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img src="assets/stack-light.svg" alt="Dependency diagram. mandatum depends on legatus, saige, and duraturo. whiteboardy depends on saige. saige depends on duraturo. mandatum connects to Slack, GitHub, Jira, cron, and webhooks; saige to Ollama, OpenAI, Anthropic, and Google; duraturo to Postgres." width="100%">
+  <img src="assets/stack-light.svg" alt="mandatum to legatus: execution. mandatum to saige: agent SDK. mandatum to duraturo: durability. saige to duraturo: durability." width="100%">
 </picture>
 
-## Other projects
+[mandatum](https://github.com/urmzd/mandatum) · [legatus](https://github.com/urmzd/legatus) · [saige](https://github.com/urmzd/saige) · [duraturo](https://github.com/urmzd/duraturo)
 
-Projects outside the agent stack, grouped by area.
+Dependency sources: [mandatum/go.mod](https://github.com/urmzd/mandatum/blob/HEAD/go.mod), [saige/go.mod](https://github.com/urmzd/saige/blob/HEAD/go.mod).
+
+## Explore the research
+
+Two research directions, with one optional environment dependency. Dashed arrows suggest where to start. Solid arrows point from a project to a dependency.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/map-dark.svg">
-  <img src="assets/map-light.svg" alt="Project cards in three groups. Agent tooling: agentspec, mnemonist, vultus, lazyspeak.nvim, dotfiles. Developer tools: sr, teasr, fsrc, oag, streamsafe, incipit. Research, learning, writing: linear-gp, gymnasia, vitrum, supersource, languide, broadcast." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/research-dark.svg">
+  <img src="assets/research-light.svg" alt="Evolve programs to linear-gp: explore. linear-gp to gymnasia: optional: gym feature. Inspect language models to vitrum: explore." width="100%">
 </picture>
+
+[linear-gp](https://github.com/urmzd/linear-gp) · [gymnasia](https://github.com/urmzd/gymnasia) · [vitrum](https://github.com/urmzd/vitrum)
+
+Dependency sources: [linear-gp/crates/lgp/Cargo.toml](https://github.com/urmzd/linear-gp/blob/HEAD/crates/lgp/Cargo.toml).
 
 <details>
 <summary>17 more projects</summary>

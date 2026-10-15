@@ -1,8 +1,11 @@
 import importlib.util
 import tempfile
+import sys
 import unittest
 from pathlib import Path
 from unittest.mock import patch
+
+sys.path.insert(0, str(Path(__file__).parents[1] / "scripts"))
 
 spec = importlib.util.spec_from_file_location("generate_readme", Path(__file__).parents[1] / "scripts/generate_readme.py")
 generator = importlib.util.module_from_spec(spec)
@@ -33,7 +36,7 @@ class ReadmeTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             readme = Path(directory) / "README.md"
             readme.write_text("old")
-            with patch.object(generator, "README", readme), patch.object(generator, "fetch_repos", return_value=[]), patch.object(generator, "stale_cards", return_value=[]), patch.object(generator, "render", return_value="new"), patch.dict(generator.os.environ, GH_TOKEN="test"), patch("sys.argv", ["generate_readme.py", "--check"]):
+            with patch.object(generator, "README", readme), patch.object(generator, "fetch_repos", return_value=[]), patch.object(generator, "stale_cards", return_value=[]), patch.object(generator, "validate_dependencies"), patch.object(generator, "render", return_value="new"), patch.dict(generator.os.environ, GH_TOKEN="test"), patch("sys.argv", ["generate_readme.py", "--check"]):
                 with self.assertRaisesRegex(SystemExit, "out of date"):
                     generator.main()
                 self.assertEqual(readme.read_text(), "old")
