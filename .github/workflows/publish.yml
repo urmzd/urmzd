@@ -6,11 +6,17 @@ on:
   push:
     branches: [main]
     paths:
+      - "assets/**"
       - profile.toml
       - scripts/generate_readme.py
+      - "tests/**"
       - .github/workflows/publish.yml
+concurrency:
+  group: profile-publish
+  cancel-in-progress: false
 jobs:
   generate-readme:
+    timeout-minutes: 10
     environment: release
     runs-on: ubuntu-latest
     permissions:
@@ -27,6 +33,13 @@ jobs:
       - uses: actions/checkout@v6
         with:
           token: ${{ steps.app-token.outputs.token }}
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Test generator
+        run: python3 -m unittest discover -s tests
 
       - name: Generate README
         env:

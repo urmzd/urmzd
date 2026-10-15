@@ -1,8 +1,9 @@
 # Input for scripts/generate_readme.py. Everything else on the profile page
-# comes from public GitHub data.
+# comes from public GitHub data, with curated pitches below.
 login = "urmzd"
 name = "Urmzd Mukhammadnaim"
-bio = "Hey folks, I'm Urmzd. Honestly, I just like building things. Here's what I'm working on."
+title = "Open-source tools for agents, developers, and learning."
+bio = "I build agent infrastructure in Go, developer tools in Rust, and resources for learning computer science. Pick a project below to explore the code and get started."
 
 # How many projects lead the page.
 active_count = 5
@@ -42,3 +43,25 @@ label = "urmzd"
 badge = "urmzd-0A66C2"
 logo = "linkedin"
 url = "https://linkedin.com/in/urmzd"
+
+# Stable entry points stay visible while the activity section updates daily.
+[[featured]]
+name = "saige"
+pitch = "Build agents with knowledge graphs and retrieval using a Go SDK, CLI, or MCP server."
+
+[[featured]]
+name = "duraturo"
+pitch = "Add durable execution and crash recovery to existing Go functions."
+
+[[featured]]
+name = "openlearn"
+pitch = "Study computer science at your own pace, from foundations to advanced topics."
+
+[descriptions]
+saige = "Build agents with knowledge graphs and retrieval using a Go SDK, CLI, or MCP server"
+mandatum = "Trigger agents from your tools and route their events through a shared pub/sub bus"
+collegium = "Self-host sandboxed agents with shared messaging, governance, and human approvals"
+vultus = "Build agent interfaces for the web and Slack from the same React components"
+openlearn = "Free, self-paced computer science curriculum, from foundations to advanced topics"
+mnemonist = "Give AI agents local memory through a Rust CLI and plain Markdown files"
+linear-gp = "Explore Linear Genetic Programming in Rust, with modular components and Q-Learning integration"

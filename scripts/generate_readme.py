@@ -4,11 +4,12 @@
 Projects are ranked by how much the owner committed to them recently, so the
 page follows the work without being edited by hand.
 
-Usage: GH_TOKEN=... python3 scripts/generate_readme.py [--check]
+Usage: GH_TOKEN=... python3 scripts/generate_readme.py [--check | --preview]
 """
 
 from __future__ import annotations
 
+import argparse
 import datetime as dt
 import json
 import math
@@ -167,15 +168,27 @@ def render(config: dict, repos: list[dict]) -> str:
     ]
     if badges:
         out += [" ".join(badges), ""]
-    out += diagram(config, "stack")
+    by_name = {repo["name"]: repo for repo in repos}
+    featured = [item for item in config.get("featured", []) if item["name"] in by_name]
+    if featured:
+        out += ["## Start here", "", "| Project | What you can do |", "|---|---|"]
+        for item in featured:
+            out.append(f"| **{link(by_name[item['name']])}** | {cell(item['pitch'])} |")
+        out += ["", "Explore a repository for setup instructions, examples, and ways to contribute.", ""]
+
+    descriptions = config.get("descriptions", {})
+
+    def describe(repo: dict) -> str:
+        return cell(descriptions[repo["name"]]) if repo["name"] in descriptions else summary(repo["description"])
 
     if active:
         out += ["## Working on now", ""]
-        out += ["| Project | What it is | Commits, 30 days |", "|---|---|---|"]
+        out += ["| Project | What you can do | Commits, 30 days |", "|---|---|---|"]
         for repo in active:
-            out.append(f"| **{link(repo)}** | {summary(repo['description'])} | {commits(repo, 'recent')} |")
+            out.append(f"| **{link(repo)}** | {describe(repo)} | {commits(repo, 'recent')} |")
         out.append("")
 
+    out += diagram(config, "stack")
     out += diagram(config, "map")
 
     rest = [r for r in ranked if r["name"] not in active_names]
@@ -185,13 +198,18 @@ def render(config: dict, repos: list[dict]) -> str:
         for repo in rest:
             language = (repo.get("primaryLanguage") or {}).get("name", "")
             stars = repo["stargazerCount"] or ""
-            out.append(f"| {link(repo)} | {summary(repo['description'])} | {language} | {stars} |")
+            out.append(f"| {link(repo)} | {describe(repo)} | {language} | {stars} |")
         out += ["", "</details>", ""]
 
     return "\n".join(out)
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument("--check", action="store_true", help="Exit nonzero if README needs updating")
+    mode.add_argument("--preview", action="store_true", help="Print generated Markdown without writing")
+    args = parser.parse_args()
     token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
     if not token:
         raise SystemExit("Set GH_TOKEN or GITHUB_TOKEN.")
@@ -201,8 +219,12 @@ def main() -> None:
     for name in stale_cards(config, repos):
         print(f"warning: '{name}' is drawn in a diagram but is not a public, unarchived repository", file=sys.stderr)
     readme = render(config, repos)
-    if "--check" in sys.argv:
+    if args.preview:
         sys.stdout.write(readme)
+        return
+    if args.check:
+        if not README.exists() or README.read_text() != readme:
+            raise SystemExit("README.md is out of date. Run scripts/generate_readme.py.")
         return
     README.write_text(readme)
 
