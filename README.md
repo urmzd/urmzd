@@ -17,11 +17,11 @@ Solid arrows are Go module dependencies. Dashed boxes are external systems.
 
 | Project | What it is | Commits, 30 days |
 |---|---|---|
-| **[openlearn](https://github.com/urmzd/openlearn)** | Free, self-paced CS curriculum from undergraduate foundations to PhD and Staff/Principal depth, plus a hands-on course where you build your... | 126 |
+| **[openlearn](https://github.com/urmzd/openlearn)** | Free, self-paced CS curriculum from undergraduate foundations to PhD and Staff/Principal depth, plus a hands-on course where you build your... | 131 |
 | **[saige](https://github.com/urmzd/saige)** | saige - Super Artificial Intelligence Graph Environment | 65 |
-| **[mandatum](https://github.com/urmzd/mandatum)** | Agent platform and low-latency pub/sub bus: tag an agent from anywhere, stream its events to anyone, deliver them anywhere | 30 |
-| **[vultus](https://github.com/urmzd/vultus)** | One agent UI model, rendered to the web and Slack Block Kit from the same React components | 19 |
-| **[collegium](https://github.com/urmzd/collegium)** | Open, self-hostable agent platform: spec-defined agents in sandboxes that call each other over one bus, with governance, human approvals,... | 15 |
+| **[mandatum](https://github.com/urmzd/mandatum)** | Agent platform and low-latency pub/sub bus: tag an agent from anywhere, stream its events to anyone, deliver them anywhere | 45 |
+| **[collegium](https://github.com/urmzd/collegium)** | Open, self-hostable agent platform: spec-defined agents in sandboxes that call each other over one bus, with governance, human approvals,... | 25 |
+| **[vultus](https://github.com/urmzd/vultus)** | One agent UI model, rendered to the web and Slack Block Kit from the same React components | 22 |
 
 ## Other projects
 
@@ -41,9 +41,9 @@ Projects outside the agent stack, grouped by area.
 | [urmzd.com](https://github.com/urmzd/urmzd.com) | Personal website, blog, and research portfolio built with Astro, React, and Three.js | TypeScript | 1 |
 | [mnemonist](https://github.com/urmzd/mnemonist) | Tool-agnostic AI agent memory as a local-first Rust CLI: cognitive verbs (remember, recall, learn, consolidate, forget), plain-markdown... | Rust | 4 |
 | [agentspec](https://github.com/urmzd/agentspec) | Universal agent skill and sub-agent manager with TUI | Rust | 3 |
+| [oag](https://github.com/urmzd/oag) | OpenAPI 3.x code generator for TypeScript, React/SWR, and FastAPI | Rust | 1 |
 | [teasr](https://github.com/urmzd/teasr) | Capture showcase screenshots and GIFs from web apps, desktop, and terminal | Rust | 2 |
 | [incipit](https://github.com/urmzd/incipit) | Here begins the new career | Go | 12 |
-| [oag](https://github.com/urmzd/oag) | OpenAPI 3.x code generator for TypeScript, React/SWR, and FastAPI | Rust | 1 |
 | [legatus](https://github.com/urmzd/legatus) | Beta control plane for agent execution nodes: deploy one service, scale sandboxed agents with metrics on a shared workspace | Go |  |
 | [sr](https://github.com/urmzd/sr) | Release engineering CLI: single static binary, zero runtime dependencies, fully configurable | Rust |  |
 | [lazyspeak.nvim](https://github.com/urmzd/lazyspeak.nvim) | Voice-driven coding for Neovim | Lua | 1 |
