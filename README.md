@@ -19,11 +19,11 @@ Choose the task you want to tackle. Dashed arrows suggest where to start.
 
 | Project | What you can do | Commits, 30 days |
 |---|---|---|
-| **[openlearn](https://github.com/urmzd/openlearn)** | Free, self-paced computer science curriculum, from foundations to advanced topics | 131 |
+| **[openlearn](https://github.com/urmzd/openlearn)** | Free, self-paced computer science curriculum, from foundations to advanced topics | 138 |
 | **[saige](https://github.com/urmzd/saige)** | Build agents with knowledge graphs and retrieval using a Go SDK, CLI, or MCP server | 65 |
 | **[mandatum](https://github.com/urmzd/mandatum)** | Trigger agents from your tools and route their events through a shared pub/sub bus | 45 |
-| **[collegium](https://github.com/urmzd/collegium)** | Self-host sandboxed agents with shared messaging, governance, and human approvals | 25 |
-| **[vultus](https://github.com/urmzd/vultus)** | Build agent interfaces for the web and Slack from the same React components | 22 |
+| **[collegium](https://github.com/urmzd/collegium)** | Self-host sandboxed agents with shared messaging, governance, and human approvals | 26 |
+| **[vultus](https://github.com/urmzd/vultus)** | Build agent interfaces for the web and Slack from the same React components | 24 |
 
 ## Inside the agent stack
 
@@ -60,11 +60,11 @@ Dependency sources: [linear-gp/crates/lgp/Cargo.toml](https://github.com/urmzd/l
 | [urmzd.com](https://github.com/urmzd/urmzd.com) | Personal website, blog, and research portfolio built with Astro, React, and Three.js | TypeScript | 1 |
 | [mnemonist](https://github.com/urmzd/mnemonist) | Give AI agents local memory through a Rust CLI and plain Markdown files | Rust | 4 |
 | [agentspec](https://github.com/urmzd/agentspec) | Universal agent skill and sub-agent manager with TUI | Rust | 3 |
+| [sr](https://github.com/urmzd/sr) | Release engineering CLI: single static binary, zero runtime dependencies, fully configurable | Rust |  |
 | [oag](https://github.com/urmzd/oag) | OpenAPI 3.x code generator for TypeScript, React/SWR, and FastAPI | Rust | 1 |
 | [teasr](https://github.com/urmzd/teasr) | Capture showcase screenshots and GIFs from web apps, desktop, and terminal | Rust | 2 |
 | [incipit](https://github.com/urmzd/incipit) | Here begins the new career | Go | 12 |
 | [legatus](https://github.com/urmzd/legatus) | Beta control plane for agent execution nodes: deploy one service, scale sandboxed agents with metrics on a shared workspace | Go |  |
-| [sr](https://github.com/urmzd/sr) | Release engineering CLI: single static binary, zero runtime dependencies, fully configurable | Rust |  |
 | [lazyspeak.nvim](https://github.com/urmzd/lazyspeak.nvim) | Voice-driven coding for Neovim | Lua | 1 |
 | [gymnasia](https://github.com/urmzd/gymnasia) | OpenAI Gymnasium environments in pure Rust | Rust | 2 |
 | [duraturo](https://github.com/urmzd/duraturo) | Durable execution for existing Go code: wrap your functions, run a worker, done | Go | 1 |
