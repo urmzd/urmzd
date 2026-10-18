@@ -2,17 +2,48 @@
 # comes from public GitHub data, with curated pitches below.
 login = "urmzd"
 name = "Urmzd Mukhammadnaim"
-title = "Open-source tools for agents, developers, and learning."
-bio = "I build agent infrastructure in Go, developer tools in Rust, and resources for learning computer science. Pick a project below to explore the code and get started."
+title = "Enabling the next generation of productivity through collaboration between humans and AI."
+bio = "I build open-source tools for myself, use them in my daily work, and share them so others can run, adapt, and serve them inside their own organizations. My goal is to help people learn, create, and become the best version of themselves."
 
-# How many projects lead the page.
-active_count = 5
+collapse_diagrams = true
+featured_title = "What I’m building toward"
+
+# Keep the mission and curated tools ahead of activity statistics. Zero hides the activity table.
+active_count = 0
 
 # Repositories that never lead the page, however busy they are.
 background = ["dotfiles", "urmzd.com"]
 
 # Repositories to leave off the page.
-exclude = ["urmzd"]
+exclude = ["urmzd", "vultus"]
+
+[[principles]]
+name = "Dogfood everything"
+text = "I use what I build and let real needs shape the work."
+
+[[principles]]
+name = "Keep ownership with the user"
+text = "Tools should be useful to individuals and deployable inside the teams that rely on them."
+
+[[principles]]
+name = "Build with people in the loop"
+text = "AI should extend human ability, with shared knowledge, clear policies, and room for judgment."
+
+[[featured]]
+name = "warp"
+pitch = "A shared workspace for humans and agents to coordinate projects, tasks, and knowledge under explicit policies"
+
+[[featured]]
+name = "saige"
+pitch = "Build AI tools with agents, memory, retrieval, and evaluations using a Go SDK, CLI, or MCP server"
+
+[[featured]]
+name = "openlearn"
+pitch = "Develop your abilities through a free, self-paced computer science curriculum"
+
+[[featured]]
+name = "sr"
+pitch = "Automate release work so you can spend more time building useful things"
 
 [[links]]
 label = "urmzd.com"
@@ -34,9 +65,8 @@ url = "https://linkedin.com/in/urmzd"
 
 [descriptions]
 saige = "Build agents with knowledge graphs and retrieval using a Go SDK, CLI, or MCP server"
-mandatum = "Trigger agents from your tools and route their events through a shared pub/sub bus"
-collegium = "Self-host sandboxed agents with shared messaging, governance, and human approvals"
-vultus = "Build agent interfaces for the web and Slack from the same React components"
+fiber = "Connect tools and agents through shared messaging and extensible integrations"
+warp = "A shared workspace where humans and agents coordinate projects, tasks, and knowledge under explicit policies"
 openlearn = "Free, self-paced computer science curriculum, from foundations to advanced topics"
 mnemonist = "Give AI agents local memory through a Rust CLI and plain Markdown files"
 linear-gp = "Explore Linear Genetic Programming in Rust, with modular components and Q-Learning integration"
@@ -44,18 +74,18 @@ linear-gp = "Explore Linear Genetic Programming in Rust, with modular components
 # Map metadata generates D2 sources, light/dark SVGs, captions, and README links.
 # "guide" edges recommend a starting point; "dependency" edges cite a manifest.
 [projects.saige]
-role = "Agent SDK"
-[projects.collegium]
-role = "Self-hosted platform"
+role = "Agent runtime"
+[projects.warp]
+role = "Human and AI workspace"
 [projects.openlearn]
 role = "CS curriculum"
 [projects.sr]
 role = "Release automation"
-[projects.mandatum]
-role = "Agent platform and bus"
-[projects.legatus]
-role = "Sandbox execution"
-[projects.duraturo]
+[projects.fiber]
+role = "Messaging and connectors"
+[projects.playscape]
+role = "Governed workspaces"
+[projects.anchor]
 role = "Durable execution"
 [projects.linear-gp]
 role = "Genetic programming"
@@ -71,7 +101,7 @@ direction = "right"
 nodes = [
   { id = "build", label = "Build with agents" },
   { id = "saige", project = "saige" },
-  { id = "collegium", project = "collegium" },
+  { id = "warp", project = "warp" },
   { id = "learn", label = "Learn computer science" },
   { id = "openlearn", project = "openlearn" },
   { id = "ship", label = "Automate releases" },
@@ -79,26 +109,31 @@ nodes = [
 ]
 edges = [
   { from = "build", to = "saige", kind = "guide", label = "build your own" },
-  { from = "build", to = "collegium", kind = "guide", label = "run a platform" },
+  { from = "build", to = "warp", kind = "guide", label = "run a platform" },
   { from = "learn", to = "openlearn", kind = "guide", label = "study" },
   { from = "ship", to = "sr", kind = "guide", label = "release" },
 ]
 
 [diagrams.stack]
 title = "Inside the agent stack"
-intro = "Four components and their direct Go module dependencies."
+intro = "Warp brings the agent runtime, connective infrastructure, governed workspaces, and durability together."
 direction = "down"
 nodes = [
-  { id = "mandatum", project = "mandatum" },
-  { id = "legatus", project = "legatus" },
+  { id = "warp", project = "warp" },
+  { id = "fiber", project = "fiber" },
+  { id = "playscape", project = "playscape" },
   { id = "saige", project = "saige" },
-  { id = "duraturo", project = "duraturo" },
+  { id = "anchor", project = "anchor" },
 ]
 edges = [
-  { from = "mandatum", to = "legatus", kind = "dependency", label = "execution", evidence = "mandatum/go.mod" },
-  { from = "mandatum", to = "saige", kind = "dependency", label = "agent SDK", evidence = "mandatum/go.mod" },
-  { from = "mandatum", to = "duraturo", kind = "dependency", label = "durability", evidence = "mandatum/go.mod" },
-  { from = "saige", to = "duraturo", kind = "dependency", label = "durability", evidence = "saige/go.mod" },
+  { from = "warp", to = "fiber", kind = "dependency", label = "messaging", evidence = "warp/go.mod" },
+  { from = "warp", to = "saige", kind = "dependency", label = "agents", evidence = "warp/go.mod" },
+  { from = "warp", to = "playscape", kind = "dependency", label = "workspaces", evidence = "warp/go.mod" },
+  { from = "warp", to = "anchor", kind = "dependency", label = "durability", evidence = "warp/go.mod" },
+  { from = "fiber", to = "playscape", kind = "dependency", label = "execution", evidence = "fiber/go.mod" },
+  { from = "fiber", to = "saige", kind = "dependency", label = "agent SDK", evidence = "fiber/go.mod" },
+  { from = "fiber", to = "anchor", kind = "dependency", label = "durability", evidence = "fiber/go.mod" },
+  { from = "saige", to = "anchor", kind = "dependency", label = "durability", evidence = "saige/go.mod" },
 ]
 
 [diagrams.research]

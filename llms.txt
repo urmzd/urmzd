@@ -1,6 +1,6 @@
 # Urmzd
 
-> Urmzd's GitHub profile README repository. The page leads with the projects that have the most recent work and collapses the rest. A script regenerates it nightly from public GitHub data, ranked by commit activity.
+> Urmzd's GitHub profile README repository. The page leads with a mission of human and AI collaboration, dogfooding, user ownership, and tools people can deploy internally. Curated projects support that purpose; technical maps and the full directory are expandable. A script regenerates the page nightly from profile.toml and public GitHub data.
 
 ## Docs
 
