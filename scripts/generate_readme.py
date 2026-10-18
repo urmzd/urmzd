@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Generate the profile README from public GitHub data.
 
-Projects are ranked by how much the owner committed to them recently, so the
-page follows the work without being edited by hand.
+The mission, principles and featured tools come from profile.toml. Public
+repository data keeps the expandable project directory current.
 
 Usage: GH_TOKEN=... python3 scripts/generate_readme.py [--check | --preview]
 """
@@ -175,19 +175,28 @@ def render(config: dict, repos: list[dict]) -> str:
     active = active[: config.get("active_count", 5)]
     active_names = {r["name"] for r in active}
 
-    lead = f"**{config['title']}** " if config.get("title") else ""
-    out = [f"# {config['name']}", "", f"{lead}{config['bio']}", ""]
+    out = [f"# {config['name']}", ""]
+    if config.get("title"):
+        out += [config["title"], ""]
+    out += [config["bio"], ""]
     badges = [
         f"[![{b['label']}](https://img.shields.io/badge/{b['badge']}?style=flat&logo={b['logo']}&logoColor=white)]({b['url']})"
         for b in config.get("links", [])
     ]
     if badges:
         out += [" ".join(badges), ""]
-    out += diagram(config, "finder")
+    principles = config.get("principles", [])
+    if principles:
+        out += ["## How I build", ""]
+        out += [f"- **{item['name']}**. {item['text']}" for item in principles]
+        out.append("")
+    collapsed_maps = config.get("collapse_diagrams", False)
+    if not collapsed_maps:
+        out += diagram(config, "finder")
     by_name = {repo["name"]: repo for repo in repos}
     featured = [item for item in config.get("featured", []) if item["name"] in by_name]
-    if featured and "finder" not in config.get("diagrams", {}):
-        out += ["## Start here", "", "| Project | What you can do |", "|---|---|"]
+    if featured and (collapsed_maps or "finder" not in config.get("diagrams", {})):
+        out += [f"## {config.get('featured_title', 'Start here')}", "", "| Project | What you can do |", "|---|---|"]
         for item in featured:
             out.append(f"| **{link(by_name[item['name']])}** | {cell(item['pitch'])} |")
         out += ["", "Explore a repository for setup instructions, examples, and ways to contribute.", ""]
@@ -204,10 +213,16 @@ def render(config: dict, repos: list[dict]) -> str:
             out.append(f"| **{link(repo)}** | {describe(repo)} | {commits(repo, 'recent')} |")
         out.append("")
 
+    if collapsed_maps and config.get("diagrams"):
+        out += ["<details>", "<summary>How the tools and research fit together</summary>", ""]
+        out += diagram(config, "finder")
     out += diagram(config, "stack")
     out += diagram(config, "research")
+    if collapsed_maps and config.get("diagrams"):
+        out += ["</details>", ""]
 
-    rest = [r for r in ranked if r["name"] not in active_names]
+    featured_names = {item["name"] for item in featured}
+    rest = [r for r in ranked if r["name"] not in active_names | featured_names]
     if rest:
         out += ["<details>", f"<summary>{len(rest)} more projects</summary>", ""]
         out += ["| Project | What it is | Language | Stars |", "|---|---|---|---|"]

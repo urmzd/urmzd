@@ -1,10 +1,15 @@
 # Generated from profile.toml. Do not edit by hand.
 direction: down
-mandatum: "mandatum\nAgent platform and bus" {class: project}
-legatus: "legatus\nSandbox execution" {class: project}
-saige: "saige\nAgent SDK" {class: project}
-duraturo: "duraturo\nDurable execution" {class: project}
-mandatum -> legatus: "execution" {class: dependency}
-mandatum -> saige: "agent SDK" {class: dependency}
-mandatum -> duraturo: "durability" {class: dependency}
-saige -> duraturo: "durability" {class: dependency}
+warp: "warp\nHuman and AI workspace" {class: project}
+fiber: "fiber\nMessaging and connectors" {class: project}
+playscape: "playscape\nGoverned workspaces" {class: project}
+saige: "saige\nAgent runtime" {class: project}
+anchor: "anchor\nDurable execution" {class: project}
+warp -> fiber: "messaging" {class: dependency}
+warp -> saige: "agents" {class: dependency}
+warp -> playscape: "workspaces" {class: dependency}
+warp -> anchor: "durability" {class: dependency}
+fiber -> playscape: "execution" {class: dependency}
+fiber -> saige: "agent SDK" {class: dependency}
+fiber -> anchor: "durability" {class: dependency}
+saige -> anchor: "durability" {class: dependency}
