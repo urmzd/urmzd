@@ -73,12 +73,12 @@ Dependency sources: [linear-gp/crates/lgp/Cargo.toml](https://github.com/urmzd/l
 | [dotfiles](https://github.com/urmzd/dotfiles) | Cross-platform dotfiles managed by Chezmoi with Homebrew/apt and per-language version managers | Rust | 5 |
 | [fiber](https://github.com/urmzd/fiber) | Connect tools and agents through shared messaging and extensible integrations | Go |  |
 | [urmzd.com](https://github.com/urmzd/urmzd.com) | Personal website, blog, and research portfolio built with Astro, React, and Three.js | TypeScript | 1 |
+| [playscape](https://github.com/urmzd/playscape) | Governed execution environments for agents: isolated workspaces, scoped capabilities and default-deny access policies | Go |  |
 | [mnemonist](https://github.com/urmzd/mnemonist) | Give AI agents local memory through a Rust CLI and plain Markdown files | Rust | 4 |
 | [agentspec](https://github.com/urmzd/agentspec) | Universal agent skill and sub-agent manager with TUI | Rust | 3 |
-| [playscape](https://github.com/urmzd/playscape) | Governed execution environments for agents: isolated workspaces, scoped capabilities and default-deny access policies | Go |  |
 | [oag](https://github.com/urmzd/oag) | OpenAPI 3.x code generator for TypeScript, React/SWR, and FastAPI | Rust | 1 |
-| [teasr](https://github.com/urmzd/teasr) | Capture showcase screenshots and GIFs from web apps, desktop, and terminal | Rust | 2 |
 | [incipit](https://github.com/urmzd/incipit) | Here begins the new career | Go | 12 |
+| [teasr](https://github.com/urmzd/teasr) | Capture showcase screenshots and GIFs from web apps, desktop, and terminal | Rust | 2 |
 | [anchor](https://github.com/urmzd/anchor) | Durable execution for Go: replayable workflows, checkpoints and recovery over ledgers and queues backed by storage you own | Go | 1 |
 | [lazyspeak.nvim](https://github.com/urmzd/lazyspeak.nvim) | Voice-driven coding for Neovim | Lua | 1 |
 | [gymnasia](https://github.com/urmzd/gymnasia) | OpenAI Gymnasium environments in pure Rust | Rust | 2 |
