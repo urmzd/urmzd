@@ -66,11 +66,11 @@ Dependency sources: [linear-gp/crates/lgp/Cargo.toml](https://github.com/urmzd/l
 </details>
 
 <details>
-<summary>17 more projects</summary>
+<summary>18 more projects</summary>
 
 | Project | What it is | Language | Stars |
 |---|---|---|---|
-| [dotfiles](https://github.com/urmzd/dotfiles) | Cross-platform dotfiles managed by Chezmoi with Homebrew/apt and per-language version managers | Rust | 5 |
+| [dotfiles](https://github.com/urmzd/dotfiles) | Cross-platform dotfiles managed by Chezmoi with Homebrew/apt and per-language version managers | Shell | 5 |
 | [fiber](https://github.com/urmzd/fiber) | Connect tools and agents through shared messaging and extensible integrations | Go |  |
 | [urmzd.com](https://github.com/urmzd/urmzd.com) | Personal website, blog, and research portfolio built with Astro, React, and Three.js | TypeScript | 1 |
 | [playscape](https://github.com/urmzd/playscape) | Governed execution environments for agents: isolated workspaces, scoped capabilities and default-deny access policies | Go |  |
@@ -85,6 +85,7 @@ Dependency sources: [linear-gp/crates/lgp/Cargo.toml](https://github.com/urmzd/l
 | [fsrc](https://github.com/urmzd/fsrc) | Embed source files into any text file using comment markers | Rust | 1 |
 | [streamsafe](https://github.com/urmzd/streamsafe) | Type-safe async pipeline framework for data processing in Rust | Rust |  |
 | [linear-gp](https://github.com/urmzd/linear-gp) | Explore Linear Genetic Programming in Rust, with modular components and Q-Learning integration | Rust | 2 |
+| [rlgp-thesis](https://github.com/urmzd/rlgp-thesis) | BCS Thesis: Reinforced Linear Genetic Programming | TeX |  |
 | [vitrum](https://github.com/urmzd/vitrum) | Observable language models: every hidden state is a readable distribution over words (hidden dim = vocab size) | Python |  |
 | [broadcast](https://github.com/urmzd/broadcast) | Turn a blog post into platform-native content (X Articles, LinkedIn posts) from one CLI | TypeScript |  |
 
