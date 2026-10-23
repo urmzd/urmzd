@@ -16,7 +16,7 @@ I build open-source tools for myself, use them in my daily work, and share them 
 
 | Project | What you can do |
 |---|---|
-| **[warp](https://github.com/urmzd/warp)** | A shared workspace for humans and agents to coordinate projects, tasks, and knowledge under explicit policies |
+| **[humagen](https://github.com/urmzd/humagen)** | A shared workspace for humans and agents to coordinate projects, tasks, and knowledge under explicit policies |
 | **[saige](https://github.com/urmzd/saige)** | Build AI tools with agents, memory, retrieval, and evaluations using a Go SDK, CLI, or MCP server |
 | **[openlearn](https://github.com/urmzd/openlearn)** | Develop your abilities through a free, self-paced computer science curriculum |
 | **[sr](https://github.com/urmzd/sr)** | Automate release work so you can spend more time building useful things |
@@ -32,23 +32,23 @@ Choose the task you want to tackle. Dashed arrows suggest where to start.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/finder-dark.svg">
-  <img src="assets/finder-light.svg" alt="Build with agents to saige: build your own. Build with agents to warp: run a platform. Learn computer science to openlearn: study. Automate releases to sr: release." width="100%">
+  <img src="assets/finder-light.svg" alt="Build with agents to saige: build your own. Build with agents to humagen: run a platform. Learn computer science to openlearn: study. Automate releases to sr: release." width="100%">
 </picture>
 
-[saige](https://github.com/urmzd/saige) · [warp](https://github.com/urmzd/warp) · [openlearn](https://github.com/urmzd/openlearn) · [sr](https://github.com/urmzd/sr)
+[saige](https://github.com/urmzd/saige) · [humagen](https://github.com/urmzd/humagen) · [openlearn](https://github.com/urmzd/openlearn) · [sr](https://github.com/urmzd/sr)
 
 ## Inside the agent stack
 
-Warp brings the agent runtime, connective infrastructure, governed workspaces, and durability together. Solid arrows point from a project to a dependency.
+Humagen brings the agent runtime, connective infrastructure, governed workspaces, and durability together. Solid arrows point from a project to a dependency.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img src="assets/stack-light.svg" alt="warp to fiber: messaging. warp to saige: agents. warp to playscape: workspaces. warp to anchor: durability. fiber to playscape: execution. fiber to saige: agent SDK. fiber to anchor: durability. saige to anchor: durability." width="100%">
+  <img src="assets/stack-light.svg" alt="humagen to fiber: messaging. humagen to saige: agents. humagen to playscape: workspaces. humagen to anchor: durability. fiber to playscape: execution. fiber to saige: agent SDK. fiber to anchor: durability. saige to anchor: durability." width="100%">
 </picture>
 
-[warp](https://github.com/urmzd/warp) · [fiber](https://github.com/urmzd/fiber) · [playscape](https://github.com/urmzd/playscape) · [saige](https://github.com/urmzd/saige) · [anchor](https://github.com/urmzd/anchor)
+[humagen](https://github.com/urmzd/humagen) · [fiber](https://github.com/urmzd/fiber) · [playscape](https://github.com/urmzd/playscape) · [saige](https://github.com/urmzd/saige) · [anchor](https://github.com/urmzd/anchor)
 
-Dependency sources: [fiber/go.mod](https://github.com/urmzd/fiber/blob/HEAD/go.mod), [saige/go.mod](https://github.com/urmzd/saige/blob/HEAD/go.mod), [warp/go.mod](https://github.com/urmzd/warp/blob/HEAD/go.mod).
+Dependency sources: [fiber/go.mod](https://github.com/urmzd/fiber/blob/HEAD/go.mod), [humagen/go.mod](https://github.com/urmzd/humagen/blob/HEAD/go.mod), [saige/go.mod](https://github.com/urmzd/saige/blob/HEAD/go.mod).
 
 ## Explore the research
 
@@ -74,8 +74,8 @@ Dependency sources: [linear-gp/crates/lgp/Cargo.toml](https://github.com/urmzd/l
 | [fiber](https://github.com/urmzd/fiber) | Connect tools and agents through shared messaging and extensible integrations | Go |  |
 | [urmzd.com](https://github.com/urmzd/urmzd.com) | Personal website, blog, and research portfolio built with Astro, React, and Three.js | TypeScript | 1 |
 | [playscape](https://github.com/urmzd/playscape) | Governed execution environments for agents: isolated workspaces, scoped capabilities and default-deny access policies | Go |  |
-| [mnemonist](https://github.com/urmzd/mnemonist) | Give AI agents local memory through a Rust CLI and plain Markdown files | Rust | 4 |
 | [anchor](https://github.com/urmzd/anchor) | Durable execution for Go: replayable workflows, checkpoints and recovery over ledgers and queues backed by storage you own | Go | 1 |
+| [mnemonist](https://github.com/urmzd/mnemonist) | Give AI agents local memory through a Rust CLI and plain Markdown files | Rust | 4 |
 | [agentspec](https://github.com/urmzd/agentspec) | Universal agent skill and sub-agent manager with TUI | Rust | 3 |
 | [oag](https://github.com/urmzd/oag) | OpenAPI 3.x code generator for TypeScript, React/SWR, and FastAPI | Rust | 1 |
 | [incipit](https://github.com/urmzd/incipit) | Here begins the new career | Go | 12 |
