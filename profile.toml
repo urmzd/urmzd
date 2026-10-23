@@ -30,7 +30,7 @@ name = "Build with people in the loop"
 text = "AI should extend human ability, with shared knowledge, clear policies, and room for judgment."
 
 [[featured]]
-name = "warp"
+name = "humagen"
 pitch = "A shared workspace for humans and agents to coordinate projects, tasks, and knowledge under explicit policies"
 
 [[featured]]
@@ -66,7 +66,7 @@ url = "https://linkedin.com/in/urmzd"
 [descriptions]
 saige = "Build agents with knowledge graphs and retrieval using a Go SDK, CLI, or MCP server"
 fiber = "Connect tools and agents through shared messaging and extensible integrations"
-warp = "A shared workspace where humans and agents coordinate projects, tasks, and knowledge under explicit policies"
+humagen = "A shared workspace where humans and agents coordinate projects, tasks, and knowledge under explicit policies"
 openlearn = "Free, self-paced computer science curriculum, from foundations to advanced topics"
 mnemonist = "Give AI agents local memory through a Rust CLI and plain Markdown files"
 linear-gp = "Explore Linear Genetic Programming in Rust, with modular components and Q-Learning integration"
@@ -75,7 +75,7 @@ linear-gp = "Explore Linear Genetic Programming in Rust, with modular components
 # "guide" edges recommend a starting point; "dependency" edges cite a manifest.
 [projects.saige]
 role = "Agent runtime"
-[projects.warp]
+[projects.humagen]
 role = "Human and AI workspace"
 [projects.openlearn]
 role = "CS curriculum"
@@ -101,7 +101,7 @@ direction = "right"
 nodes = [
   { id = "build", label = "Build with agents" },
   { id = "saige", project = "saige" },
-  { id = "warp", project = "warp" },
+  { id = "humagen", project = "humagen" },
   { id = "learn", label = "Learn computer science" },
   { id = "openlearn", project = "openlearn" },
   { id = "ship", label = "Automate releases" },
@@ -109,27 +109,27 @@ nodes = [
 ]
 edges = [
   { from = "build", to = "saige", kind = "guide", label = "build your own" },
-  { from = "build", to = "warp", kind = "guide", label = "run a platform" },
+  { from = "build", to = "humagen", kind = "guide", label = "run a platform" },
   { from = "learn", to = "openlearn", kind = "guide", label = "study" },
   { from = "ship", to = "sr", kind = "guide", label = "release" },
 ]
 
 [diagrams.stack]
 title = "Inside the agent stack"
-intro = "Warp brings the agent runtime, connective infrastructure, governed workspaces, and durability together."
+intro = "Humagen brings the agent runtime, connective infrastructure, governed workspaces, and durability together."
 direction = "down"
 nodes = [
-  { id = "warp", project = "warp" },
+  { id = "humagen", project = "humagen" },
   { id = "fiber", project = "fiber" },
   { id = "playscape", project = "playscape" },
   { id = "saige", project = "saige" },
   { id = "anchor", project = "anchor" },
 ]
 edges = [
-  { from = "warp", to = "fiber", kind = "dependency", label = "messaging", evidence = "warp/go.mod" },
-  { from = "warp", to = "saige", kind = "dependency", label = "agents", evidence = "warp/go.mod" },
-  { from = "warp", to = "playscape", kind = "dependency", label = "workspaces", evidence = "warp/go.mod" },
-  { from = "warp", to = "anchor", kind = "dependency", label = "durability", evidence = "warp/go.mod" },
+  { from = "humagen", to = "fiber", kind = "dependency", label = "messaging", evidence = "humagen/go.mod" },
+  { from = "humagen", to = "saige", kind = "dependency", label = "agents", evidence = "humagen/go.mod" },
+  { from = "humagen", to = "playscape", kind = "dependency", label = "workspaces", evidence = "humagen/go.mod" },
+  { from = "humagen", to = "anchor", kind = "dependency", label = "durability", evidence = "humagen/go.mod" },
   { from = "fiber", to = "playscape", kind = "dependency", label = "execution", evidence = "fiber/go.mod" },
   { from = "fiber", to = "saige", kind = "dependency", label = "agent SDK", evidence = "fiber/go.mod" },
   { from = "fiber", to = "anchor", kind = "dependency", label = "durability", evidence = "fiber/go.mod" },
