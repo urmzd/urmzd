@@ -80,8 +80,8 @@ Dependency sources: [linear-gp/crates/lgp/Cargo.toml](https://github.com/urmzd/l
 | [oag](https://github.com/urmzd/oag) | OpenAPI 3.x code generator for TypeScript, React/SWR, and FastAPI | Rust | 1 |
 | [incipit](https://github.com/urmzd/incipit) | Here begins the new career | Go | 12 |
 | [teasr](https://github.com/urmzd/teasr) | Capture showcase screenshots and GIFs from web apps, desktop, and terminal | Rust | 2 |
-| [lazyspeak.nvim](https://github.com/urmzd/lazyspeak.nvim) | Voice-driven coding for Neovim | Lua | 1 |
 | [gymnasia](https://github.com/urmzd/gymnasia) | OpenAI Gymnasium environments in pure Rust | Rust | 2 |
+| [lazyspeak.nvim](https://github.com/urmzd/lazyspeak.nvim) | Voice-driven coding for Neovim | Lua | 1 |
 | [fsrc](https://github.com/urmzd/fsrc) | Embed source files into any text file using comment markers | Rust | 1 |
 | [streamsafe](https://github.com/urmzd/streamsafe) | Type-safe async pipeline framework for data processing in Rust | Rust |  |
 | [linear-gp](https://github.com/urmzd/linear-gp) | Explore Linear Genetic Programming in Rust, with modular components and Q-Learning integration | Rust | 2 |
