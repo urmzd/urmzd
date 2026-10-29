@@ -169,6 +169,24 @@ def stale_cards(config: dict, repos: list[dict]) -> list[str]:
 def render(config: dict, repos: list[dict]) -> str:
     excluded = set(config.get("exclude", []))
     repos = [r for r in repos if not r["isArchived"] and r["name"] not in excluded]
+    if config.get("layout") == "compact":
+        navigation = " · ".join(
+            f'<a href="{html.escape(item["url"], quote=True)}">{html.escape(item["label"])}</a>'
+            for item in config.get("links", [])
+        )
+        out = ['<p align="center">', f"  <samp>{navigation}</samp>", "</p>", "", config["bio"], ""]
+        available = {repo["name"]: repo for repo in repos}
+        featured = [item for item in config.get("featured", []) if item["name"] in available]
+        if featured:
+            out += ["### Find your starting point", "", "```mermaid", "mindmap", "  root((Start here))"]
+            for index, item in enumerate(featured):
+                label = item.get("start", item["name"])
+                out.append(f"    project_{index}[{json.dumps(label)}]")
+            out += ["```", "", "### Projects", ""]
+        for item in featured:
+            out.append(f"- **{link(available[item['name']])}**: {cell(item['pitch'])}")
+        out += ["", f"[More projects](https://github.com/{config['login']}?tab=repositories)", ""]
+        return "\n".join(out)
     ranked = sorted(repos, key=lambda r: (-score(r), r["name"]))
     background = set(config.get("background", []))
     active = [r for r in ranked if commits(r, "recent") > 0 and r["name"] not in background]
@@ -248,10 +266,11 @@ def main() -> None:
     validate(config)
     today = dt.datetime.now(dt.timezone.utc).date()
     repos = fetch_repos(token, config["login"], today)
-    stale = stale_cards(config, repos)
-    if stale:
-        raise SystemExit("Maps reference unavailable repositories: " + ", ".join(stale))
-    validate_dependencies(config, lambda evidence: fetch_manifest(token, config["login"], evidence))
+    if config.get("layout") != "compact":
+        stale = stale_cards(config, repos)
+        if stale:
+            raise SystemExit("Maps reference unavailable repositories: " + ", ".join(stale))
+        validate_dependencies(config, lambda evidence: fetch_manifest(token, config["login"], evidence))
     readme = render(config, repos)
     if args.preview:
         sys.stdout.write(readme)

@@ -1,9 +1,10 @@
 # Input for scripts/generate_readme.py. Everything else on the profile page
 # comes from public GitHub data, with curated pitches below.
 login = "urmzd"
+layout = "compact"
 name = "Urmzd Mukhammadnaim"
 title = "Enabling the next generation of productivity through collaboration between humans and AI."
-bio = "I build open-source tools for myself, use them in my daily work, and share them so others can run, adapt, and serve them inside their own organizations. My goal is to help people learn, create, and become the best version of themselves."
+bio = "I build and use open-source tools that help people learn, create, and work with AI."
 
 collapse_diagrams = true
 featured_title = "What I’m building toward"
@@ -31,34 +32,38 @@ text = "AI should extend human ability, with shared knowledge, clear policies, a
 
 [[featured]]
 name = "humagen"
-pitch = "A shared workspace for humans and agents to coordinate projects, tasks, and knowledge under explicit policies"
+start = "humagen: Work with agents"
+pitch = "A shared workspace for people and AI agents"
 
 [[featured]]
 name = "saige"
-pitch = "Build AI tools with agents, memory, retrieval, and evaluations using a Go SDK, CLI, or MCP server"
+start = "saige: Build agents"
+pitch = "Agents, memory, retrieval, and evaluations in Go"
 
 [[featured]]
 name = "openlearn"
-pitch = "Develop your abilities through a free, self-paced computer science curriculum"
+start = "openlearn: Learn CS"
+pitch = "A free, self-paced computer science curriculum"
 
 [[featured]]
 name = "sr"
-pitch = "Automate release work so you can spend more time building useful things"
+start = "sr: Automate releases"
+pitch = "Release automation for open-source projects"
 
 [[links]]
-label = "urmzd.com"
+label = "website"
 badge = "urmzd.com-4285F4"
 logo = "google-chrome"
 url = "https://urmzd.com"
 
 [[links]]
-label = "@urmzd_"
+label = "x"
 badge = "@urmzd__-000000"
 logo = "x"
 url = "https://x.com/urmzd_"
 
 [[links]]
-label = "urmzd"
+label = "linkedin"
 badge = "urmzd-0A66C2"
 logo = "linkedin"
 url = "https://linkedin.com/in/urmzd"
