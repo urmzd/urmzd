@@ -42,12 +42,10 @@ class MapTests(unittest.TestCase):
 
     def test_dependency_removal_blocks_publish(self):
         manifests = {
-            "humagen/go.mod": "require (\n github.com/urmzd/fiber v1.0.0\n github.com/urmzd/saige v1.0.0\n github.com/urmzd/playscape v1.0.0\n github.com/urmzd/anchor v1.0.0\n)",
-            "fiber/go.mod": "require (\n github.com/urmzd/playscape v1.0.0\n github.com/urmzd/saige v1.0.0\n github.com/urmzd/anchor v1.0.0\n)",
-            "saige/go.mod": "require (\n github.com/urmzd/anchor v1.0.0\n)",
+            "humagen/go.mod": "require (\n github.com/urmzd/saige v1.0.0\n)",
             "linear-gp/crates/lgp/Cargo.toml": '[dependencies]\ngymnasia = { version = "3", optional = true }\n[features]\ngym = ["dep:gymnasia"]',
         }
         validate_dependencies(self.config, manifests.__getitem__)
-        manifests["saige/go.mod"] = "module github.com/urmzd/saige"
+        manifests["humagen/go.mod"] = "module github.com/urmzd/humagen"
         with self.assertRaisesRegex(ValueError, "no longer supported"):
             validate_dependencies(self.config, manifests.__getitem__)
