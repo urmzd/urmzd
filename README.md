@@ -11,15 +11,15 @@ mindmap
   root((Start here))
     project_0["humagen: Work with agents"]
     project_1["saige: Build agents"]
-    project_2["openlearn: Learn CS"]
+    project_2["openlearn: Learn from first principles"]
     project_3["sr: Automate releases"]
 ```
 
 ### Projects
 
-- **[humagen](https://github.com/urmzd/humagen)**: A shared workspace for people and AI agents
-- **[saige](https://github.com/urmzd/saige)**: Agents, memory, retrieval, and evaluations in Go
-- **[openlearn](https://github.com/urmzd/openlearn)**: A free, self-paced computer science curriculum
-- **[sr](https://github.com/urmzd/sr)**: Release automation for open-source projects
+- **[humagen](https://github.com/urmzd/humagen)**: A self-hosted workspace where people and AI agents share projects, knowledge, and rules
+- **[saige](https://github.com/urmzd/saige)**: A Go SDK, CLI, and MCP server to build, ground, and evaluate AI agents
+- **[openlearn](https://github.com/urmzd/openlearn)**: Free technical books on mathematics, AI, systems, and software, with worked solutions
+- **[sr](https://github.com/urmzd/sr)**: Version, changelog, and publish releases from conventional commits
 
 [More projects](https://github.com/urmzd?tab=repositories)
